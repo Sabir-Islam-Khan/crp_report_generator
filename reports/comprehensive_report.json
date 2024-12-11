@@ -1,0 +1,314 @@
+{
+    "past_classes": {
+        "total_classes": 5629,
+        "late_classes": 1531,
+        "on_time_classes": 4060,
+        "late_percentage": 27.19843666725884,
+        "entry_type_distribution": {
+            "on_time": 4060,
+            "late": 1531,
+            "EXTRA_CLASS": 38
+        },
+        "top_courses": [
+            {
+                "course_code": "CSE222",
+                "class_count": 253,
+                "avg_duration": "0 days 01:56:45.482213438"
+            },
+            {
+                "course_code": "CSE313",
+                "class_count": 237,
+                "avg_duration": "0 days 01:36:01.160337552"
+            },
+            {
+                "course_code": "CSE314",
+                "class_count": 229,
+                "avg_duration": "0 days 01:40:01.698689956"
+            },
+            {
+                "course_code": "CSE311",
+                "class_count": 186,
+                "avg_duration": "0 days 01:13:55.505376344"
+            },
+            {
+                "course_code": "CSE112",
+                "class_count": 172,
+                "avg_duration": "0 days 01:16:26.087209302"
+            },
+            {
+                "course_code": "CSE312",
+                "class_count": 170,
+                "avg_duration": "0 days 01:16:45.052941176"
+            },
+            {
+                "course_code": "PHY103",
+                "class_count": 154,
+                "avg_duration": "0 days 02:20:41.493506493"
+            },
+            {
+                "course_code": "CSE221",
+                "class_count": 148,
+                "avg_duration": "0 days 01:19:07.871621621"
+            },
+            {
+                "course_code": "CSE124",
+                "class_count": 118,
+                "avg_duration": "0 days 01:57:44.491525423"
+            },
+            {
+                "course_code": "CSE123",
+                "class_count": 118,
+                "avg_duration": "0 days 01:09:56.542372881"
+            },
+            {
+                "course_code": "PHY102",
+                "class_count": 116,
+                "avg_duration": "0 days 01:32:01.655172413"
+            },
+            {
+                "course_code": "CSE325",
+                "class_count": 110,
+                "avg_duration": "0 days 01:12:19.600000"
+            },
+            {
+                "course_code": "MAT101",
+                "class_count": 105,
+                "avg_duration": "0 days 01:08:27.114285714"
+            },
+            {
+                "course_code": "CSE115",
+                "class_count": 104,
+                "avg_duration": "0 days 01:08:14.086538461"
+            },
+            {
+                "course_code": "ACT322",
+                "class_count": 102,
+                "avg_duration": "0 days 01:31:43.107843137"
+            },
+            {
+                "course_code": "CSE324",
+                "class_count": 101,
+                "avg_duration": "0 days 02:01:53.247524752"
+            },
+            {
+                "course_code": "CSE445",
+                "class_count": 101,
+                "avg_duration": "0 days 01:12:37.851485148"
+            },
+            {
+                "course_code": "CSE212",
+                "class_count": 98,
+                "avg_duration": "0 days 01:11:25.265306122"
+            },
+            {
+                "course_code": "CSE323",
+                "class_count": 97,
+                "avg_duration": "0 days 01:28:56.907216494"
+            },
+            {
+                "course_code": "CSE315",
+                "class_count": 92,
+                "avg_duration": "0 days 01:09:30.836956521"
+            }
+        ]
+    },
+    "missed_classes": {
+        "total_missed_classes": 0,
+        "makeup_classes": "0",
+        "makeup_percentage": 0,
+        "missed_classes_by_course": {}
+    },
+    "teacher_usage": {
+        "total_teachers_used": 158,
+        "usage_breakdown": {
+            "11-50 Classes": 76,
+            "51-100 Classes": 46,
+            "1-10 Classes": 35,
+            "100+ Classes": 1
+        },
+        "top_teachers": [
+            {
+                "employee_id": "710002788",
+                "total_classes": 111,
+                "late_classes": 55,
+                "first_name": "Md. Mahedi",
+                "last_name": "Hassan",
+                "late_percentage": 49.549549549549546,
+                "usage_category": "100+ Classes"
+            },
+            {
+                "employee_id": "710002632",
+                "total_classes": 96,
+                "late_classes": 20,
+                "first_name": "Syada Tasmia",
+                "last_name": "Alvi",
+                "late_percentage": 20.833333333333336,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "721100114",
+                "total_classes": 96,
+                "late_classes": 8,
+                "first_name": "Syeda Maria ",
+                "last_name": "Rahman ",
+                "late_percentage": 8.333333333333332,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003385",
+                "total_classes": 92,
+                "late_classes": 20,
+                "first_name": "Noor ",
+                "last_name": "Muhammad ",
+                "late_percentage": 21.73913043478261,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710002090",
+                "total_classes": 88,
+                "late_classes": 6,
+                "first_name": "Md. Aynul Hasan",
+                "last_name": "Nahid",
+                "late_percentage": 6.8181818181818175,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003575",
+                "total_classes": 88,
+                "late_classes": 4,
+                "first_name": "Taslima",
+                "last_name": "Akhter",
+                "late_percentage": 4.545454545454546,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003057",
+                "total_classes": 84,
+                "late_classes": 34,
+                "first_name": "Rahmatul Kabir ",
+                "last_name": "Rasel Sarker ",
+                "late_percentage": 40.476190476190474,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003429",
+                "total_classes": 81,
+                "late_classes": 31,
+                "first_name": "Md.",
+                "last_name": "Al-Mamun ",
+                "late_percentage": 38.2716049382716,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003444",
+                "total_classes": 80,
+                "late_classes": 29,
+                "first_name": "Chayti",
+                "last_name": "Saha",
+                "late_percentage": 36.25,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003565",
+                "total_classes": 78,
+                "late_classes": 6,
+                "first_name": "Tamanna",
+                "last_name": "Sultana",
+                "late_percentage": 7.6923076923076925,
+                "usage_category": "51-100 Classes"
+            }
+        ],
+        "teachers_with_most_late_classes": [
+            {
+                "employee_id": "710002788",
+                "total_classes": 111,
+                "late_classes": 55,
+                "first_name": "Md. Mahedi",
+                "last_name": "Hassan",
+                "late_percentage": 49.549549549549546,
+                "usage_category": "100+ Classes"
+            },
+            {
+                "employee_id": "710003558",
+                "total_classes": 68,
+                "late_classes": 38,
+                "first_name": "Md. Mezbaul Islam",
+                "last_name": "Zion",
+                "late_percentage": 55.88235294117647,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710002795",
+                "total_classes": 62,
+                "late_classes": 36,
+                "first_name": "Zahura",
+                "last_name": "Zaman",
+                "late_percentage": 58.06451612903226,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003571",
+                "total_classes": 73,
+                "late_classes": 36,
+                "first_name": "Md Rasedul",
+                "last_name": "Islam ",
+                "late_percentage": 49.31506849315068,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003057",
+                "total_classes": 84,
+                "late_classes": 34,
+                "first_name": "Rahmatul Kabir ",
+                "last_name": "Rasel Sarker ",
+                "late_percentage": 40.476190476190474,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003221",
+                "total_classes": 73,
+                "late_classes": 32,
+                "first_name": "Abdul ",
+                "last_name": "Muntakim",
+                "late_percentage": 43.83561643835616,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003429",
+                "total_classes": 81,
+                "late_classes": 31,
+                "first_name": "Md.",
+                "last_name": "Al-Mamun ",
+                "late_percentage": 38.2716049382716,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "721500505",
+                "total_classes": 53,
+                "late_classes": 31,
+                "first_name": "Fahim",
+                "last_name": "Faisal",
+                "late_percentage": 58.490566037735846,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003444",
+                "total_classes": 80,
+                "late_classes": 29,
+                "first_name": "Chayti",
+                "last_name": "Saha",
+                "late_percentage": 36.25,
+                "usage_category": "51-100 Classes"
+            },
+            {
+                "employee_id": "710003054",
+                "total_classes": 64,
+                "late_classes": 28,
+                "first_name": "Tanvirul",
+                "last_name": "Islam",
+                "late_percentage": 43.75,
+                "usage_category": "51-100 Classes"
+            }
+        ]
+    }
+}
