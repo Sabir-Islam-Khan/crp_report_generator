@@ -1,314 +1,3957 @@
 {
     "past_classes": {
-        "total_classes": 5629,
-        "late_classes": 1531,
-        "on_time_classes": 4060,
-        "late_percentage": 27.19843666725884,
+        "total_classes": 5692,
+        "late_classes": 1554,
+        "on_time_classes": 4097,
+        "late_percentage": 27.30147575544624,
         "entry_type_distribution": {
-            "on_time": 4060,
-            "late": 1531,
-            "EXTRA_CLASS": 38
+            "on_time": 4097,
+            "late": 1554,
+            "EXTRA_CLASS": 41
         },
-        "top_courses": [
+        "all_courses": [
             {
                 "course_code": "CSE222",
-                "class_count": 253,
-                "avg_duration": "0 days 01:56:45.482213438"
+                "class_count": 254,
+                "avg_duration": 116.96
             },
             {
                 "course_code": "CSE313",
-                "class_count": 237,
-                "avg_duration": "0 days 01:36:01.160337552"
+                "class_count": 242,
+                "avg_duration": 95.38
             },
             {
                 "course_code": "CSE314",
-                "class_count": 229,
-                "avg_duration": "0 days 01:40:01.698689956"
+                "class_count": 231,
+                "avg_duration": 99.59
             },
             {
                 "course_code": "CSE311",
-                "class_count": 186,
-                "avg_duration": "0 days 01:13:55.505376344"
+                "class_count": 188,
+                "avg_duration": 74.14
             },
             {
                 "course_code": "CSE112",
-                "class_count": 172,
-                "avg_duration": "0 days 01:16:26.087209302"
+                "class_count": 174,
+                "avg_duration": 76.47
             },
             {
                 "course_code": "CSE312",
-                "class_count": 170,
-                "avg_duration": "0 days 01:16:45.052941176"
+                "class_count": 171,
+                "avg_duration": 76.93
             },
             {
                 "course_code": "PHY103",
-                "class_count": 154,
-                "avg_duration": "0 days 02:20:41.493506493"
+                "class_count": 157,
+                "avg_duration": 141.2
             },
             {
                 "course_code": "CSE221",
-                "class_count": 148,
-                "avg_duration": "0 days 01:19:07.871621621"
+                "class_count": 150,
+                "avg_duration": 78.97
+            },
+            {
+                "course_code": "CSE123",
+                "class_count": 120,
+                "avg_duration": 70.09
             },
             {
                 "course_code": "CSE124",
                 "class_count": 118,
-                "avg_duration": "0 days 01:57:44.491525423"
-            },
-            {
-                "course_code": "CSE123",
-                "class_count": 118,
-                "avg_duration": "0 days 01:09:56.542372881"
+                "avg_duration": 117.74
             },
             {
                 "course_code": "PHY102",
                 "class_count": 116,
-                "avg_duration": "0 days 01:32:01.655172413"
+                "avg_duration": 92.03
             },
             {
                 "course_code": "CSE325",
                 "class_count": 110,
-                "avg_duration": "0 days 01:12:19.600000"
+                "avg_duration": 72.33
+            },
+            {
+                "course_code": "CSE115",
+                "class_count": 107,
+                "avg_duration": 68.08
+            },
+            {
+                "course_code": "ACT322",
+                "class_count": 106,
+                "avg_duration": 91.15
             },
             {
                 "course_code": "MAT101",
                 "class_count": 105,
-                "avg_duration": "0 days 01:08:27.114285714"
-            },
-            {
-                "course_code": "CSE115",
-                "class_count": 104,
-                "avg_duration": "0 days 01:08:14.086538461"
-            },
-            {
-                "course_code": "ACT322",
-                "class_count": 102,
-                "avg_duration": "0 days 01:31:43.107843137"
+                "avg_duration": 68.45
             },
             {
                 "course_code": "CSE324",
-                "class_count": 101,
-                "avg_duration": "0 days 02:01:53.247524752"
+                "class_count": 104,
+                "avg_duration": 122.83
             },
             {
                 "course_code": "CSE445",
-                "class_count": 101,
-                "avg_duration": "0 days 01:12:37.851485148"
+                "class_count": 102,
+                "avg_duration": 72.8
             },
             {
                 "course_code": "CSE212",
-                "class_count": 98,
-                "avg_duration": "0 days 01:11:25.265306122"
+                "class_count": 100,
+                "avg_duration": 71.26
             },
             {
                 "course_code": "CSE323",
-                "class_count": 97,
-                "avg_duration": "0 days 01:28:56.907216494"
+                "class_count": 98,
+                "avg_duration": 88.83
             },
             {
                 "course_code": "CSE315",
-                "class_count": 92,
-                "avg_duration": "0 days 01:09:30.836956521"
+                "class_count": 93,
+                "avg_duration": 69.58
+            },
+            {
+                "course_code": "STA101",
+                "class_count": 91,
+                "avg_duration": 71.55
+            },
+            {
+                "course_code": "CSE326",
+                "class_count": 91,
+                "avg_duration": 77.71
+            },
+            {
+                "course_code": "CSE224",
+                "class_count": 88,
+                "avg_duration": 117.95
+            },
+            {
+                "course_code": "PHY101",
+                "class_count": 88,
+                "avg_duration": 78.75
+            },
+            {
+                "course_code": "CSE225",
+                "class_count": 87,
+                "avg_duration": 76.51
+            },
+            {
+                "course_code": "CSE121",
+                "class_count": 81,
+                "avg_duration": 77.48
+            },
+            {
+                "course_code": "CSE228",
+                "class_count": 79,
+                "avg_duration": 73.43
+            },
+            {
+                "course_code": "CSE227",
+                "class_count": 77,
+                "avg_duration": 87.22
+            },
+            {
+                "course_code": "CSE316",
+                "class_count": 76,
+                "avg_duration": 80.92
+            },
+            {
+                "course_code": "GE235",
+                "class_count": 72,
+                "avg_duration": 72.2
+            },
+            {
+                "course_code": "CSE223",
+                "class_count": 71,
+                "avg_duration": 69.43
+            },
+            {
+                "course_code": "MAT102",
+                "class_count": 71,
+                "avg_duration": 67.79
+            },
+            {
+                "course_code": "CSE423",
+                "class_count": 68,
+                "avg_duration": 70.3
+            },
+            {
+                "course_code": "CSE234",
+                "class_count": 67,
+                "avg_duration": 139.53
+            },
+            {
+                "course_code": "CSE113",
+                "class_count": 65,
+                "avg_duration": 80.48
+            },
+            {
+                "course_code": "AOL101",
+                "class_count": 64,
+                "avg_duration": 70.99
+            },
+            {
+                "course_code": "CSE114",
+                "class_count": 63,
+                "avg_duration": 138.28
+            },
+            {
+                "course_code": "BNS101",
+                "class_count": 63,
+                "avg_duration": 76.76
+            },
+            {
+                "course_code": "CSE214",
+                "class_count": 58,
+                "avg_duration": 116.18
+            },
+            {
+                "course_code": "CSE122",
+                "class_count": 58,
+                "avg_duration": 132.19
+            },
+            {
+                "course_code": "CSE413",
+                "class_count": 56,
+                "avg_duration": 114.07
+            },
+            {
+                "course_code": "CSE233",
+                "class_count": 45,
+                "avg_duration": 74.09
+            },
+            {
+                "course_code": "CSE332",
+                "class_count": 45,
+                "avg_duration": 116.9
+            },
+            {
+                "course_code": "TCSE413",
+                "class_count": 43,
+                "avg_duration": 62.25
+            },
+            {
+                "course_code": "CSE215",
+                "class_count": 39,
+                "avg_duration": 73.15
+            },
+            {
+                "course_code": "CSE427",
+                "class_count": 38,
+                "avg_duration": 63.59
+            },
+            {
+                "course_code": "MAT211",
+                "class_count": 38,
+                "avg_duration": 132.86
+            },
+            {
+                "course_code": "CSE412",
+                "class_count": 32,
+                "avg_duration": 63.64
+            },
+            {
+                "course_code": "CSE422",
+                "class_count": 31,
+                "avg_duration": 126.67
+            },
+            {
+                "course_code": "TCSE312",
+                "class_count": 28,
+                "avg_duration": 67.17
+            },
+            {
+                "course_code": "TCSE314",
+                "class_count": 28,
+                "avg_duration": 76.09
+            },
+            {
+                "course_code": "SE212",
+                "class_count": 28,
+                "avg_duration": 57.75
+            },
+            {
+                "course_code": "CSE335",
+                "class_count": 26,
+                "avg_duration": 69.08
+            },
+            {
+                "course_code": "CSE331",
+                "class_count": 26,
+                "avg_duration": 64.41
+            },
+            {
+                "course_code": "CSE415",
+                "class_count": 25,
+                "avg_duration": 139.87
+            },
+            {
+                "course_code": "SE111",
+                "class_count": 25,
+                "avg_duration": 65.58
+            },
+            {
+                "course_code": "SE222",
+                "class_count": 24,
+                "avg_duration": 63.95
+            },
+            {
+                "course_code": "CSE226",
+                "class_count": 24,
+                "avg_duration": 64.96
+            },
+            {
+                "course_code": "CSE213",
+                "class_count": 24,
+                "avg_duration": 66.9
+            },
+            {
+                "course_code": "SE211",
+                "class_count": 23,
+                "avg_duration": 72.25
+            },
+            {
+                "course_code": "CSE498",
+                "class_count": 23,
+                "avg_duration": 68.24
+            },
+            {
+                "course_code": "CSE414",
+                "class_count": 22,
+                "avg_duration": 70.88
+            },
+            {
+                "course_code": "CSE411",
+                "class_count": 21,
+                "avg_duration": 69.44
+            },
+            {
+                "course_code": "SE121",
+                "class_count": 20,
+                "avg_duration": 73.45
+            },
+            {
+                "course_code": "ENG101",
+                "class_count": 20,
+                "avg_duration": 65.05
+            },
+            {
+                "course_code": "SE113",
+                "class_count": 20,
+                "avg_duration": 79.2
+            },
+            {
+                "course_code": "SE322",
+                "class_count": 20,
+                "avg_duration": 80.93
+            },
+            {
+                "course_code": "SE215",
+                "class_count": 19,
+                "avg_duration": 73.56
+            },
+            {
+                "course_code": "SE122",
+                "class_count": 19,
+                "avg_duration": 69.3
+            },
+            {
+                "course_code": "CSE216",
+                "class_count": 17,
+                "avg_duration": 120.78
+            },
+            {
+                "course_code": "SE225",
+                "class_count": 16,
+                "avg_duration": 53.01
+            },
+            {
+                "course_code": "CSE-101",
+                "class_count": 14,
+                "avg_duration": 7.35
+            },
+            {
+                "course_code": "SE133",
+                "class_count": 13,
+                "avg_duration": 119.62
+            },
+            {
+                "course_code": "SE231",
+                "class_count": 13,
+                "avg_duration": 72.91
+            },
+            {
+                "course_code": "SE214",
+                "class_count": 13,
+                "avg_duration": 75.34
+            },
+            {
+                "course_code": "AOL-101",
+                "class_count": 12,
+                "avg_duration": 60.43
+            },
+            {
+                "course_code": "CSE333",
+                "class_count": 12,
+                "avg_duration": 51.08
+            },
+            {
+                "course_code": "ITM307",
+                "class_count": 12,
+                "avg_duration": 87.57
+            },
+            {
+                "course_code": "TCSE234",
+                "class_count": 12,
+                "avg_duration": 55.25
+            },
+            {
+                "course_code": "ITM102",
+                "class_count": 11,
+                "avg_duration": 79.14
+            },
+            {
+                "course_code": "CSE421",
+                "class_count": 11,
+                "avg_duration": 71.81
+            },
+            {
+                "course_code": "SE224",
+                "class_count": 11,
+                "avg_duration": 62.27
+            },
+            {
+                "course_code": "GE215",
+                "class_count": 10,
+                "avg_duration": 73.08
+            },
+            {
+                "course_code": "TCSE326",
+                "class_count": 10,
+                "avg_duration": 57.0
+            },
+            {
+                "course_code": "STA 101",
+                "class_count": 10,
+                "avg_duration": 64.88
+            },
+            {
+                "course_code": "ENG102",
+                "class_count": 10,
+                "avg_duration": 53.1
+            },
+            {
+                "course_code": "ITM103",
+                "class_count": 10,
+                "avg_duration": 69.31
+            },
+            {
+                "course_code": "SE132",
+                "class_count": 10,
+                "avg_duration": 71.1
+            },
+            {
+                "course_code": "CSE231",
+                "class_count": 10,
+                "avg_duration": 76.8
+            },
+            {
+                "course_code": "0613-216",
+                "class_count": 10,
+                "avg_duration": 73.3
+            },
+            {
+                "course_code": "CIS131",
+                "class_count": 10,
+                "avg_duration": 59.58
+            },
+            {
+                "course_code": "SE221",
+                "class_count": 9,
+                "avg_duration": 75.41
+            },
+            {
+                "course_code": "SE233",
+                "class_count": 9,
+                "avg_duration": 67.89
+            },
+            {
+                "course_code": "0213-224",
+                "class_count": 9,
+                "avg_duration": 155.78
+            },
+            {
+                "course_code": "SE223",
+                "class_count": 8,
+                "avg_duration": 40.5
+            },
+            {
+                "course_code": "CIS235",
+                "class_count": 8,
+                "avg_duration": 82.24
+            },
+            {
+                "course_code": "CIS115L",
+                "class_count": 8,
+                "avg_duration": 77.0
+            },
+            {
+                "course_code": "0613-215",
+                "class_count": 7,
+                "avg_duration": 157.72
+            },
+            {
+                "course_code": "SE311",
+                "class_count": 7,
+                "avg_duration": 65.14
+            },
+            {
+                "course_code": "SE321",
+                "class_count": 7,
+                "avg_duration": 57.68
+            },
+            {
+                "course_code": "CIS123",
+                "class_count": 7,
+                "avg_duration": 62.0
+            },
+            {
+                "course_code": "MCT337",
+                "class_count": 6,
+                "avg_duration": 93.82
+            },
+            {
+                "course_code": "CIS312",
+                "class_count": 6,
+                "avg_duration": 53.27
+            },
+            {
+                "course_code": "CSE134",
+                "class_count": 6,
+                "avg_duration": 76.63
+            },
+            {
+                "course_code": "MCT335",
+                "class_count": 6,
+                "avg_duration": 342.29
+            },
+            {
+                "course_code": "0213-113",
+                "class_count": 6,
+                "avg_duration": 97.83
+            },
+            {
+                "course_code": "MCT311",
+                "class_count": 5,
+                "avg_duration": 94.47
+            },
+            {
+                "course_code": "CSE-123",
+                "class_count": 5,
+                "avg_duration": -0.26
+            },
+            {
+                "course_code": "CIS122L",
+                "class_count": 5,
+                "avg_duration": 70.0
+            },
+            {
+                "course_code": "GE-235",
+                "class_count": 5,
+                "avg_duration": 75.11
+            },
+            {
+                "course_code": "CSE417",
+                "class_count": 5,
+                "avg_duration": 166.81
+            },
+            {
+                "course_code": "CIS122",
+                "class_count": 4,
+                "avg_duration": 51.25
+            },
+            {
+                "course_code": "CIS323L",
+                "class_count": 4,
+                "avg_duration": 65.0
+            },
+            {
+                "course_code": "SE232",
+                "class_count": 4,
+                "avg_duration": 44.75
+            },
+            {
+                "course_code": "MCT433",
+                "class_count": 4,
+                "avg_duration": 91.45
+            },
+            {
+                "course_code": "TCSE324",
+                "class_count": 4,
+                "avg_duration": 61.75
+            },
+            {
+                "course_code": "CSE135",
+                "class_count": 4,
+                "avg_duration": 83.5
+            },
+            {
+                "course_code": "CIS324",
+                "class_count": 4,
+                "avg_duration": 73.0
+            },
+            {
+                "course_code": "CIS431",
+                "class_count": 4,
+                "avg_duration": 38.08
+            },
+            {
+                "course_code": "CIS323",
+                "class_count": 3,
+                "avg_duration": 82.67
+            },
+            {
+                "course_code": "CIS216",
+                "class_count": 3,
+                "avg_duration": 75.67
+            },
+            {
+                "course_code": "CS211",
+                "class_count": 3,
+                "avg_duration": 114.33
+            },
+            {
+                "course_code": "CS422",
+                "class_count": 3,
+                "avg_duration": 170.33
+            },
+            {
+                "course_code": "CIS324L",
+                "class_count": 3,
+                "avg_duration": 72.33
+            },
+            {
+                "course_code": "CIS216L",
+                "class_count": 3,
+                "avg_duration": 87.67
+            },
+            {
+                "course_code": "TCSE222",
+                "class_count": 3,
+                "avg_duration": 74.0
+            },
+            {
+                "course_code": "TCSE234(62_C2)",
+                "class_count": 3,
+                "avg_duration": 74.67
+            },
+            {
+                "course_code": "SE112",
+                "class_count": 3,
+                "avg_duration": 81.67
+            },
+            {
+                "course_code": "CSE237",
+                "class_count": 3,
+                "avg_duration": 78.67
+            },
+            {
+                "course_code": "MCT316",
+                "class_count": 3,
+                "avg_duration": 62.0
+            },
+            {
+                "course_code": "CSE321",
+                "class_count": 3,
+                "avg_duration": 81.33
+            },
+            {
+                "course_code": "CIS222L",
+                "class_count": 3,
+                "avg_duration": 72.33
+            },
+            {
+                "course_code": "CSE324(61_F1)",
+                "class_count": 2,
+                "avg_duration": 87.5
+            },
+            {
+                "course_code": "MAT101(67_O)",
+                "class_count": 2,
+                "avg_duration": 73.5
+            },
+            {
+                "course_code": "SE131",
+                "class_count": 2,
+                "avg_duration": 69.5
+            },
+            {
+                "course_code": "TCSE422",
+                "class_count": 2,
+                "avg_duration": 58.0
+            },
+            {
+                "course_code": "CSE311(61_E)",
+                "class_count": 2,
+                "avg_duration": 37.5
+            },
+            {
+                "course_code": "CSE314(63_L2)",
+                "class_count": 2,
+                "avg_duration": 87.0
+            },
+            {
+                "course_code": "CSE221(64_C)",
+                "class_count": 2,
+                "avg_duration": 67.0
+            },
+            {
+                "course_code": "CSE225(64_B)",
+                "class_count": 2,
+                "avg_duration": 62.0
+            },
+            {
+                "course_code": "CSE214(65_O1)",
+                "class_count": 2,
+                "avg_duration": 96.5
+            },
+            {
+                "course_code": "0222-111",
+                "class_count": 2,
+                "avg_duration": 86.0
+            },
+            {
+                "course_code": "0613-122",
+                "class_count": 2,
+                "avg_duration": 76.5
+            },
+            {
+                "course_code": "CSE115(67_S)",
+                "class_count": 2,
+                "avg_duration": 63.5
+            },
+            {
+                "course_code": "CSE124(66_K1)",
+                "class_count": 2,
+                "avg_duration": 78.0
+            },
+            {
+                "course_code": "CSE115(67_B)",
+                "class_count": 2,
+                "avg_duration": 68.0
+            },
+            {
+                "course_code": "0212-121",
+                "class_count": 2,
+                "avg_duration": 72.0
+            },
+            {
+                "course_code": "CSE418",
+                "class_count": 2,
+                "avg_duration": 165.0
+            },
+            {
+                "course_code": "CSE222(63_J1)",
+                "class_count": 2,
+                "avg_duration": 75.0
+            },
+            {
+                "course_code": "CIS336",
+                "class_count": 1,
+                "avg_duration": 65.0
+            },
+            {
+                "course_code": "CSE- 323",
+                "class_count": 1,
+                "avg_duration": 59.88
+            },
+            {
+                "course_code": "0212-219",
+                "class_count": 1,
+                "avg_duration": 0.0
+            },
+            {
+                "course_code": "0613-314",
+                "class_count": 1,
+                "avg_duration": 88.0
+            },
+            {
+                "course_code": "AOL-101(65_P)",
+                "class_count": 1,
+                "avg_duration": 93.0
+            },
+            {
+                "course_code": "CIS115",
+                "class_count": 1,
+                "avg_duration": 83.0
+            },
+            {
+                "course_code": "CIS222",
+                "class_count": 1,
+                "avg_duration": 71.0
+            },
+            {
+                "course_code": "CIS221",
+                "class_count": 1,
+                "avg_duration": 68.0
+            },
+            {
+                "course_code": "CSE123(66_B)",
+                "class_count": 1,
+                "avg_duration": 68.0
+            },
+            {
+                "course_code": "CSE115(67_T)",
+                "class_count": 1,
+                "avg_duration": 63.0
+            },
+            {
+                "course_code": "CSE113(67_K)",
+                "class_count": 1,
+                "avg_duration": 61.0
+            },
+            {
+                "course_code": "CSE 313",
+                "class_count": 1,
+                "avg_duration": 71.52
+            },
+            {
+                "course_code": "CSE-121",
+                "class_count": 1,
+                "avg_duration": 6.82
+            },
+            {
+                "course_code": "CSE-102",
+                "class_count": 1,
+                "avg_duration": -0.37
+            },
+            {
+                "course_code": "CSE-313",
+                "class_count": 1,
+                "avg_duration": 101.32
+            },
+            {
+                "course_code": "CSE-223",
+                "class_count": 1,
+                "avg_duration": 97.48
+            },
+            {
+                "course_code": "CSE224(64_M1)",
+                "class_count": 1,
+                "avg_duration": 50.0
+            },
+            {
+                "course_code": "CSE223(64_N)",
+                "class_count": 1,
+                "avg_duration": 99.0
+            },
+            {
+                "course_code": "CSE222(63_H2)",
+                "class_count": 1,
+                "avg_duration": 94.0
+            },
+            {
+                "course_code": "CSE413(60_A1)",
+                "class_count": 1,
+                "avg_duration": 1.0
+            },
+            {
+                "course_code": "CSE336",
+                "class_count": 1,
+                "avg_duration": 52.0
+            },
+            {
+                "course_code": "CSE314(61_K1)",
+                "class_count": 1,
+                "avg_duration": 31.0
+            },
+            {
+                "course_code": "CSE315(63_G)",
+                "class_count": 1,
+                "avg_duration": 63.0
+            },
+            {
+                "course_code": "CSE315(63_N)",
+                "class_count": 1,
+                "avg_duration": 64.0
+            },
+            {
+                "course_code": "ENG102(66_O)",
+                "class_count": 1,
+                "avg_duration": 66.0
+            },
+            {
+                "course_code": "ENG 101",
+                "class_count": 1,
+                "avg_duration": 103.0
+            },
+            {
+                "course_code": "CSE427(58_B)",
+                "class_count": 1,
+                "avg_duration": 50.0
+            },
+            {
+                "course_code": "PHY 102",
+                "class_count": 1,
+                "avg_duration": 63.7
+            },
+            {
+                "course_code": "PHY102(66_F)",
+                "class_count": 1,
+                "avg_duration": 62.0
+            },
+            {
+                "course_code": "PHY101(67_M)",
+                "class_count": 1,
+                "avg_duration": 60.0
+            },
+            {
+                "course_code": "PHY103(66_G2)",
+                "class_count": 1,
+                "avg_duration": 93.0
+            },
+            {
+                "course_code": "SE323",
+                "class_count": 1,
+                "avg_duration": 96.0
+            },
+            {
+                "course_code": "SE342",
+                "class_count": 1,
+                "avg_duration": 81.0
+            },
+            {
+                "course_code": "SE334",
+                "class_count": 1,
+                "avg_duration": 68.0
+            },
+            {
+                "course_code": "SE333",
+                "class_count": 1,
+                "avg_duration": 31.0
+            },
+            {
+                "course_code": "SE447",
+                "class_count": 1,
+                "avg_duration": 58.0
+            },
+            {
+                "course_code": "TCSE232",
+                "class_count": 1,
+                "avg_duration": 25.0
+            },
+            {
+                "course_code": "TCSE135",
+                "class_count": 1,
+                "avg_duration": 65.0
+            },
+            {
+                "course_code": "TCSE415",
+                "class_count": 1,
+                "avg_duration": 66.0
+            },
+            {
+                "course_code": "cse-123",
+                "class_count": 1,
+                "avg_duration": 0.1
             }
         ]
     },
     "missed_classes": {
-        "total_missed_classes": 0,
+        "total_missed_classes": 707,
         "makeup_classes": "0",
-        "makeup_percentage": 0,
-        "missed_classes_by_course": {}
+        "makeup_percentage": 0.0,
+        "missed_classes_by_course": {
+            "CSE313": 31,
+            "MAT102": 25,
+            "CSE314": 23,
+            "CSE124": 22,
+            "MAT101": 18,
+            "CSE311": 16,
+            "CSE312": 15,
+            "CSE324": 15,
+            "AOL101": 15,
+            "PHY101": 14,
+            "CSE221": 14,
+            "CSE115": 13,
+            "MAT211": 13,
+            "CSE222": 12,
+            "SE122": 12,
+            "CSE325": 11,
+            "CSE212": 11,
+            "CSE228": 11,
+            "PHY103": 11,
+            "STA101": 10,
+            "ENG101": 10,
+            "CSE323": 10,
+            "CSE123": 10,
+            "CSE215": 10,
+            "PHY102": 10,
+            "CSE113": 10,
+            "TCSE314": 9,
+            "ENG102": 9,
+            "SE121": 9,
+            "SE133": 8,
+            "CSE234": 8,
+            "CSE224": 8,
+            "CSE223": 8,
+            "CSE315": 8,
+            "CSE326": 8,
+            "SE113": 8,
+            "0213-224": 8,
+            "CSE445": 8,
+            "TCSE312": 7,
+            "SE222": 7,
+            "GE235": 7,
+            "CSE227": 6,
+            "SE112": 6,
+            "ACT322": 6,
+            "CSE335": 6,
+            "CSE121": 6,
+            "CSE112": 5,
+            "CSE122": 5,
+            "CSE332": 5,
+            "BNS101": 5,
+            "CSE226": 5,
+            "CSE114": 5,
+            "CSE316": 4,
+            "CSE214": 4,
+            "CSE333": 4,
+            "SE132": 4,
+            "SE212": 4,
+            "CSE331": 4,
+            "0613-216": 4,
+            "SE232": 4,
+            "CSE213": 4,
+            "CSE225": 4,
+            "SE213": 4,
+            "SE211": 3,
+            "SE322": 3,
+            "0212-219": 3,
+            "0231-121": 3,
+            "CSE216": 3,
+            "SE224": 3,
+            "SE233": 3,
+            "SE532": 3,
+            "CSE233": 3,
+            "TCSE326": 3,
+            "SE311": 3,
+            "CIS121": 2,
+            "CIS132": 2,
+            "MCT134": 2,
+            "CIS232L": 2,
+            "MCT433": 2,
+            "0231-111": 2,
+            "0613-122": 2,
+            "MCT224": 2,
+            "CSE412": 2,
+            "CSE423": 2,
+            "CSE414": 2,
+            "CSE322": 2,
+            "SE131": 2,
+            "SE225": 2,
+            "SE223": 2,
+            "SE215": 2,
+            "SE226": 2,
+            "IoT336L": 2,
+            "CIS123": 1,
+            "FIN232": 1,
+            "CIS323": 1,
+            "CIS131": 1,
+            "CIS115L": 1,
+            "CIS232": 1,
+            "CIS221": 1,
+            "SE411": 1,
+            "SE214": 1,
+            "SE342": 1,
+            "CSE231": 1,
+            "MCT311": 1,
+            "ITM111": 1,
+            "ITM214": 1,
+            "ITM202": 1,
+            "ITM102": 1,
+            "ITM217": 1,
+            "ITM213": 1,
+            "IoT336": 1,
+            "TCSE234": 1,
+            "CSE427": 1,
+            "TCSE222": 1,
+            "IoT417": 1,
+            "CIS324L": 1,
+            "CSE498": 1,
+            "PHY113": 1,
+            "MCT316": 1,
+            "CIS336": 1,
+            "CIS331": 1,
+            "CIS324": 1,
+            "CIS414": 1,
+            "CIS115": 1,
+            "SE442": 1,
+            "CS211": 1,
+            "SE111": 1,
+            "SE334": 1,
+            "SE447": 1,
+            "CSE235": 1,
+            "CSE321": 1,
+            "CSE317": 1,
+            "CSE236": 1,
+            "CSE413": 1
+        },
+        "teachers_with_most_missed": [
+            {
+                "first_name": "Md",
+                "last_name": "Shamsuzzaman",
+                "missed_count": 174,
+                "makeup_done": 0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "first_name": "Md. Mozammelul",
+                "last_name": "Haque",
+                "missed_count": 12,
+                "makeup_done": 0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "first_name": "Firoz ",
+                "last_name": "Hasan",
+                "missed_count": 10,
+                "makeup_done": 0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "first_name": "Md. Ashaf",
+                "last_name": "Uddaula",
+                "missed_count": 8,
+                "makeup_done": 0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "first_name": "Md.",
+                "last_name": "Abdullah-Al-Kafi",
+                "missed_count": 8,
+                "makeup_done": 0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "first_name": "Md. Abbas Ali ",
+                "last_name": "Khan ",
+                "missed_count": 7,
+                "makeup_done": 0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "first_name": "Sharun Akter",
+                "last_name": "Khushbu ",
+                "missed_count": 7,
+                "makeup_done": 0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "first_name": "Md. Mazbaur",
+                "last_name": "Rashid",
+                "missed_count": 7,
+                "makeup_done": 0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "first_name": "Ishrat",
+                "last_name": "Sultana",
+                "missed_count": 7,
+                "makeup_done": 0,
+                "makeup_percentage": 0.0
+            }
+        ]
     },
     "teacher_usage": {
-        "total_teachers_used": 158,
-        "usage_breakdown": {
-            "11-50 Classes": 76,
-            "51-100 Classes": 46,
-            "1-10 Classes": 35,
-            "100+ Classes": 1
+        "total_summary": {
+            "total_teachers": 252,
+            "total_classes": 5652,
+            "total_late_classes": 1549,
+            "total_missed_classes": 881,
+            "total_makeup_classes": 0
         },
-        "top_teachers": [
+        "all_teachers_metrics": [
             {
                 "employee_id": "710002788",
-                "total_classes": 111,
-                "late_classes": 55,
                 "first_name": "Md. Mahedi",
                 "last_name": "Hassan",
-                "late_percentage": 49.549549549549546,
-                "usage_category": "100+ Classes"
+                "total_classes": 111.0,
+                "late_classes": 55.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 49.55,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "710002632",
-                "total_classes": 96,
-                "late_classes": 20,
                 "first_name": "Syada Tasmia",
                 "last_name": "Alvi",
-                "late_percentage": 20.833333333333336,
-                "usage_category": "51-100 Classes"
+                "total_classes": 100.0,
+                "late_classes": 24.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 24.0,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "721100114",
-                "total_classes": 96,
-                "late_classes": 8,
                 "first_name": "Syeda Maria ",
                 "last_name": "Rahman ",
-                "late_percentage": 8.333333333333332,
-                "usage_category": "51-100 Classes"
+                "total_classes": 100.0,
+                "late_classes": 8.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 8.0,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "710003385",
-                "total_classes": 92,
-                "late_classes": 20,
                 "first_name": "Noor ",
                 "last_name": "Muhammad ",
-                "late_percentage": 21.73913043478261,
-                "usage_category": "51-100 Classes"
+                "total_classes": 92.0,
+                "late_classes": 20.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 21.74,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "710002090",
-                "total_classes": 88,
-                "late_classes": 6,
                 "first_name": "Md. Aynul Hasan",
                 "last_name": "Nahid",
-                "late_percentage": 6.8181818181818175,
-                "usage_category": "51-100 Classes"
+                "total_classes": 91.0,
+                "late_classes": 7.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 7.69,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "710003575",
-                "total_classes": 88,
-                "late_classes": 4,
                 "first_name": "Taslima",
                 "last_name": "Akhter",
-                "late_percentage": 4.545454545454546,
-                "usage_category": "51-100 Classes"
-            },
-            {
-                "employee_id": "710003057",
-                "total_classes": 84,
-                "late_classes": 34,
-                "first_name": "Rahmatul Kabir ",
-                "last_name": "Rasel Sarker ",
-                "late_percentage": 40.476190476190474,
-                "usage_category": "51-100 Classes"
+                "total_classes": 88.0,
+                "late_classes": 4.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 4.55,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "710003429",
-                "total_classes": 81,
-                "late_classes": 31,
                 "first_name": "Md.",
                 "last_name": "Al-Mamun ",
-                "late_percentage": 38.2716049382716,
-                "usage_category": "51-100 Classes"
+                "total_classes": 86.0,
+                "late_classes": 33.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 38.37,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003057",
+                "first_name": "Rahmatul Kabir ",
+                "last_name": "Rasel Sarker ",
+                "total_classes": 84.0,
+                "late_classes": 34.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 40.48,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "710003444",
-                "total_classes": 80,
-                "late_classes": 29,
                 "first_name": "Chayti",
                 "last_name": "Saha",
+                "total_classes": 80.0,
+                "late_classes": 29.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
                 "late_percentage": 36.25,
-                "usage_category": "51-100 Classes"
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003369",
+                "first_name": "Md. Ashaf",
+                "last_name": "Uddaula",
+                "total_classes": 79.0,
+                "late_classes": 15.0,
+                "missed_classes": 8.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 18.99,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003441",
+                "first_name": "Mahmudul Islam",
+                "last_name": "Rakib",
+                "total_classes": 78.0,
+                "late_classes": 19.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 24.36,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "710003565",
-                "total_classes": 78,
-                "late_classes": 6,
                 "first_name": "Tamanna",
                 "last_name": "Sultana",
-                "late_percentage": 7.6923076923076925,
-                "usage_category": "51-100 Classes"
-            }
-        ],
-        "teachers_with_most_late_classes": [
-            {
-                "employee_id": "710002788",
-                "total_classes": 111,
-                "late_classes": 55,
-                "first_name": "Md. Mahedi",
-                "last_name": "Hassan",
-                "late_percentage": 49.549549549549546,
-                "usage_category": "100+ Classes"
+                "total_classes": 78.0,
+                "late_classes": 6.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 7.69,
+                "makeup_percentage": 0.0
             },
             {
-                "employee_id": "710003558",
-                "total_classes": 68,
-                "late_classes": 38,
-                "first_name": "Md. Mezbaul Islam",
-                "last_name": "Zion",
-                "late_percentage": 55.88235294117647,
-                "usage_category": "51-100 Classes"
+                "employee_id": "710003562",
+                "first_name": "Rimi",
+                "last_name": "Akter",
+                "total_classes": 78.0,
+                "late_classes": 7.0,
+                "missed_classes": 7.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 8.97,
+                "makeup_percentage": 0.0
             },
             {
-                "employee_id": "710002795",
-                "total_classes": 62,
-                "late_classes": 36,
-                "first_name": "Zahura",
-                "last_name": "Zaman",
-                "late_percentage": 58.06451612903226,
-                "usage_category": "51-100 Classes"
+                "employee_id": "721100153",
+                "first_name": "Sampa",
+                "last_name": "Saha",
+                "total_classes": 77.0,
+                "late_classes": 2.0,
+                "missed_classes": 7.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 2.6,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003403",
+                "first_name": "MD.ASHIK-E-ELAHE",
+                "last_name": 0,
+                "total_classes": 77.0,
+                "late_classes": 11.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 14.29,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "710003571",
-                "total_classes": 73,
-                "late_classes": 36,
                 "first_name": "Md Rasedul",
                 "last_name": "Islam ",
-                "late_percentage": 49.31506849315068,
-                "usage_category": "51-100 Classes"
-            },
-            {
-                "employee_id": "710003057",
-                "total_classes": 84,
-                "late_classes": 34,
-                "first_name": "Rahmatul Kabir ",
-                "last_name": "Rasel Sarker ",
-                "late_percentage": 40.476190476190474,
-                "usage_category": "51-100 Classes"
+                "total_classes": 75.0,
+                "late_classes": 37.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 49.33,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "710003221",
-                "total_classes": 73,
-                "late_classes": 32,
                 "first_name": "Abdul ",
                 "last_name": "Muntakim",
-                "late_percentage": 43.83561643835616,
-                "usage_category": "51-100 Classes"
+                "total_classes": 75.0,
+                "late_classes": 32.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 42.67,
+                "makeup_percentage": 0.0
             },
             {
-                "employee_id": "710003429",
-                "total_classes": 81,
-                "late_classes": 31,
-                "first_name": "Md.",
-                "last_name": "Al-Mamun ",
-                "late_percentage": 38.2716049382716,
-                "usage_category": "51-100 Classes"
+                "employee_id": "721500513",
+                "first_name": "Md. Emad Hossain",
+                "last_name": "Likhon",
+                "total_classes": 74.0,
+                "late_classes": 26.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 35.14,
+                "makeup_percentage": 0.0
             },
             {
-                "employee_id": "721500505",
-                "total_classes": 53,
-                "late_classes": 31,
-                "first_name": "Fahim",
-                "last_name": "Faisal",
-                "late_percentage": 58.490566037735846,
-                "usage_category": "51-100 Classes"
+                "employee_id": "710002339",
+                "first_name": "Tapasy",
+                "last_name": "Rabeya",
+                "total_classes": 69.0,
+                "late_classes": 21.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 30.43,
+                "makeup_percentage": 0.0
             },
             {
-                "employee_id": "710003444",
-                "total_classes": 80,
-                "late_classes": 29,
-                "first_name": "Chayti",
-                "last_name": "Saha",
-                "late_percentage": 36.25,
-                "usage_category": "51-100 Classes"
+                "employee_id": "710001985",
+                "first_name": "Firoz ",
+                "last_name": "Hasan",
+                "total_classes": 68.0,
+                "late_classes": 17.0,
+                "missed_classes": 10.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 25.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003558",
+                "first_name": "Md. Mezbaul Islam",
+                "last_name": "Zion",
+                "total_classes": 68.0,
+                "late_classes": 38.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 55.88,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500534",
+                "first_name": "Md Sagar",
+                "last_name": "Hossen",
+                "total_classes": 66.0,
+                "late_classes": 10.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 15.15,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002346",
+                "first_name": "Israt ",
+                "last_name": "Jahan",
+                "total_classes": 66.0,
+                "late_classes": 12.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 18.18,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001040",
+                "first_name": "Shirin ",
+                "last_name": "Sultana ",
+                "total_classes": 65.0,
+                "late_classes": 7.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 10.77,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002792",
+                "first_name": "Md Umaid",
+                "last_name": "Hasan",
+                "total_classes": 65.0,
+                "late_classes": 17.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 26.15,
+                "makeup_percentage": 0.0
             },
             {
                 "employee_id": "710003054",
-                "total_classes": 64,
-                "late_classes": 28,
                 "first_name": "Tanvirul",
                 "last_name": "Islam",
-                "late_percentage": 43.75,
-                "usage_category": "51-100 Classes"
+                "total_classes": 65.0,
+                "late_classes": 28.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 43.08,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002480",
+                "first_name": "Mushfiqur",
+                "last_name": "Rahman",
+                "total_classes": 64.0,
+                "late_classes": 13.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 20.31,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002795",
+                "first_name": "Zahura",
+                "last_name": "Zaman",
+                "total_classes": 64.0,
+                "late_classes": 38.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 59.38,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001538",
+                "first_name": "Naznin",
+                "last_name": "Sultana",
+                "total_classes": 64.0,
+                "late_classes": 23.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 35.94,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001783",
+                "first_name": "Taslima Ferdaus ",
+                "last_name": "Shuva",
+                "total_classes": 64.0,
+                "late_classes": 5.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 7.81,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003063",
+                "first_name": "Md Mizanur ",
+                "last_name": "Rahman",
+                "total_classes": 64.0,
+                "late_classes": 20.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 31.25,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003576",
+                "first_name": "Mohammed Sami",
+                "last_name": "Khan",
+                "total_classes": 63.0,
+                "late_classes": 12.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 19.05,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002831",
+                "first_name": "Md. Ashraful Islam",
+                "last_name": "Talukder",
+                "total_classes": 63.0,
+                "late_classes": 6.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 9.52,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003449",
+                "first_name": "Masum",
+                "last_name": "Bakaul",
+                "total_classes": 63.0,
+                "late_classes": 28.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 44.44,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500532",
+                "first_name": "Shumaiya Akter",
+                "last_name": "Shammi",
+                "total_classes": 63.0,
+                "late_classes": 8.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 12.7,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002642",
+                "first_name": "Md",
+                "last_name": "Assaduzzaman",
+                "total_classes": 62.0,
+                "late_classes": 12.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 19.35,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003595",
+                "first_name": "Abdullah Ar",
+                "last_name": "Rafi",
+                "total_classes": 62.0,
+                "late_classes": 7.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 11.29,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500523",
+                "first_name": "Md. Moshiur ",
+                "last_name": "Rahman",
+                "total_classes": 61.0,
+                "late_classes": 6.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 9.84,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003412",
+                "first_name": "Anup Kumar",
+                "last_name": "Modak",
+                "total_classes": 61.0,
+                "late_classes": 5.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 8.2,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003218",
+                "first_name": "Deawan Rakin",
+                "last_name": "Ahamed Remal",
+                "total_classes": 60.0,
+                "late_classes": 9.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 15.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003413",
+                "first_name": "Md. Roni",
+                "last_name": "Islam",
+                "total_classes": 60.0,
+                "late_classes": 10.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 16.67,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003370",
+                "first_name": "Md. Shahriar",
+                "last_name": "Shakil",
+                "total_classes": 56.0,
+                "late_classes": 5.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 8.93,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003064",
+                "first_name": "umme",
+                "last_name": "Ayman",
+                "total_classes": 56.0,
+                "late_classes": 24.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 42.86,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500152",
+                "first_name": "Izaz Ahmmed ",
+                "last_name": "Tuhin ",
+                "total_classes": 55.0,
+                "late_classes": 15.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 27.27,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001450",
+                "first_name": "Most. Hasna",
+                "last_name": 0,
+                "total_classes": 54.0,
+                "late_classes": 12.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 22.22,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500531",
+                "first_name": "Pinto Kumar",
+                "last_name": "Paul",
+                "total_classes": 54.0,
+                "late_classes": 14.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 25.93,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500505",
+                "first_name": "Fahim",
+                "last_name": "Faisal",
+                "total_classes": 53.0,
+                "late_classes": 31.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 58.49,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002304",
+                "first_name": "Mst. Sharmin",
+                "last_name": "Akter",
+                "total_classes": 53.0,
+                "late_classes": 24.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 45.28,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500538",
+                "first_name": "Z N M ZARIF",
+                "last_name": "MAHMUD",
+                "total_classes": 50.0,
+                "late_classes": 1.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 2.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002641",
+                "first_name": "Amir",
+                "last_name": "Sohel",
+                "total_classes": 50.0,
+                "late_classes": 6.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 12.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500161",
+                "first_name": "MD. SELIM",
+                "last_name": "REZA",
+                "total_classes": 49.0,
+                "late_classes": 13.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 26.53,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002103",
+                "first_name": "Lamia",
+                "last_name": "Rukhsara",
+                "total_classes": 49.0,
+                "late_classes": 8.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 16.33,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002760",
+                "first_name": "Nafees",
+                "last_name": "Imran",
+                "total_classes": 48.0,
+                "late_classes": 20.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 41.67,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001668",
+                "first_name": "Amatul Bushra ",
+                "last_name": "Akhi",
+                "total_classes": 48.0,
+                "late_classes": 13.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 27.08,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500163",
+                "first_name": "Md. Ashikur",
+                "last_name": "Rahman",
+                "total_classes": 46.0,
+                "late_classes": 6.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 13.04,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500537",
+                "first_name": "Md Shakil ",
+                "last_name": "Ahmed (MSA)",
+                "total_classes": 46.0,
+                "late_classes": 10.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 21.74,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002783",
+                "first_name": "Partha",
+                "last_name": "Dip",
+                "total_classes": 45.0,
+                "late_classes": 24.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 53.33,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003405",
+                "first_name": "Abdullah",
+                "last_name": "Al Sakib",
+                "total_classes": 45.0,
+                "late_classes": 6.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 13.33,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001170",
+                "first_name": "Md. Sazzadur",
+                "last_name": "Ahamed",
+                "total_classes": 44.0,
+                "late_classes": 4.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 9.09,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002793",
+                "first_name": "Mayen Uddin",
+                "last_name": "Mojumdar",
+                "total_classes": 43.0,
+                "late_classes": 9.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 20.93,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500522",
+                "first_name": "Md. Shamim",
+                "last_name": "Hossain",
+                "total_classes": 42.0,
+                "late_classes": 2.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 4.76,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001675",
+                "first_name": "Arif",
+                "last_name": "Mahmud",
+                "total_classes": 42.0,
+                "late_classes": 3.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 7.14,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003376",
+                "first_name": "Md.Jakaria",
+                "last_name": "Zobair",
+                "total_classes": 41.0,
+                "late_classes": 12.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 29.27,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003053",
+                "first_name": "Zannatul Mawa ",
+                "last_name": "Koli",
+                "total_classes": 41.0,
+                "late_classes": 17.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 41.46,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500536",
+                "first_name": "Mansura Manzil",
+                "last_name": "Choity",
+                "total_classes": 40.0,
+                "late_classes": 20.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 50.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500516",
+                "first_name": "Durjoy",
+                "last_name": "Bhowmik",
+                "total_classes": 39.0,
+                "late_classes": 16.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 41.03,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500484",
+                "first_name": "Md. Asif Mahmud",
+                "last_name": "Ridoy",
+                "total_classes": 39.0,
+                "late_classes": 15.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 38.46,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003037",
+                "first_name": "Shahadat",
+                "last_name": "Hossain",
+                "total_classes": 39.0,
+                "late_classes": 17.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 43.59,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500419",
+                "first_name": "Md. Hasanuzzaman ",
+                "last_name": "Dipu",
+                "total_classes": 39.0,
+                "late_classes": 3.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 7.69,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500507",
+                "first_name": "Mahbubur",
+                "last_name": "Rahman",
+                "total_classes": 39.0,
+                "late_classes": 12.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 30.77,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002477",
+                "first_name": "Zakia ",
+                "last_name": "Sultana",
+                "total_classes": 38.0,
+                "late_classes": 20.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 52.63,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003038",
+                "first_name": "Dristi",
+                "last_name": "Saha",
+                "total_classes": 38.0,
+                "late_classes": 8.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 21.05,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003214",
+                "first_name": "Dr. Syed Akhter",
+                "last_name": "Hossain",
+                "total_classes": 37.0,
+                "late_classes": 13.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 35.14,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710000367",
+                "first_name": "Md. Fokhray",
+                "last_name": "Hossain",
+                "total_classes": 36.0,
+                "late_classes": 4.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 11.11,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002693",
+                "first_name": "Fourcan Karim ",
+                "last_name": "Mazumder",
+                "total_classes": 36.0,
+                "late_classes": 3.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 8.33,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003454",
+                "first_name": "Rabeya",
+                "last_name": "Khatun",
+                "total_classes": 35.0,
+                "late_classes": 24.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 68.57,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001966",
+                "first_name": "Fatema Tuj",
+                "last_name": "Johora",
+                "total_classes": 34.0,
+                "late_classes": 5.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 14.71,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002507",
+                "first_name": "Fizar",
+                "last_name": "Ahmed",
+                "total_classes": 34.0,
+                "late_classes": 17.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 50.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003431",
+                "first_name": "Shahrin",
+                "last_name": "Khan",
+                "total_classes": 33.0,
+                "late_classes": 15.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 45.45,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001060",
+                "first_name": "Dr. Sheak Rashed Haider ",
+                "last_name": "Noori",
+                "total_classes": 32.0,
+                "late_classes": 4.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 12.5,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003082",
+                "first_name": "Sonia",
+                "last_name": "Nasrin",
+                "total_classes": 29.0,
+                "late_classes": 15.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 51.72,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003380",
+                "first_name": "Sadia Jannat",
+                "last_name": "Mitu",
+                "total_classes": 29.0,
+                "late_classes": 2.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 6.9,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500440",
+                "first_name": "Abu Shahed Shah",
+                "last_name": "Md. Nazmul Arefin",
+                "total_classes": 28.0,
+                "late_classes": 3.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 10.71,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002116",
+                "first_name": "Shayla",
+                "last_name": "Sharmin",
+                "total_classes": 28.0,
+                "late_classes": 18.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 64.29,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500463",
+                "first_name": "Sheikh",
+                "last_name": "Tonmoy",
+                "total_classes": 27.0,
+                "late_classes": 2.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 7.41,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003552",
+                "first_name": "Dr Md Alamgir ",
+                "last_name": "Kabir",
+                "total_classes": 27.0,
+                "late_classes": 9.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 33.33,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002096",
+                "first_name": "Abdus",
+                "last_name": "Sattar",
+                "total_classes": 27.0,
+                "late_classes": 18.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 66.67,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500499",
+                "first_name": "Prof Dr Ajit Kumar",
+                "last_name": "Majumder",
+                "total_classes": 26.0,
+                "late_classes": 4.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 15.38,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001896",
+                "first_name": "Dewan Mamun",
+                "last_name": "Raza",
+                "total_classes": 26.0,
+                "late_classes": 5.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 19.23,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500138",
+                "first_name": "Samia ",
+                "last_name": "Sayed",
+                "total_classes": 26.0,
+                "late_classes": 4.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 15.38,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003561",
+                "first_name": "Md Hefzul Hossain",
+                "last_name": "Papon",
+                "total_classes": 25.0,
+                "late_classes": 6.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 24.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500533",
+                "first_name": "Toaha",
+                "last_name": "Siddique",
+                "total_classes": 24.0,
+                "late_classes": 2.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 8.33,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003229",
+                "first_name": "S. M. Monowar",
+                "last_name": "Kayser",
+                "total_classes": 24.0,
+                "late_classes": 18.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 75.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001622",
+                "first_name": "Dr Md Zahid",
+                "last_name": "Hasan",
+                "total_classes": 24.0,
+                "late_classes": 11.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 45.83,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003373",
+                "first_name": "Md.",
+                "last_name": "Abdullah-Al-Kafi",
+                "total_classes": 22.0,
+                "late_classes": 7.0,
+                "missed_classes": 8.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 31.82,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003084",
+                "first_name": "Mr.",
+                "last_name": "ISRAFIL",
+                "total_classes": 21.0,
+                "late_classes": 13.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 61.9,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710000595",
+                "first_name": "Anuz Kumar",
+                "last_name": "Chakrabarty",
+                "total_classes": 21.0,
+                "late_classes": 11.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 52.38,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003219",
+                "first_name": "Hasnur",
+                "last_name": "Jahan",
+                "total_classes": 20.0,
+                "late_classes": 8.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 40.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002791",
+                "first_name": "Mahimul Islam",
+                "last_name": "Nadim",
+                "total_classes": 19.0,
+                "late_classes": 5.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 26.32,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003401",
+                "first_name": "Nushrat Jahan",
+                "last_name": "Oyshi",
+                "total_classes": 19.0,
+                "late_classes": 3.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 15.79,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003360",
+                "first_name": "Kazi Rifat ",
+                "last_name": "Ahmed",
+                "total_classes": 19.0,
+                "late_classes": 6.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 31.58,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710000878",
+                "first_name": "Nazmun Nessa",
+                "last_name": "Moon",
+                "total_classes": 18.0,
+                "late_classes": 12.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 66.67,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003591",
+                "first_name": "Monju Akter",
+                "last_name": "Mou",
+                "total_classes": 18.0,
+                "late_classes": 6.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 33.33,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002633",
+                "first_name": "Md. Ferdouse Ahmed",
+                "last_name": "Foysal",
+                "total_classes": 18.0,
+                "late_classes": 5.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 27.78,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002758",
+                "first_name": "Abdullah",
+                "last_name": "Al Mamun",
+                "total_classes": 17.0,
+                "late_classes": 9.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 52.94,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001971",
+                "first_name": "Tasfia Anika ",
+                "last_name": "Bushra",
+                "total_classes": 17.0,
+                "late_classes": 13.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 76.47,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003346",
+                "first_name": "Suprove Chandra",
+                "last_name": "Sarkar",
+                "total_classes": 17.0,
+                "late_classes": 8.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 47.06,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500157",
+                "first_name": "Maidul",
+                "last_name": "Islam",
+                "total_classes": 15.0,
+                "late_classes": 3.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 20.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003362",
+                "first_name": "Md. Mazbaur",
+                "last_name": "Rashid",
+                "total_classes": 15.0,
+                "late_classes": 1.0,
+                "missed_classes": 7.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 6.67,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002365",
+                "first_name": "Atia",
+                "last_name": "Sanjida",
+                "total_classes": 15.0,
+                "late_classes": 3.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 20.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003236",
+                "first_name": "Afsana Jerin ",
+                "last_name": "Shayery",
+                "total_classes": 15.0,
+                "late_classes": 11.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 73.33,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001543",
+                "first_name": "Dr. Md Samaun",
+                "last_name": "Hasan",
+                "total_classes": 15.0,
+                "late_classes": 7.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 46.67,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500503",
+                "first_name": "Tasmim",
+                "last_name": "Sultana",
+                "total_classes": 15.0,
+                "late_classes": 4.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 26.67,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003415",
+                "first_name": "Nasimul",
+                "last_name": "Kader",
+                "total_classes": 14.0,
+                "late_classes": 4.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 28.57,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001327",
+                "first_name": "Rafi",
+                "last_name": "Mahmud",
+                "total_classes": 14.0,
+                "late_classes": 2.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 14.29,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002802",
+                "first_name": "Md. Mehedi",
+                "last_name": "Hassan",
+                "total_classes": 13.0,
+                "late_classes": 11.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 84.62,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500411",
+                "first_name": "Md. Hasan Imam",
+                "last_name": "Bijoy",
+                "total_classes": 13.0,
+                "late_classes": 2.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 15.38,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002790",
+                "first_name": "Faria Nishat",
+                "last_name": "Khan",
+                "total_classes": 13.0,
+                "late_classes": 4.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 30.77,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003432",
+                "first_name": "Mir Safwan ",
+                "last_name": "Marzouq",
+                "total_classes": 12.0,
+                "late_classes": 5.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 41.67,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001306",
+                "first_name": "MD KAMRUL ",
+                "last_name": "HOSSAIN",
+                "total_classes": 12.0,
+                "late_classes": 11.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 91.67,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003256",
+                "first_name": "Munira ",
+                "last_name": "Tabassum",
+                "total_classes": 11.0,
+                "late_classes": 2.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 18.18,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003392",
+                "first_name": "Saida Mahamuda",
+                "last_name": "Rahman",
+                "total_classes": 9.0,
+                "late_classes": 2.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 22.22,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003569",
+                "first_name": "S M Sharif",
+                "last_name": "Hasan",
+                "total_classes": 9.0,
+                "late_classes": 5.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 55.56,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500535",
+                "first_name": "Fatama",
+                "last_name": "Jannat",
+                "total_classes": 9.0,
+                "late_classes": 3.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 33.33,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500526",
+                "first_name": "Mahmudur",
+                "last_name": "Rahman",
+                "total_classes": 9.0,
+                "late_classes": 1.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 11.11,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002796",
+                "first_name": "Nasima Islam",
+                "last_name": "Bithi",
+                "total_classes": 8.0,
+                "late_classes": 2.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 25.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001967",
+                "first_name": "Md. Abbas Ali ",
+                "last_name": "Khan ",
+                "total_classes": 8.0,
+                "late_classes": 5.0,
+                "missed_classes": 7.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 62.5,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003242",
+                "first_name": "Md. jahidul",
+                "last_name": "Alam",
+                "total_classes": 8.0,
+                "late_classes": 4.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 50.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003375",
+                "first_name": "Sakib Mahmood",
+                "last_name": "Chowdhury ",
+                "total_classes": 8.0,
+                "late_classes": 2.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 25.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002478",
+                "first_name": "Tanzina",
+                "last_name": "Afroz",
+                "total_classes": 7.0,
+                "late_classes": 7.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 100.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003553",
+                "first_name": "Shadman ",
+                "last_name": "Rabby",
+                "total_classes": 7.0,
+                "late_classes": 1.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 14.29,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003557",
+                "first_name": "Rowzatul ",
+                "last_name": "Zannat",
+                "total_classes": 5.0,
+                "late_classes": 4.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 80.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003445",
+                "first_name": "Abdullah",
+                "last_name": "Al-Amin",
+                "total_classes": 5.0,
+                "late_classes": 1.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 20.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003596",
+                "first_name": "Mizanur",
+                "last_name": "Rahman",
+                "total_classes": 5.0,
+                "late_classes": 2.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 40.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003377",
+                "first_name": "Md Shohidul Islam",
+                "last_name": "Polash",
+                "total_classes": 5.0,
+                "late_classes": 2.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 40.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710000634",
+                "first_name": "Sakia Shabnam ",
+                "last_name": "Kader",
+                "total_classes": 5.0,
+                "late_classes": 2.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 40.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003414",
+                "first_name": "Mahbubul",
+                "last_name": "Alam",
+                "total_classes": 4.0,
+                "late_classes": 1.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 25.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500140",
+                "first_name": "Arnob",
+                "last_name": "Deb",
+                "total_classes": 4.0,
+                "late_classes": 2.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 50.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003456",
+                "first_name": "Tasfia ",
+                "last_name": "Talukder",
+                "total_classes": 4.0,
+                "late_classes": 1.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 25.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002002",
+                "first_name": "Nahid",
+                "last_name": "Sultana",
+                "total_classes": 4.0,
+                "late_classes": 0.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002762",
+                "first_name": "Kazi Jahid ",
+                "last_name": "Hasan",
+                "total_classes": 4.0,
+                "late_classes": 3.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 75.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002794",
+                "first_name": "Golam",
+                "last_name": "Rabbany",
+                "total_classes": 4.0,
+                "late_classes": 2.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 50.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500461",
+                "first_name": "Abdullah Al",
+                "last_name": "Mahmud",
+                "total_classes": 3.0,
+                "late_classes": 1.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 33.33,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003367",
+                "first_name": "Md. Abdul Hye",
+                "last_name": "Zebon",
+                "total_classes": 3.0,
+                "late_classes": 2.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 66.67,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001287",
+                "first_name": "Raja Tariqul Hasan ",
+                "last_name": "Tusher ",
+                "total_classes": 3.0,
+                "late_classes": 0.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001970",
+                "first_name": "Mohammad Jahangir ",
+                "last_name": "Alam",
+                "total_classes": 2.0,
+                "late_classes": 1.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 50.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003083",
+                "first_name": "Md. Faruk",
+                "last_name": "Hosen",
+                "total_classes": 2.0,
+                "late_classes": 1.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 50.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500164",
+                "first_name": "Arpita ",
+                "last_name": "Paul",
+                "total_classes": 2.0,
+                "late_classes": 1.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 50.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003034",
+                "first_name": "Md Taimur",
+                "last_name": "ahad",
+                "total_classes": 1.0,
+                "late_classes": 0.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500118",
+                "first_name": "Sanjoy",
+                "last_name": "Dev",
+                "total_classes": 1.0,
+                "late_classes": 0.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710000519",
+                "first_name": "Mohammad Monirul ",
+                "last_name": "Islam",
+                "total_classes": 1.0,
+                "late_classes": 1.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 100.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003448",
+                "first_name": "Shamim",
+                "last_name": "Hossain",
+                "total_classes": 1.0,
+                "late_classes": 0.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500137",
+                "first_name": "Rifa",
+                "last_name": "Tasfia",
+                "total_classes": 1.0,
+                "late_classes": 0.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500147",
+                "first_name": "Shahinur",
+                "last_name": "Akter",
+                "total_classes": 1.0,
+                "late_classes": 0.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002501",
+                "first_name": "Dr. Marzia",
+                "last_name": "Ahmed",
+                "total_classes": 1.0,
+                "late_classes": 1.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 100.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "724000055",
+                "first_name": "Md Shafikul ",
+                "last_name": "islam",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003410",
+                "first_name": "MD Asfaqur ",
+                "last_name": "Rahman ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003382",
+                "first_name": "Md. Mozammelul",
+                "last_name": "Haque",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 12.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500502",
+                "first_name": "Tamanna",
+                "last_name": "Sultana",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003059",
+                "first_name": "Md Atik Asif Khan ",
+                "last_name": "Akash ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001439",
+                "first_name": "Mohammad Abdul",
+                "last_name": "Halim",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002158",
+                "first_name": "Md.Towhiduzzaman",
+                "last_name": "Sabuz",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500514",
+                "first_name": "Avizit",
+                "last_name": "Nandi",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500401",
+                "first_name": "Md. Rafidul Hasan",
+                "last_name": "Khan",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002384",
+                "first_name": "Md. Sujan",
+                "last_name": "Mia",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "00000000",
+                "first_name": "Marjan",
+                "last_name": "Haque",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "00000004",
+                "first_name": "Sabir Islam",
+                "last_name": "Shoumic",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003929",
+                "first_name": "Dr. Omar",
+                "last_name": "Faruk",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "740000222",
+                "first_name": "MD Sujan",
+                "last_name": "Mia",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002349",
+                "first_name": "Sharmin ",
+                "last_name": "Akter",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001009",
+                "first_name": "Khalid Been",
+                "last_name": "Md. Badruzzaman Biplob",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "00000001",
+                "first_name": "Washiul",
+                "last_name": "Alam",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003060",
+                "first_name": "Shakhawath",
+                "last_name": "Hossain",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001054",
+                "first_name": "Aminul",
+                "last_name": "Haque",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500515",
+                "first_name": "Md. Jayed",
+                "last_name": "Hossain ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "724000051",
+                "first_name": "Apurba",
+                "last_name": "Ghosh",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001792",
+                "first_name": "Mizanur",
+                "last_name": "Rahman",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001051",
+                "first_name": "Sadekur",
+                "last_name": "Rahman ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003364",
+                "first_name": "Shalah Uddin Perbhez ",
+                "last_name": "Shakil",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003348",
+                "first_name": "Salma ",
+                "last_name": "Saba",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500127",
+                "first_name": "khadija",
+                "last_name": "akter",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002987",
+                "first_name": "Md Salah",
+                "last_name": "Uddin",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003428",
+                "first_name": "atikul",
+                "last_name": "Islam",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500504",
+                "first_name": "Gayatri",
+                "last_name": 0,
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500474",
+                "first_name": "Afsana",
+                "last_name": "Begum",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "750000233",
+                "first_name": "MD. SHAKIB ",
+                "last_name": "HOSSAIN",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003422",
+                "first_name": "MD. Burhan ",
+                "last_name": "Uddin",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003435",
+                "first_name": "Sayedul",
+                "last_name": "Hasan",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002891",
+                "first_name": "Nadira",
+                "last_name": "Islam",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "nan",
+                "first_name": "Md",
+                "last_name": "Shamsuzzaman",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 174.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500397",
+                "first_name": "K. M. Shahriar ",
+                "last_name": "Islam",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500501",
+                "first_name": "Md Sabbir Hossen ",
+                "last_name": "Bijoy",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001911",
+                "first_name": "Tapushe Rabaya ",
+                "last_name": "Toma",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "724000054",
+                "first_name": "Kallol",
+                "last_name": "Bain",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003253",
+                "first_name": "Shahariar",
+                "last_name": "parvez",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003230",
+                "first_name": "Dr. Ashikur",
+                "last_name": "Rahman",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001339",
+                "first_name": "Protima",
+                "last_name": "Dash",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002976",
+                "first_name": "Md",
+                "last_name": "Nahiduzzaman ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003235",
+                "first_name": "Lameya",
+                "last_name": "Islam",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710000633",
+                "first_name": "Narayan Ranjan ",
+                "last_name": "Chakraborty ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500004",
+                "first_name": "Arif",
+                "last_name": "Ahmed ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001664",
+                "first_name": "Dr. Shaikh Muhammad",
+                "last_name": "Allayear",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "750000242",
+                "first_name": "MD.",
+                "last_name": "YOUSUF ALI",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003446",
+                "first_name": "Md. Jihan",
+                "last_name": "Parvaj",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002799",
+                "first_name": "Nusrat",
+                "last_name": "Tasnim",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003368",
+                "first_name": "Ishrat",
+                "last_name": "Sultana",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 7.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500511",
+                "first_name": "Angona",
+                "last_name": 0,
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500099",
+                "first_name": "Sazia ",
+                "last_name": "Sharmin",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 6.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500462",
+                "first_name": "Nafiz Ahmed ",
+                "last_name": "Emon",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500509",
+                "first_name": "Most.Sanjida",
+                "last_name": "Afrin",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003347",
+                "first_name": "Mosharraf",
+                "last_name": "Khan",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500506",
+                "first_name": "Nushrat",
+                "last_name": "Mahjabeen",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500365",
+                "first_name": "Md. Fahad",
+                "last_name": "Hossain ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500510",
+                "first_name": "MD. ABDULLAH AL-",
+                "last_name": "MOHIMEEN ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003361",
+                "first_name": "Maliha",
+                "last_name": "Binte Mukhles ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710000662",
+                "first_name": "Masuma ",
+                "last_name": "Parvin",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003101",
+                "first_name": "Md. Monarul",
+                "last_name": "Islam",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500121",
+                "first_name": "Arup",
+                "last_name": "Saha",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500469",
+                "first_name": "Nazmin Akter",
+                "last_name": "Swarna",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500500",
+                "first_name": "Iffat Mehrin ",
+                "last_name": "Disha",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003566",
+                "first_name": "Syed Eftasum",
+                "last_name": "Alam",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003555",
+                "first_name": "Alvee",
+                "last_name": "Ehsan",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 3.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "000000010",
+                "first_name": "fwef",
+                "last_name": "fef",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001710",
+                "first_name": "Tania ",
+                "last_name": "Khatun ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002755",
+                "first_name": "Md. Hafizul",
+                "last_name": "Imran",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500459",
+                "first_name": "Md.Sefatullah ",
+                "last_name": 0,
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710001743",
+                "first_name": "Ohidujjaman",
+                "last_name": "Tuhin",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500128 ",
+                "first_name": "Tamanna",
+                "last_name": "Akter",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003426",
+                "first_name": "Md.",
+                "last_name": "Obaidullah ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002645",
+                "first_name": "Sharun Akter",
+                "last_name": "Khushbu ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 7.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500508",
+                "first_name": "Tasmima",
+                "last_name": "Akter",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003061",
+                "first_name": "Mubtasim",
+                "last_name": "Fuad",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 2.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003563",
+                "first_name": "Nafiz Ahmed ",
+                "last_name": "Emon",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002809",
+                "first_name": "Naimur",
+                "last_name": "Rahman",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721900071",
+                "first_name": "Md. Islamul",
+                "last_name": "Alam",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500190",
+                "first_name": "Mohammad Azam",
+                "last_name": "Khan",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710000359",
+                "first_name": "Shahina ",
+                "last_name": "Haque ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500154",
+                "first_name": "Tanzim",
+                "last_name": "Hossain",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003545",
+                "first_name": "Md. Shafikul ",
+                "last_name": "Islam",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710000795",
+                "first_name": "Mohammad",
+                "last_name": "Khaled Sohel ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 1.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002756",
+                "first_name": "Tanim",
+                "last_name": "Ahmed",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723300250",
+                "first_name": "Auronno",
+                "last_name": "Hussain ",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003592",
+                "first_name": "Abu",
+                "last_name": "Hayat",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721500446",
+                "first_name": "Subarna Akter",
+                "last_name": "Liza",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "725100010",
+                "first_name": "Shakil",
+                "last_name": "Ahammad",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "721600037",
+                "first_name": "Kazi ",
+                "last_name": "Fatema",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003567",
+                "first_name": "Monthasir",
+                "last_name": "Afnan",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 5.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "723500139",
+                "first_name": "Md.Ali",
+                "last_name": "Akber",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710003564",
+                "first_name": "Nokimul Hasan",
+                "last_name": "Arif",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 4.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "710002476",
+                "first_name": "Aliza",
+                "last_name": "Khan",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "nan",
+                "first_name": 0,
+                "last_name": 0,
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 174.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
+            },
+            {
+                "employee_id": "Ali",
+                "first_name": "Md.",
+                "last_name": "Suhag",
+                "total_classes": 0.0,
+                "late_classes": 0.0,
+                "missed_classes": 0.0,
+                "makeup_classes": 0.0,
+                "late_percentage": 0.0,
+                "makeup_percentage": 0.0
             }
-        ]
+        ],
+        "columns_description": {
+            "total_classes": "Total number of classes taken",
+            "late_classes": "Number of late entries",
+            "missed_classes": "Number of missed classes",
+            "makeup_classes": "Number of makeup classes completed",
+            "late_percentage": "Percentage of late classes",
+            "makeup_percentage": "Percentage of missed classes made up"
+        }
     }
 }
