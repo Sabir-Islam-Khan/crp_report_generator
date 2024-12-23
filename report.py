@@ -44,6 +44,7 @@ class ClassUsageReporter:
         total_classes = len(self.past_classes)
         late_classes = len(self.past_classes[self.past_classes['entry_type'] == 'late'])
         on_time_classes = len(self.past_classes[self.past_classes['entry_type'] == 'on_time'])
+        extra_classes = len(self.past_classes[self.past_classes['entry_type'] == 'EXTRA_CLASS'])
         
         # Separate analysis for theory and lab classes
         course_stats = self.past_classes.groupby(['course_code', 'class_type']).agg({
@@ -54,7 +55,11 @@ class ClassUsageReporter:
         course_stats.columns = ['course_code', 'class_type', 'class_count', 'avg_duration']
         course_stats = course_stats.sort_values(['class_type', 'class_count'], ascending=[True, False])
         
-        entry_type_dist = self.past_classes['entry_type'].value_counts()
+        entry_type_dist = {
+            'on_time': on_time_classes,
+            'late': late_classes,
+            'EXTRA_CLASS': extra_classes
+        }
         
         # Calculate average durations by class type
         avg_durations = self.past_classes.groupby('class_type')['duration'].mean().to_dict()
@@ -64,11 +69,7 @@ class ClassUsageReporter:
             'late_classes': late_classes,
             'on_time_classes': on_time_classes,
             'late_percentage': (late_classes / total_classes) * 100 if total_classes > 0 else 0,
-            'entry_type_distribution': {
-                'on_time': entry_type_dist.get('on_time', 0),
-                'late': entry_type_dist.get('late', 0),
-                'EXTRA_CLASS': entry_type_dist.get('extra', 0)
-            },
+            'entry_type_distribution': entry_type_dist,
             'all_courses': course_stats.to_dict(orient='records'),
             'average_durations': avg_durations
         }

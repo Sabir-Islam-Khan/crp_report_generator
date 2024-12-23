@@ -5,9 +5,9 @@
         "on_time_classes": 4097,
         "late_percentage": 27.30147575544624,
         "entry_type_distribution": {
-            "on_time": "4097",
-            "late": "1554",
-            "EXTRA_CLASS": 0
+            "on_time": 4097,
+            "late": 1554,
+            "EXTRA_CLASS": 41
         },
         "all_courses": [
             {
