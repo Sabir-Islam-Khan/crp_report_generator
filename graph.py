@@ -61,14 +61,27 @@ def plot_top_courses():
 
 def plot_course_durations():
     courses_df = pd.DataFrame(data['past_classes']['all_courses'])
-    top_10_duration = courses_df.nlargest(10, 'avg_duration')
     
-    plt.figure(figsize=(12, 6))
-    sns.barplot(data=top_10_duration, x='course_code', y='avg_duration')
-    plt.xticks(rotation=45, ha='right')
-    plt.title('Top 10 Courses by Average Duration')
-    plt.xlabel('Course Code')
-    plt.ylabel('Average Duration (minutes)')
+    # Separate theory and lab courses
+    theory_courses = courses_df[courses_df['class_type'] == 'theory'].nlargest(10, 'avg_duration')
+    lab_courses = courses_df[courses_df['class_type'] == 'lab'].nlargest(10, 'avg_duration')
+    
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 10))
+    
+    # Theory courses plot
+    sns.barplot(data=theory_courses, x='course_code', y='avg_duration', ax=ax1)
+    ax1.set_xticklabels(ax1.get_xticklabels(), rotation=45, ha='right')
+    ax1.set_title('Top 10 Theory Courses by Average Duration')
+    ax1.set_xlabel('Course Code')
+    ax1.set_ylabel('Average Duration (minutes)')
+    
+    # Lab courses plot
+    sns.barplot(data=lab_courses, x='course_code', y='avg_duration', ax=ax2)
+    ax2.set_xticklabels(ax2.get_xticklabels(), rotation=45, ha='right')
+    ax2.set_title('Top 10 Lab Courses by Average Duration')
+    ax2.set_xlabel('Course Code')
+    ax2.set_ylabel('Average Duration (minutes)')
+    
     save_plot('course_durations.png')
 
 def plot_ontime_vs_late():
@@ -269,6 +282,12 @@ def generate_final_report():
 • On-time Classes: {data['past_classes']['on_time_classes']} ({data['past_classes']['entry_type_distribution']['on_time']} classes)<br/>
 • Late Classes: {data['past_classes']['late_classes']} ({data['past_classes']['entry_type_distribution']['late']} classes)<br/>
 • Extra Classes: {data['past_classes']['entry_type_distribution']['EXTRA_CLASS']} classes<br/>
+
+<br/><b>Course Analysis</b><br/>
+
+• Most Active Course: {data['past_classes']['all_courses'][0]['course_code']} with {data['past_classes']['all_courses'][0]['class_count']} classes<br/>
+• Average Theory Class Duration: {data['past_classes']['average_durations'].get('theory', 0):.1f} minutes<br/>
+• Average Lab Class Duration: {data['past_classes']['average_durations'].get('lab', 0):.1f} minutes<br/>
 
 <br/><b>Course Analysis</b><br/>
 
