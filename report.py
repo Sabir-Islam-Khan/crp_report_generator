@@ -63,18 +63,15 @@ class ClassUsageReporter:
         late_classes = len(self.past_classes[self.past_classes['entry_type'] == 'late'])
         on_time_classes = len(self.past_classes[self.past_classes['entry_type'] == 'on_time'])
         
-        # Course distribution with duration in minutes
+        # Course distribution
         course_distribution = self.past_classes.groupby('course_code').agg({
             'id': 'count',
             'start_time': [
-                ('avg_duration', lambda x: (self.past_classes.loc[x.index, 'end_time'] - 
-                                         self.past_classes.loc[x.index, 'start_time']).mean().total_seconds() / 60)
+                ('avg_duration', lambda x: (self.past_classes.loc[x.index, 'end_time'] - self.past_classes.loc[x.index, 'start_time']).mean())
             ]
         }).reset_index()
         course_distribution.columns = ['course_code', 'class_count', 'avg_duration']
-        # Round duration to 2 decimal places
-        course_distribution['avg_duration'] = course_distribution['avg_duration'].round(2)
-        course_distribution = course_distribution.sort_values('class_count', ascending=False)
+        course_distribution = course_distribution.sort_values('class_count', ascending=False).head(20)
         
         # Entry type distribution
         entry_type_distribution = self.past_classes['entry_type'].value_counts()
@@ -85,118 +82,83 @@ class ClassUsageReporter:
             'on_time_classes': on_time_classes,
             'late_percentage': (late_classes / total_classes) * 100 if total_classes > 0 else 0,
             'entry_type_distribution': entry_type_distribution.to_dict(),
-            'all_courses': course_distribution.to_dict(orient='records')
+            'top_courses': course_distribution.to_dict(orient='records')
         }
     
     def _missed_classes_analysis(self):
         """
-        Analyze missed classes data for teachers in Teachers.csv
+        Analyze missed classes data for active teachers
+        
+        Returns:
+            dict: Comprehensive analysis of missed classes
         """
-        # Convert employee_id to string in both DataFrames
-        self.missed_classes['employee_id'] = self.missed_classes['employee_id'].astype(str)
-        self.teachers['employee_id'] = self.teachers['employee_id'].astype(str)
+        # Get active teachers (took at least 5 classes)
+        active_teachers = self.past_classes.groupby('employee_id').size()
+        active_teachers = active_teachers[active_teachers >= 5].index
         
-        # Filter missed classes for valid teachers
-        valid_missed_classes = self.missed_classes[
-            self.missed_classes['employee_id'].isin(self.teachers['employee_id'])
-        ]
-        
-        # Group by teacher and calculate metrics
-        teacher_missed_classes = valid_missed_classes.groupby('employee_id').agg({
-            'id': 'count',  # Count of missed classes
-            'makeup_done': ['sum', 'count']  # Sum and count for makeup percentage
-        }).reset_index()
-        
-        # Flatten column names
-        teacher_missed_classes.columns = ['employee_id', 'missed_count', 'makeup_done', 'total_classes']
-        
-        # Calculate makeup percentage
-        teacher_missed_classes['makeup_percentage'] = (
-            teacher_missed_classes['makeup_done'] / teacher_missed_classes['missed_count'] * 100
-        ).round(2)
-        
-        # Add teacher details
-        teacher_missed_classes = teacher_missed_classes.merge(
-            self.teachers[['employee_id', 'first_name', 'last_name']], 
-            on='employee_id'
-        )
+        # Filter missed classes for active teachers
+        active_missed_classes = self.missed_classes[self.missed_classes['employee_id'].isin(active_teachers)]
         
         return {
-            'total_missed_classes': len(valid_missed_classes),
-            'makeup_classes': valid_missed_classes['makeup_done'].sum(),
-            'makeup_percentage': (valid_missed_classes['makeup_done'].sum() / len(valid_missed_classes)) * 100 
-                if len(valid_missed_classes) > 0 else 0,
-            'missed_classes_by_course': valid_missed_classes['course_code'].value_counts().to_dict(),
-            'teachers_with_most_missed': teacher_missed_classes.nlargest(
-                10, 'missed_count'
-            )[['first_name', 'last_name', 'missed_count', 'makeup_done', 'makeup_percentage']].to_dict(orient='records')
+            'total_missed_classes': len(active_missed_classes),
+            'makeup_classes': active_missed_classes['makeup_done'].sum(),
+            'makeup_percentage': (active_missed_classes['makeup_done'].sum() / len(active_missed_classes)) * 100 
+                if len(active_missed_classes) > 0 else 0,
+            'missed_classes_by_course': active_missed_classes['course_code'].value_counts().to_dict()
         }
     
     def _teacher_usage_analysis(self):
         """
-        Analyze comprehensive teacher usage including all metrics for every teacher
+        Analyze teacher platform usage
+    
+        Returns:
+            dict: Comprehensive analysis of teacher platform usage
         """
-        # Convert all employee_ids to string
+        # Ensure employee_id is the same type in both DataFrames
+        # Convert to string to ensure consistency
         self.past_classes['employee_id'] = self.past_classes['employee_id'].astype(str)
-        self.missed_classes['employee_id'] = self.missed_classes['employee_id'].astype(str)
         self.teachers['employee_id'] = self.teachers['employee_id'].astype(str)
-
-        # Start with all teachers
-        all_teachers = self.teachers[['employee_id', 'first_name', 'last_name']].copy()
-
-        # Get past classes metrics
-        past_classes_metrics = self.past_classes.groupby('employee_id').agg({
+    
+        # Count classes per teacher
+        teacher_usage = self.past_classes.groupby('employee_id').agg({
             'id': 'count',
             'entry_type': lambda x: (x == 'late').sum()
         }).reset_index()
-        past_classes_metrics.columns = ['employee_id', 'total_classes', 'late_classes']
-
-        # Get missed classes metrics
-        missed_classes_metrics = self.missed_classes.groupby('employee_id').agg({
-            'id': 'count',
-            'makeup_done': 'sum'
-        }).reset_index()
-        missed_classes_metrics.columns = ['employee_id', 'missed_classes', 'makeup_classes']
-
-        # Merge all metrics with teachers
-        teacher_metrics = all_teachers.merge(
-            past_classes_metrics, on='employee_id', how='left'
-        ).merge(
-            missed_classes_metrics, on='employee_id', how='left'
+        teacher_usage.columns = ['employee_id', 'total_classes', 'late_classes']
+    
+        # Merge with teacher details
+        teacher_usage = teacher_usage.merge(
+            self.teachers[['employee_id', 'first_name', 'last_name']], 
+            on='employee_id', 
+            how='left'
         )
-
-        # Fill NaN with 0
-        teacher_metrics = teacher_metrics.fillna(0)
-
-        # Calculate percentages
-        teacher_metrics['late_percentage'] = (
-            teacher_metrics['late_classes'] / teacher_metrics['total_classes'] * 100
-        ).round(2)
-        teacher_metrics['makeup_percentage'] = (
-            teacher_metrics['makeup_classes'] / teacher_metrics['missed_classes'] * 100
-        ).round(2)
-        teacher_metrics = teacher_metrics.fillna(0)
-
-        # Sort by total classes descending
-        teacher_metrics = teacher_metrics.sort_values('total_classes', ascending=False)
-
+    
+        # Calculate late class percentage
+        teacher_usage['late_percentage'] = (teacher_usage['late_classes'] / teacher_usage['total_classes']) * 100
+    
+        # Categorize usage
+        def categorize_usage(classes):
+            if classes == 0:
+                return '0 Classes'
+            elif classes <= 10:
+                return '1-10 Classes'
+            elif classes <= 50:
+                return '11-50 Classes'
+            elif classes <= 100:
+                return '51-100 Classes'
+            else:
+                return '100+ Classes'
+    
+        teacher_usage['usage_category'] = teacher_usage['total_classes'].apply(categorize_usage)
+    
+        # Usage breakdown
+        usage_breakdown = teacher_usage['usage_category'].value_counts()
+    
         return {
-            'total_summary': {
-                'total_teachers': len(teacher_metrics),
-                'total_classes': int(teacher_metrics['total_classes'].sum()),
-                'total_late_classes': int(teacher_metrics['late_classes'].sum()),
-                'total_missed_classes': int(teacher_metrics['missed_classes'].sum()),
-                'total_makeup_classes': int(teacher_metrics['makeup_classes'].sum())
-            },
-            'all_teachers_metrics': teacher_metrics.to_dict(orient='records'),
-            'columns_description': {
-                'total_classes': 'Total number of classes taken',
-                'late_classes': 'Number of late entries',
-                'missed_classes': 'Number of missed classes',
-                'makeup_classes': 'Number of makeup classes completed',
-                'late_percentage': 'Percentage of late classes',
-                'makeup_percentage': 'Percentage of missed classes made up'
-            }
+            'total_teachers_used': len(teacher_usage),
+            'usage_breakdown': usage_breakdown.to_dict(),
+            'top_teachers': teacher_usage.nlargest(10, 'total_classes').to_dict(orient='records'),
+            'teachers_with_most_late_classes': teacher_usage.nlargest(10, 'late_classes').to_dict(orient='records')
         }
     
     def _create_visualizations(self, report, output_dir):

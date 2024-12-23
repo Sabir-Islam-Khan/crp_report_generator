@@ -1165,7 +1165,7 @@
     },
     "teacher_usage": {
         "total_summary": {
-            "total_teachers": 252,
+            "total_teachers": 247,
             "total_classes": 5652,
             "total_late_classes": 1549,
             "total_missed_classes": 881,
@@ -1329,7 +1329,7 @@
             {
                 "employee_id": "710003403",
                 "first_name": "MD.ASHIK-E-ELAHE",
-                "last_name": 0,
+                "last_name": "",
                 "total_classes": 77.0,
                 "late_classes": 11.0,
                 "missed_classes": 2.0,
@@ -1659,7 +1659,7 @@
             {
                 "employee_id": "710001450",
                 "first_name": "Most. Hasna",
-                "last_name": 0,
+                "last_name": "",
                 "total_classes": 54.0,
                 "late_classes": 12.0,
                 "missed_classes": 6.0,
@@ -2977,39 +2977,6 @@
                 "makeup_percentage": 0.0
             },
             {
-                "employee_id": "710002384",
-                "first_name": "Md. Sujan",
-                "last_name": "Mia",
-                "total_classes": 0.0,
-                "late_classes": 0.0,
-                "missed_classes": 0.0,
-                "makeup_classes": 0.0,
-                "late_percentage": 0.0,
-                "makeup_percentage": 0.0
-            },
-            {
-                "employee_id": "00000000",
-                "first_name": "Marjan",
-                "last_name": "Haque",
-                "total_classes": 0.0,
-                "late_classes": 0.0,
-                "missed_classes": 0.0,
-                "makeup_classes": 0.0,
-                "late_percentage": 0.0,
-                "makeup_percentage": 0.0
-            },
-            {
-                "employee_id": "00000004",
-                "first_name": "Sabir Islam",
-                "last_name": "Shoumic",
-                "total_classes": 0.0,
-                "late_classes": 0.0,
-                "missed_classes": 0.0,
-                "makeup_classes": 0.0,
-                "late_percentage": 0.0,
-                "makeup_percentage": 0.0
-            },
-            {
                 "employee_id": "710003929",
                 "first_name": "Dr. Omar",
                 "last_name": "Faruk",
@@ -3049,17 +3016,6 @@
                 "total_classes": 0.0,
                 "late_classes": 0.0,
                 "missed_classes": 1.0,
-                "makeup_classes": 0.0,
-                "late_percentage": 0.0,
-                "makeup_percentage": 0.0
-            },
-            {
-                "employee_id": "00000001",
-                "first_name": "Washiul",
-                "last_name": "Alam",
-                "total_classes": 0.0,
-                "late_classes": 0.0,
-                "missed_classes": 0.0,
                 "makeup_classes": 0.0,
                 "late_percentage": 0.0,
                 "makeup_percentage": 0.0
@@ -3188,7 +3144,7 @@
             {
                 "employee_id": "721500504",
                 "first_name": "Gayatri",
-                "last_name": 0,
+                "last_name": "",
                 "total_classes": 0.0,
                 "late_classes": 0.0,
                 "missed_classes": 2.0,
@@ -3650,7 +3606,7 @@
             {
                 "employee_id": "721500459",
                 "first_name": "Md.Sefatullah ",
-                "last_name": 0,
+                "last_name": "",
                 "total_classes": 0.0,
                 "late_classes": 0.0,
                 "missed_classes": 5.0,
@@ -3923,17 +3879,6 @@
                 "makeup_percentage": 0.0
             },
             {
-                "employee_id": "nan",
-                "first_name": 0,
-                "last_name": 0,
-                "total_classes": 0.0,
-                "late_classes": 0.0,
-                "missed_classes": 174.0,
-                "makeup_classes": 0.0,
-                "late_percentage": 0.0,
-                "makeup_percentage": 0.0
-            },
-            {
                 "employee_id": "Ali",
                 "first_name": "Md.",
                 "last_name": "Suhag",
@@ -3953,5 +3898,327 @@
             "late_percentage": "Percentage of late classes",
             "makeup_percentage": "Percentage of missed classes made up"
         }
+    },
+    "daily_classes": {
+        "summary": {
+            "total_days": 51,
+            "avg_classes_per_day": 111.61,
+            "max_classes": {
+                "date": "2024-11-03",
+                "count": 179
+            },
+            "min_classes": {
+                "date": "2024-11-29",
+                "count": 3
+            }
+        },
+        "daily_breakdown": [
+            {
+                "date": "2024-10-16 00:00:00",
+                "total_classes": 16,
+                "late_classes": 7,
+                "on_time_classes": 9
+            },
+            {
+                "date": "2024-10-17 00:00:00",
+                "total_classes": 21,
+                "late_classes": 10,
+                "on_time_classes": 11
+            },
+            {
+                "date": "2024-10-19 00:00:00",
+                "total_classes": 48,
+                "late_classes": 26,
+                "on_time_classes": 22
+            },
+            {
+                "date": "2024-10-20 00:00:00",
+                "total_classes": 114,
+                "late_classes": 29,
+                "on_time_classes": 85
+            },
+            {
+                "date": "2024-10-21 00:00:00",
+                "total_classes": 119,
+                "late_classes": 38,
+                "on_time_classes": 81
+            },
+            {
+                "date": "2024-10-22 00:00:00",
+                "total_classes": 67,
+                "late_classes": 17,
+                "on_time_classes": 50
+            },
+            {
+                "date": "2024-10-23 00:00:00",
+                "total_classes": 87,
+                "late_classes": 16,
+                "on_time_classes": 71
+            },
+            {
+                "date": "2024-10-24 00:00:00",
+                "total_classes": 99,
+                "late_classes": 32,
+                "on_time_classes": 67
+            },
+            {
+                "date": "2024-10-26 00:00:00",
+                "total_classes": 81,
+                "late_classes": 25,
+                "on_time_classes": 56
+            },
+            {
+                "date": "2024-10-27 00:00:00",
+                "total_classes": 127,
+                "late_classes": 29,
+                "on_time_classes": 98
+            },
+            {
+                "date": "2024-10-28 00:00:00",
+                "total_classes": 109,
+                "late_classes": 33,
+                "on_time_classes": 76
+            },
+            {
+                "date": "2024-10-29 00:00:00",
+                "total_classes": 91,
+                "late_classes": 29,
+                "on_time_classes": 62
+            },
+            {
+                "date": "2024-10-30 00:00:00",
+                "total_classes": 141,
+                "late_classes": 37,
+                "on_time_classes": 104
+            },
+            {
+                "date": "2024-10-31 00:00:00",
+                "total_classes": 97,
+                "late_classes": 31,
+                "on_time_classes": 66
+            },
+            {
+                "date": "2024-11-02 00:00:00",
+                "total_classes": 152,
+                "late_classes": 41,
+                "on_time_classes": 111
+            },
+            {
+                "date": "2024-11-03 00:00:00",
+                "total_classes": 179,
+                "late_classes": 45,
+                "on_time_classes": 134
+            },
+            {
+                "date": "2024-11-04 00:00:00",
+                "total_classes": 175,
+                "late_classes": 41,
+                "on_time_classes": 134
+            },
+            {
+                "date": "2024-11-05 00:00:00",
+                "total_classes": 159,
+                "late_classes": 39,
+                "on_time_classes": 120
+            },
+            {
+                "date": "2024-11-06 00:00:00",
+                "total_classes": 172,
+                "late_classes": 44,
+                "on_time_classes": 128
+            },
+            {
+                "date": "2024-11-07 00:00:00",
+                "total_classes": 133,
+                "late_classes": 32,
+                "on_time_classes": 101
+            },
+            {
+                "date": "2024-11-09 00:00:00",
+                "total_classes": 35,
+                "late_classes": 11,
+                "on_time_classes": 24
+            },
+            {
+                "date": "2024-11-10 00:00:00",
+                "total_classes": 149,
+                "late_classes": 40,
+                "on_time_classes": 109
+            },
+            {
+                "date": "2024-11-11 00:00:00",
+                "total_classes": 167,
+                "late_classes": 49,
+                "on_time_classes": 118
+            },
+            {
+                "date": "2024-11-12 00:00:00",
+                "total_classes": 131,
+                "late_classes": 34,
+                "on_time_classes": 97
+            },
+            {
+                "date": "2024-11-13 00:00:00",
+                "total_classes": 168,
+                "late_classes": 37,
+                "on_time_classes": 131
+            },
+            {
+                "date": "2024-11-14 00:00:00",
+                "total_classes": 154,
+                "late_classes": 38,
+                "on_time_classes": 116
+            },
+            {
+                "date": "2024-11-16 00:00:00",
+                "total_classes": 132,
+                "late_classes": 37,
+                "on_time_classes": 95
+            },
+            {
+                "date": "2024-11-17 00:00:00",
+                "total_classes": 141,
+                "late_classes": 33,
+                "on_time_classes": 108
+            },
+            {
+                "date": "2024-11-18 00:00:00",
+                "total_classes": 131,
+                "late_classes": 38,
+                "on_time_classes": 93
+            },
+            {
+                "date": "2024-11-19 00:00:00",
+                "total_classes": 130,
+                "late_classes": 42,
+                "on_time_classes": 88
+            },
+            {
+                "date": "2024-11-20 00:00:00",
+                "total_classes": 158,
+                "late_classes": 30,
+                "on_time_classes": 128
+            },
+            {
+                "date": "2024-11-21 00:00:00",
+                "total_classes": 108,
+                "late_classes": 34,
+                "on_time_classes": 74
+            },
+            {
+                "date": "2024-11-23 00:00:00",
+                "total_classes": 145,
+                "late_classes": 40,
+                "on_time_classes": 105
+            },
+            {
+                "date": "2024-11-24 00:00:00",
+                "total_classes": 126,
+                "late_classes": 30,
+                "on_time_classes": 96
+            },
+            {
+                "date": "2024-11-25 00:00:00",
+                "total_classes": 121,
+                "late_classes": 21,
+                "on_time_classes": 100
+            },
+            {
+                "date": "2024-11-26 00:00:00",
+                "total_classes": 110,
+                "late_classes": 27,
+                "on_time_classes": 83
+            },
+            {
+                "date": "2024-11-27 00:00:00",
+                "total_classes": 130,
+                "late_classes": 28,
+                "on_time_classes": 102
+            },
+            {
+                "date": "2024-11-28 00:00:00",
+                "total_classes": 79,
+                "late_classes": 17,
+                "on_time_classes": 62
+            },
+            {
+                "date": "2024-11-29 00:00:00",
+                "total_classes": 3,
+                "late_classes": 1,
+                "on_time_classes": 2
+            },
+            {
+                "date": "2024-11-30 00:00:00",
+                "total_classes": 96,
+                "late_classes": 29,
+                "on_time_classes": 67
+            },
+            {
+                "date": "2024-12-01 00:00:00",
+                "total_classes": 125,
+                "late_classes": 36,
+                "on_time_classes": 89
+            },
+            {
+                "date": "2024-12-02 00:00:00",
+                "total_classes": 121,
+                "late_classes": 23,
+                "on_time_classes": 98
+            },
+            {
+                "date": "2024-12-03 00:00:00",
+                "total_classes": 100,
+                "late_classes": 28,
+                "on_time_classes": 72
+            },
+            {
+                "date": "2024-12-04 00:00:00",
+                "total_classes": 117,
+                "late_classes": 33,
+                "on_time_classes": 84
+            },
+            {
+                "date": "2024-12-05 00:00:00",
+                "total_classes": 99,
+                "late_classes": 29,
+                "on_time_classes": 70
+            },
+            {
+                "date": "2024-12-07 00:00:00",
+                "total_classes": 62,
+                "late_classes": 24,
+                "on_time_classes": 38
+            },
+            {
+                "date": "2024-12-08 00:00:00",
+                "total_classes": 99,
+                "late_classes": 31,
+                "on_time_classes": 68
+            },
+            {
+                "date": "2024-12-09 00:00:00",
+                "total_classes": 98,
+                "late_classes": 30,
+                "on_time_classes": 68
+            },
+            {
+                "date": "2024-12-10 00:00:00",
+                "total_classes": 69,
+                "late_classes": 25,
+                "on_time_classes": 44
+            },
+            {
+                "date": "2024-12-11 00:00:00",
+                "total_classes": 138,
+                "late_classes": 55,
+                "on_time_classes": 83
+            },
+            {
+                "date": "2024-12-12 00:00:00",
+                "total_classes": 63,
+                "late_classes": 23,
+                "on_time_classes": 40
+            }
+        ]
     }
 }
