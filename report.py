@@ -6,7 +6,9 @@ from datetime import datetime, timedelta
 
 class ClassUsageReporter:
     def __init__(self, past_classes_csv, missed_classes_csv, teachers_csv):
+        # Read the CSV files
         self.past_classes = pd.read_csv(past_classes_csv, parse_dates=['created_at', 'start_time', 'end_time', 'date_taken'])
+        
         self.missed_classes = pd.read_csv(missed_classes_csv, parse_dates=['created_at', 'date_missed'])
         self.teachers = pd.read_csv(teachers_csv)
         
@@ -15,7 +17,8 @@ class ClassUsageReporter:
         self.missed_classes['employee_id'] = self.missed_classes['employee_id'].astype(str)
         self.teachers['employee_id'] = self.teachers['employee_id'].astype(str)
         
-        # Calculate duration and identify lab classes
+        # Filter out "CLASS ENDED BY SYSTEM" rows and calculate duration
+        self.past_classes = self.past_classes[self.past_classes['remarks'] != "CLASS ENDED BY SYSTEM"]
         self.past_classes['duration'] = (self.past_classes['end_time'] - self.past_classes['start_time']).dt.total_seconds() / 60
         self._identify_lab_classes()
     
@@ -46,11 +49,28 @@ class ClassUsageReporter:
         on_time_classes = len(self.past_classes[self.past_classes['entry_type'] == 'on_time'])
         extra_classes = len(self.past_classes[self.past_classes['entry_type'] == 'EXTRA_CLASS'])
         
-        # Separate analysis for theory and lab classes
+        # Create copy for duration calculations
+        duration_filtered = self.past_classes.copy()
+        theory_mask = (duration_filtered['class_type'] == 'theory') & (duration_filtered['duration'] <= 80)
+        lab_mask = (duration_filtered['class_type'] == 'lab') & (duration_filtered['duration'] <= 170)
+        duration_filtered = duration_filtered[theory_mask | lab_mask]
+        
+        # Use unfiltered data for class counts
         course_stats = self.past_classes.groupby(['course_code', 'class_type']).agg({
-            'id': 'count',
+            'id': 'count'
+        }).reset_index()
+        
+        # Use filtered data for duration calculations
+        duration_stats = duration_filtered.groupby(['course_code', 'class_type']).agg({
             'duration': 'mean'
         }).reset_index()
+        
+        # Merge count and duration stats
+        course_stats = course_stats.merge(
+            duration_stats[['course_code', 'class_type', 'duration']], 
+            on=['course_code', 'class_type'], 
+            how='left'
+        )
         
         course_stats.columns = ['course_code', 'class_type', 'class_count', 'avg_duration']
         course_stats = course_stats.sort_values(['class_type', 'class_count'], ascending=[True, False])
@@ -61,8 +81,8 @@ class ClassUsageReporter:
             'EXTRA_CLASS': extra_classes
         }
         
-        # Calculate average durations by class type
-        avg_durations = self.past_classes.groupby('class_type')['duration'].mean().to_dict()
+        # Calculate average durations using filtered data
+        avg_durations = duration_filtered.groupby('class_type')['duration'].mean().to_dict()
         
         return {
             'total_classes': total_classes,

@@ -1,122 +1,56 @@
 {
     "past_classes": {
-        "total_classes": 5692,
-        "late_classes": 1554,
-        "on_time_classes": 4097,
-        "late_percentage": 27.30147575544624,
+        "total_classes": 3712,
+        "late_classes": 846,
+        "on_time_classes": 2830,
+        "late_percentage": 22.790948275862068,
         "entry_type_distribution": {
-            "on_time": 4097,
-            "late": 1554,
-            "EXTRA_CLASS": 41
+            "on_time": 2830,
+            "late": 846,
+            "EXTRA_CLASS": 36
         },
         "all_courses": [
             {
                 "course_code": "CSE222",
                 "class_type": "lab",
-                "class_count": 137,
-                "avg_duration": 121.31021897810218
+                "class_count": 43,
+                "avg_duration": 78.16747967479675
             },
             {
                 "course_code": "PHY103",
                 "class_type": "lab",
-                "class_count": 83,
-                "avg_duration": 162.42208835341364
+                "class_count": 35,
+                "avg_duration": 149.46764705882353
             },
             {
                 "course_code": "CSE124",
                 "class_type": "lab",
-                "class_count": 59,
-                "avg_duration": 129.0316384180791
-            },
-            {
-                "course_code": "CSE324",
-                "class_type": "lab",
-                "class_count": 56,
-                "avg_duration": 133.58005952380952
+                "class_count": 24,
+                "avg_duration": 75.69565217391305
             },
             {
                 "course_code": "ACT322",
                 "class_type": "lab",
-                "class_count": 43,
-                "avg_duration": 114.05503875968992
+                "class_count": 18,
+                "avg_duration": 69.17058823529412
+            },
+            {
+                "course_code": "CSE324",
+                "class_type": "lab",
+                "class_count": 17,
+                "avg_duration": 112.63555555555556
             },
             {
                 "course_code": "CSE224",
                 "class_type": "lab",
-                "class_count": 41,
-                "avg_duration": 132.29065040650408
-            },
-            {
-                "course_code": "TCSE413",
-                "class_type": "lab",
-                "class_count": 32,
-                "avg_duration": 61.325520833333336
-            },
-            {
-                "course_code": "CSE114",
-                "class_type": "lab",
-                "class_count": 29,
-                "avg_duration": 188.433908045977
+                "class_count": 14,
+                "avg_duration": 100.0
             },
             {
                 "course_code": "CSE234",
                 "class_type": "lab",
-                "class_count": 26,
-                "avg_duration": 165.21538461538464
-            },
-            {
-                "course_code": "CSE122",
-                "class_type": "lab",
-                "class_count": 25,
-                "avg_duration": 155.95266666666666
-            },
-            {
-                "course_code": "CSE332",
-                "class_type": "lab",
-                "class_count": 24,
-                "avg_duration": 130.68541666666667
-            },
-            {
-                "course_code": "CSE413",
-                "class_type": "lab",
-                "class_count": 24,
-                "avg_duration": 126.94583333333333
-            },
-            {
-                "course_code": "CSE415",
-                "class_type": "lab",
-                "class_count": 18,
-                "avg_duration": 144.23055555555555
-            },
-            {
-                "course_code": "CSE214",
-                "class_type": "lab",
-                "class_count": 17,
-                "avg_duration": 154.8950980392157
-            },
-            {
-                "course_code": "PHY102",
-                "class_type": "lab",
-                "class_count": 17,
-                "avg_duration": 168.86176470588236
-            },
-            {
-                "course_code": "CSE313",
-                "class_type": "lab",
-                "class_count": 14,
-                "avg_duration": 391.0
-            },
-            {
-                "course_code": "CSE314",
-                "class_type": "lab",
-                "class_count": 14,
-                "avg_duration": 381.8464285714286
-            },
-            {
-                "course_code": "CSE422",
-                "class_type": "lab",
                 "class_count": 10,
-                "avg_duration": 153.47
+                "avg_duration": 155.18125
             },
             {
                 "course_code": "CSE-101",
@@ -125,76 +59,58 @@
                 "avg_duration": 11.348148148148148
             },
             {
-                "course_code": "MAT211",
+                "course_code": "CSE122",
+                "class_type": "lab",
+                "class_count": 9,
+                "avg_duration": 149.04166666666666
+            },
+            {
+                "course_code": "CSE413",
+                "class_type": "lab",
+                "class_count": 9,
+                "avg_duration": 116.79074074074076
+            },
+            {
+                "course_code": "CSE114",
                 "class_type": "lab",
                 "class_count": 8,
-                "avg_duration": 376.7270833333333
+                "avg_duration": 154.13095238095238
+            },
+            {
+                "course_code": "CSE415",
+                "class_type": "lab",
+                "class_count": 6,
+                "avg_duration": 154.05833333333334
+            },
+            {
+                "course_code": "MAT211",
+                "class_type": "lab",
+                "class_count": 6,
+                "avg_duration": 41.21666666666667
+            },
+            {
+                "course_code": "PHY102",
+                "class_type": "lab",
+                "class_count": 6,
+                "avg_duration": 105.60555555555555
             },
             {
                 "course_code": "SE212",
                 "class_type": "lab",
-                "class_count": 8,
-                "avg_duration": 55.958333333333336
-            },
-            {
-                "course_code": "SE322",
-                "class_type": "lab",
-                "class_count": 7,
-                "avg_duration": 96.02619047619048
-            },
-            {
-                "course_code": "0213-224",
-                "class_type": "lab",
                 "class_count": 6,
-                "avg_duration": 162.33333333333334
+                "avg_duration": 57.27777777777778
             },
             {
-                "course_code": "CSE233",
+                "course_code": "CSE313",
                 "class_type": "lab",
-                "class_count": 6,
-                "avg_duration": 99.86666666666667
-            },
-            {
-                "course_code": "MAT101",
-                "class_type": "lab",
-                "class_count": 6,
-                "avg_duration": 35.61111111111111
-            },
-            {
-                "course_code": "PHY101",
-                "class_type": "lab",
-                "class_count": 6,
-                "avg_duration": 115.30555555555556
+                "class_count": 5,
+                "avg_duration": 54.0
             },
             {
                 "course_code": "0213-113",
                 "class_type": "lab",
-                "class_count": 5,
-                "avg_duration": 90.0
-            },
-            {
-                "course_code": "CSE326",
-                "class_type": "lab",
-                "class_count": 5,
-                "avg_duration": 136.05333333333334
-            },
-            {
-                "course_code": "CSE417",
-                "class_type": "lab",
-                "class_count": 5,
-                "avg_duration": 166.81333333333333
-            },
-            {
-                "course_code": "SE133",
-                "class_type": "lab",
-                "class_count": 5,
-                "avg_duration": 129.23666666666668
-            },
-            {
-                "course_code": "0613-215",
-                "class_type": "lab",
                 "class_count": 4,
-                "avg_duration": 165.25416666666666
+                "avg_duration": 70.25
             },
             {
                 "course_code": "AOL-101",
@@ -203,22 +119,28 @@
                 "avg_duration": -0.3
             },
             {
-                "course_code": "CSE112",
-                "class_type": "lab",
-                "class_count": 4,
-                "avg_duration": 424.7
-            },
-            {
                 "course_code": "CSE123",
                 "class_type": "lab",
                 "class_count": 4,
                 "avg_duration": 2.0
             },
             {
-                "course_code": "CSE225",
+                "course_code": "CSE314",
                 "class_type": "lab",
                 "class_count": 4,
-                "avg_duration": 85.1
+                "avg_duration": 154.10833333333335
+            },
+            {
+                "course_code": "CSE332",
+                "class_type": "lab",
+                "class_count": 4,
+                "avg_duration": 73.75
+            },
+            {
+                "course_code": "CSE422",
+                "class_type": "lab",
+                "class_count": 4,
+                "avg_duration": 149.03333333333333
             },
             {
                 "course_code": "CSE445",
@@ -227,94 +149,64 @@
                 "avg_duration": 45.25
             },
             {
-                "course_code": "MCT335",
+                "course_code": "MAT101",
                 "class_type": "lab",
                 "class_count": 4,
-                "avg_duration": 473.1833333333333
+                "avg_duration": 4.25
             },
             {
-                "course_code": "TCSE312",
-                "class_type": "lab",
-                "class_count": 4,
-                "avg_duration": 50.25
-            },
-            {
-                "course_code": "CS422",
+                "course_code": "CSE214",
                 "class_type": "lab",
                 "class_count": 3,
-                "avg_duration": 170.33333333333334
-            },
-            {
-                "course_code": "CSE113",
-                "class_type": "lab",
-                "class_count": 3,
-                "avg_duration": 129.87777777777777
+                "avg_duration": 153.0
             },
             {
                 "course_code": "CSE221",
                 "class_type": "lab",
                 "class_count": 3,
-                "avg_duration": 387.2277777777778
+                "avg_duration": 7.0
             },
             {
                 "course_code": "CSE323",
                 "class_type": "lab",
                 "class_count": 3,
-                "avg_duration": 512.7111111111111
+                "avg_duration": 77.0
             },
             {
-                "course_code": "CSE121",
+                "course_code": "SE322",
                 "class_type": "lab",
-                "class_count": 2,
-                "avg_duration": 77.13333333333334
+                "class_count": 3,
+                "avg_duration": 48.35
             },
             {
-                "course_code": "CSE215",
+                "course_code": "0213-224",
                 "class_type": "lab",
                 "class_count": 2,
-                "avg_duration": 74.43333333333334
+                "avg_duration": 157.0
             },
             {
-                "course_code": "CSE216",
+                "course_code": "0613-215",
                 "class_type": "lab",
                 "class_count": 2,
-                "avg_duration": 171.15833333333333
+                "avg_duration": 152.5
             },
             {
-                "course_code": "CSE311",
+                "course_code": "CSE112",
                 "class_type": "lab",
                 "class_count": 2,
-                "avg_duration": 83.43333333333334
+                "avg_duration": 158.0
             },
             {
-                "course_code": "CSE315",
+                "course_code": "CSE326",
                 "class_type": "lab",
                 "class_count": 2,
-                "avg_duration": 80.58333333333333
+                "avg_duration": NaN
             },
             {
-                "course_code": "CSE331",
+                "course_code": "CSE417",
                 "class_type": "lab",
                 "class_count": 2,
-                "avg_duration": 84.0
-            },
-            {
-                "course_code": "CSE418",
-                "class_type": "lab",
-                "class_count": 2,
-                "avg_duration": 165.0
-            },
-            {
-                "course_code": "CSE423",
-                "class_type": "lab",
-                "class_count": 2,
-                "avg_duration": 110.33333333333334
-            },
-            {
-                "course_code": "MCT311",
-                "class_type": "lab",
-                "class_count": 2,
-                "avg_duration": 157.16666666666669
+                "avg_duration": 154.0
             },
             {
                 "course_code": "MCT337",
@@ -323,52 +215,28 @@
                 "avg_duration": 79.0
             },
             {
-                "course_code": "MCT433",
-                "class_type": "lab",
-                "class_count": 2,
-                "avg_duration": 87.4
-            },
-            {
                 "course_code": "SE113",
                 "class_type": "lab",
                 "class_count": 2,
                 "avg_duration": 86.5
             },
             {
-                "course_code": "SE211",
+                "course_code": "SE133",
                 "class_type": "lab",
                 "class_count": 2,
-                "avg_duration": 79.78333333333333
+                "avg_duration": 70.0
             },
             {
-                "course_code": "SE221",
-                "class_type": "lab",
-                "class_count": 2,
-                "avg_duration": 91.91666666666667
-            },
-            {
-                "course_code": "SE231",
-                "class_type": "lab",
-                "class_count": 2,
-                "avg_duration": 80.5
-            },
-            {
-                "course_code": "STA101",
-                "class_type": "lab",
-                "class_count": 2,
-                "avg_duration": 100.28333333333333
-            },
-            {
-                "course_code": "TCSE314",
-                "class_type": "lab",
-                "class_count": 2,
-                "avg_duration": 167.65
-            },
-            {
-                "course_code": "CS211",
+                "course_code": "CS422",
                 "class_type": "lab",
                 "class_count": 1,
-                "avg_duration": 164.0
+                "avg_duration": 168.0
+            },
+            {
+                "course_code": "CSE113",
+                "class_type": "lab",
+                "class_count": 1,
+                "avg_duration": 150.0
             },
             {
                 "course_code": "CSE223",
@@ -380,457 +248,439 @@
                 "course_code": "CSE227",
                 "class_type": "lab",
                 "class_count": 1,
-                "avg_duration": 1357.3833333333334
+                "avg_duration": NaN
             },
             {
-                "course_code": "CSE313",
-                "class_type": "theory",
-                "class_count": 228,
-                "avg_duration": 77.22741228070174
+                "course_code": "CSE233",
+                "class_type": "lab",
+                "class_count": 1,
+                "avg_duration": NaN
             },
             {
-                "course_code": "CSE314",
-                "class_type": "theory",
-                "class_count": 217,
-                "avg_duration": 81.37649769585254
+                "course_code": "CSE423",
+                "class_type": "lab",
+                "class_count": 1,
+                "avg_duration": 153.83333333333334
+            },
+            {
+                "course_code": "MCT311",
+                "class_type": "lab",
+                "class_count": 1,
+                "avg_duration": 157.0
+            },
+            {
+                "course_code": "MCT335",
+                "class_type": "lab",
+                "class_count": 1,
+                "avg_duration": NaN
+            },
+            {
+                "course_code": "PHY101",
+                "class_type": "lab",
+                "class_count": 1,
+                "avg_duration": NaN
+            },
+            {
+                "course_code": "TCSE314",
+                "class_type": "lab",
+                "class_count": 1,
+                "avg_duration": NaN
             },
             {
                 "course_code": "CSE311",
                 "class_type": "theory",
-                "class_count": 186,
-                "avg_duration": 74.0399641577061
+                "class_count": 136,
+                "avg_duration": 64.7765903307888
+            },
+            {
+                "course_code": "CSE313",
+                "class_type": "theory",
+                "class_count": 130,
+                "avg_duration": 64.78555555555555
             },
             {
                 "course_code": "CSE312",
                 "class_type": "theory",
-                "class_count": 171,
-                "avg_duration": 76.93362573099415
+                "class_count": 119,
+                "avg_duration": 68.16616666666667
             },
             {
                 "course_code": "CSE112",
                 "class_type": "theory",
-                "class_count": 170,
-                "avg_duration": 68.27509803921569
+                "class_count": 115,
+                "avg_duration": 55.112808641975306
             },
             {
-                "course_code": "CSE221",
+                "course_code": "CSE314",
                 "class_type": "theory",
-                "class_count": 147,
-                "avg_duration": 72.6827664399093
+                "class_count": 107,
+                "avg_duration": 65.31648936170212
             },
             {
                 "course_code": "CSE222",
                 "class_type": "theory",
-                "class_count": 117,
-                "avg_duration": 111.87222222222222
+                "class_count": 102,
+                "avg_duration": 62.51231884057971
             },
             {
-                "course_code": "CSE123",
+                "course_code": "CSE221",
                 "class_type": "theory",
-                "class_count": 116,
-                "avg_duration": 72.43793103448276
-            },
-            {
-                "course_code": "CSE325",
-                "class_type": "theory",
-                "class_count": 110,
-                "avg_duration": 72.32666666666667
-            },
-            {
-                "course_code": "CSE115",
-                "class_type": "theory",
-                "class_count": 107,
-                "avg_duration": 68.08489096573209
-            },
-            {
-                "course_code": "CSE212",
-                "class_type": "theory",
-                "class_count": 100,
-                "avg_duration": 71.26433333333334
+                "class_count": 94,
+                "avg_duration": 60.83589743589744
             },
             {
                 "course_code": "MAT101",
                 "class_type": "theory",
-                "class_count": 99,
-                "avg_duration": 70.4422558922559
+                "class_count": 90,
+                "avg_duration": 68.13731060606061
             },
             {
-                "course_code": "PHY102",
+                "course_code": "CSE115",
                 "class_type": "theory",
-                "class_count": 99,
-                "avg_duration": 78.83383838383838
+                "class_count": 84,
+                "avg_duration": 60.368699186991876
             },
             {
-                "course_code": "CSE445",
+                "course_code": "CSE123",
                 "class_type": "theory",
-                "class_count": 98,
-                "avg_duration": 73.92636054421769
+                "class_count": 82,
+                "avg_duration": 63.42683982683983
             },
             {
-                "course_code": "CSE323",
+                "course_code": "CSE325",
                 "class_type": "theory",
-                "class_count": 95,
-                "avg_duration": 75.44298245614034
-            },
-            {
-                "course_code": "CSE315",
-                "class_type": "theory",
-                "class_count": 91,
-                "avg_duration": 69.33846153846154
+                "class_count": 78,
+                "avg_duration": 62.353679653679656
             },
             {
                 "course_code": "STA101",
                 "class_type": "theory",
-                "class_count": 89,
-                "avg_duration": 70.90355805243446
-            },
-            {
-                "course_code": "CSE326",
-                "class_type": "theory",
-                "class_count": 86,
-                "avg_duration": 74.3201550387597
-            },
-            {
-                "course_code": "CSE225",
-                "class_type": "theory",
-                "class_count": 83,
-                "avg_duration": 76.09718875502008
-            },
-            {
-                "course_code": "PHY101",
-                "class_type": "theory",
-                "class_count": 82,
-                "avg_duration": 76.0770325203252
-            },
-            {
-                "course_code": "CSE121",
-                "class_type": "theory",
-                "class_count": 79,
-                "avg_duration": 77.48691983122363
-            },
-            {
-                "course_code": "CSE228",
-                "class_type": "theory",
-                "class_count": 79,
-                "avg_duration": 73.4276371308017
-            },
-            {
-                "course_code": "CSE227",
-                "class_type": "theory",
                 "class_count": 76,
-                "avg_duration": 70.50241228070176
+                "avg_duration": 66.7045238095238
             },
             {
-                "course_code": "CSE316",
+                "course_code": "CSE212",
                 "class_type": "theory",
-                "class_count": 76,
-                "avg_duration": 80.91644736842105
+                "class_count": 73,
+                "avg_duration": 63.57957746478873
             },
             {
-                "course_code": "PHY103",
+                "course_code": "PHY102",
                 "class_type": "theory",
-                "class_count": 74,
-                "avg_duration": 117.40518018018018
+                "class_count": 70,
+                "avg_duration": 67.28333333333335
             },
             {
                 "course_code": "GE235",
                 "class_type": "theory",
-                "class_count": 72,
-                "avg_duration": 72.20115740740741
+                "class_count": 68,
+                "avg_duration": 70.8453431372549
+            },
+            {
+                "course_code": "CSE445",
+                "class_type": "theory",
+                "class_count": 65,
+                "avg_duration": 66.26904761904761
+            },
+            {
+                "course_code": "CSE315",
+                "class_type": "theory",
+                "class_count": 64,
+                "avg_duration": 59.993442622950816
             },
             {
                 "course_code": "MAT102",
                 "class_type": "theory",
-                "class_count": 71,
-                "avg_duration": 67.78873239436619
+                "class_count": 64,
+                "avg_duration": 64.70967741935483
+            },
+            {
+                "course_code": "CSE326",
+                "class_type": "theory",
+                "class_count": 63,
+                "avg_duration": 63.6874213836478
+            },
+            {
+                "course_code": "CSE323",
+                "class_type": "theory",
+                "class_count": 61,
+                "avg_duration": 64.64666666666666
             },
             {
                 "course_code": "CSE223",
                 "class_type": "theory",
-                "class_count": 70,
-                "avg_duration": 68.2254761904762
+                "class_count": 59,
+                "avg_duration": 63.28879310344828
             },
             {
-                "course_code": "CSE423",
+                "course_code": "CSE228",
                 "class_type": "theory",
-                "class_count": 66,
-                "avg_duration": 69.08409090909092
-            },
-            {
-                "course_code": "AOL101",
-                "class_type": "theory",
-                "class_count": 64,
-                "avg_duration": 70.99088541666667
+                "class_count": 57,
+                "avg_duration": 66.00575757575757
             },
             {
                 "course_code": "ACT322",
                 "class_type": "theory",
-                "class_count": 63,
-                "avg_duration": 75.52460317460317
+                "class_count": 56,
+                "avg_duration": 69.5481884057971
             },
             {
-                "course_code": "BNS101",
+                "course_code": "CSE225",
                 "class_type": "theory",
-                "class_count": 63,
-                "avg_duration": 76.7574074074074
+                "class_count": 55,
+                "avg_duration": 65.24102564102564
+            },
+            {
+                "course_code": "CSE423",
+                "class_type": "theory",
+                "class_count": 53,
+                "avg_duration": 63.05283018867925
+            },
+            {
+                "course_code": "PHY101",
+                "class_type": "theory",
+                "class_count": 53,
+                "avg_duration": 64.19874213836478
+            },
+            {
+                "course_code": "CSE227",
+                "class_type": "theory",
+                "class_count": 51,
+                "avg_duration": 60.77717391304348
             },
             {
                 "course_code": "CSE113",
                 "class_type": "theory",
-                "class_count": 62,
-                "avg_duration": 78.09166666666667
+                "class_count": 49,
+                "avg_duration": 60.199999999999996
             },
             {
-                "course_code": "CSE124",
+                "course_code": "PHY103",
                 "class_type": "theory",
-                "class_count": 59,
-                "avg_duration": 106.45141242937854
+                "class_count": 47,
+                "avg_duration": 64.32333333333334
+            },
+            {
+                "course_code": "CSE121",
+                "class_type": "theory",
+                "class_count": 45,
+                "avg_duration": 62.65512820512821
+            },
+            {
+                "course_code": "BNS101",
+                "class_type": "theory",
+                "class_count": 40,
+                "avg_duration": 65.65555555555555
+            },
+            {
+                "course_code": "AOL101",
+                "class_type": "theory",
+                "class_count": 38,
+                "avg_duration": 59.699549549549545
             },
             {
                 "course_code": "CSE324",
                 "class_type": "theory",
-                "class_count": 48,
-                "avg_duration": 110.28854166666667
+                "class_count": 37,
+                "avg_duration": 30.75
             },
             {
                 "course_code": "CSE224",
                 "class_type": "theory",
-                "class_count": 47,
-                "avg_duration": 105.4418439716312
+                "class_count": 36,
+                "avg_duration": 64.81111111111112
+            },
+            {
+                "course_code": "CSE316",
+                "class_type": "theory",
+                "class_count": 34,
+                "avg_duration": 65.73388888888888
             },
             {
                 "course_code": "CSE214",
                 "class_type": "theory",
-                "class_count": 41,
-                "avg_duration": 100.12398373983739
-            },
-            {
-                "course_code": "CSE234",
-                "class_type": "theory",
-                "class_count": 41,
-                "avg_duration": 123.24837398373984
-            },
-            {
-                "course_code": "CSE233",
-                "class_type": "theory",
-                "class_count": 39,
-                "avg_duration": 70.12136752136752
+                "class_count": 32,
+                "avg_duration": 51.417857142857144
             },
             {
                 "course_code": "CSE427",
                 "class_type": "theory",
-                "class_count": 38,
-                "avg_duration": 63.58728070175439
-            },
-            {
-                "course_code": "CSE215",
-                "class_type": "theory",
-                "class_count": 37,
-                "avg_duration": 73.07972972972972
-            },
-            {
-                "course_code": "CSE114",
-                "class_type": "theory",
-                "class_count": 34,
-                "avg_duration": 95.49411764705883
-            },
-            {
-                "course_code": "CSE122",
-                "class_type": "theory",
-                "class_count": 33,
-                "avg_duration": 114.18333333333334
+                "class_count": 32,
+                "avg_duration": 56.36494252873563
             },
             {
                 "course_code": "CSE412",
                 "class_type": "theory",
-                "class_count": 32,
-                "avg_duration": 63.635416666666664
+                "class_count": 27,
+                "avg_duration": 59.67179487179487
             },
             {
-                "course_code": "CSE413",
+                "course_code": "CSE124",
                 "class_type": "theory",
-                "class_count": 32,
-                "avg_duration": 104.41614583333333
+                "class_count": 26,
+                "avg_duration": 66.71428571428571
+            },
+            {
+                "course_code": "CSE215",
+                "class_type": "theory",
+                "class_count": 25,
+                "avg_duration": 59.54027777777778
+            },
+            {
+                "course_code": "CSE234",
+                "class_type": "theory",
+                "class_count": 25,
+                "avg_duration": 75.55
+            },
+            {
+                "course_code": "CSE122",
+                "class_type": "theory",
+                "class_count": 24,
+                "avg_duration": 65.24
             },
             {
                 "course_code": "MAT211",
                 "class_type": "theory",
-                "class_count": 30,
-                "avg_duration": 67.82777777777777
-            },
-            {
-                "course_code": "CSE335",
-                "class_type": "theory",
-                "class_count": 26,
-                "avg_duration": 69.07628205128205
-            },
-            {
-                "course_code": "TCSE314",
-                "class_type": "theory",
-                "class_count": 26,
-                "avg_duration": 69.04294871794872
-            },
-            {
-                "course_code": "SE111",
-                "class_type": "theory",
-                "class_count": 25,
-                "avg_duration": 65.58266666666667
-            },
-            {
-                "course_code": "CSE213",
-                "class_type": "theory",
                 "class_count": 24,
-                "avg_duration": 66.89652777777778
-            },
-            {
-                "course_code": "CSE226",
-                "class_type": "theory",
-                "class_count": 24,
-                "avg_duration": 64.95833333333333
-            },
-            {
-                "course_code": "CSE331",
-                "class_type": "theory",
-                "class_count": 24,
-                "avg_duration": 62.77847222222223
+                "avg_duration": 55.425
             },
             {
                 "course_code": "SE222",
                 "class_type": "theory",
-                "class_count": 24,
-                "avg_duration": 63.951388888888886
+                "class_count": 23,
+                "avg_duration": 63.04347826086956
             },
             {
                 "course_code": "TCSE312",
                 "class_type": "theory",
-                "class_count": 24,
-                "avg_duration": 69.98680555555556
-            },
-            {
-                "course_code": "CSE498",
-                "class_type": "theory",
                 "class_count": 23,
-                "avg_duration": 68.24130434782609
+                "avg_duration": 66.7128787878788
             },
             {
-                "course_code": "CSE414",
+                "course_code": "CSE233",
                 "class_type": "theory",
                 "class_count": 22,
-                "avg_duration": 70.88257575757576
+                "avg_duration": 52.711666666666666
             },
             {
-                "course_code": "CSE332",
+                "course_code": "CSE335",
+                "class_type": "theory",
+                "class_count": 22,
+                "avg_duration": 63.681060606060605
+            },
+            {
+                "course_code": "CSE114",
                 "class_type": "theory",
                 "class_count": 21,
-                "avg_duration": 101.14444444444445
+                "avg_duration": 40.73809523809524
             },
             {
-                "course_code": "CSE411",
+                "course_code": "SE111",
                 "class_type": "theory",
                 "class_count": 21,
-                "avg_duration": 69.44365079365079
-            },
-            {
-                "course_code": "CSE422",
-                "class_type": "theory",
-                "class_count": 21,
-                "avg_duration": 113.90555555555554
-            },
-            {
-                "course_code": "SE211",
-                "class_type": "theory",
-                "class_count": 21,
-                "avg_duration": 71.52936507936508
-            },
-            {
-                "course_code": "ENG101",
-                "class_type": "theory",
-                "class_count": 20,
-                "avg_duration": 65.05
-            },
-            {
-                "course_code": "SE121",
-                "class_type": "theory",
-                "class_count": 20,
-                "avg_duration": 73.44916666666667
+                "avg_duration": 59.07666666666667
             },
             {
                 "course_code": "SE212",
                 "class_type": "theory",
-                "class_count": 20,
-                "avg_duration": 58.47166666666667
+                "class_count": 21,
+                "avg_duration": 59.211111111111116
+            },
+            {
+                "course_code": "TCSE314",
+                "class_type": "theory",
+                "class_count": 19,
+                "avg_duration": 58.06979166666667
+            },
+            {
+                "course_code": "CSE331",
+                "class_type": "theory",
+                "class_count": 18,
+                "avg_duration": 54.91388888888889
+            },
+            {
+                "course_code": "CSE226",
+                "class_type": "theory",
+                "class_count": 16,
+                "avg_duration": 51.875
+            },
+            {
+                "course_code": "CSE413",
+                "class_type": "theory",
+                "class_count": 16,
+                "avg_duration": 28.333333333333332
             },
             {
                 "course_code": "SE122",
                 "class_type": "theory",
-                "class_count": 19,
-                "avg_duration": 69.29561403508771
+                "class_count": 16,
+                "avg_duration": 62.8
+            },
+            {
+                "course_code": "SE211",
+                "class_type": "theory",
+                "class_count": 16,
+                "avg_duration": 61.72666666666667
             },
             {
                 "course_code": "SE215",
                 "class_type": "theory",
-                "class_count": 19,
-                "avg_duration": 73.56315789473685
+                "class_count": 16,
+                "avg_duration": 69.5625
             },
             {
-                "course_code": "SE113",
+                "course_code": "CSE213",
                 "class_type": "theory",
-                "class_count": 18,
-                "avg_duration": 78.38888888888889
+                "class_count": 15,
+                "avg_duration": 56.83444444444444
+            },
+            {
+                "course_code": "CSE411",
+                "class_type": "theory",
+                "class_count": 14,
+                "avg_duration": 61.95119047619047
+            },
+            {
+                "course_code": "CSE498",
+                "class_type": "theory",
+                "class_count": 14,
+                "avg_duration": 53.46785714285714
+            },
+            {
+                "course_code": "CSE414",
+                "class_type": "theory",
+                "class_count": 13,
+                "avg_duration": 59.68030303030303
+            },
+            {
+                "course_code": "ENG101",
+                "class_type": "theory",
+                "class_count": 13,
+                "avg_duration": 54.53846153846154
+            },
+            {
+                "course_code": "SE121",
+                "class_type": "theory",
+                "class_count": 13,
+                "avg_duration": 66.17121212121212
+            },
+            {
+                "course_code": "CSE332",
+                "class_type": "theory",
+                "class_count": 12,
+                "avg_duration": 43.0
             },
             {
                 "course_code": "SE225",
                 "class_type": "theory",
-                "class_count": 16,
-                "avg_duration": 53.00833333333333
+                "class_count": 12,
+                "avg_duration": 43.84444444444444
             },
             {
                 "course_code": "CSE216",
                 "class_type": "theory",
-                "class_count": 15,
-                "avg_duration": 114.06333333333333
-            },
-            {
-                "course_code": "SE214",
-                "class_type": "theory",
-                "class_count": 13,
-                "avg_duration": 75.34358974358975
-            },
-            {
-                "course_code": "SE322",
-                "class_type": "theory",
-                "class_count": 13,
-                "avg_duration": 72.7974358974359
-            },
-            {
-                "course_code": "CSE333",
-                "class_type": "theory",
-                "class_count": 12,
-                "avg_duration": 51.083333333333336
-            },
-            {
-                "course_code": "ITM307",
-                "class_type": "theory",
-                "class_count": 12,
-                "avg_duration": 87.57083333333333
-            },
-            {
-                "course_code": "TCSE234",
-                "class_type": "theory",
-                "class_count": 12,
-                "avg_duration": 55.25
-            },
-            {
-                "course_code": "CSE421",
-                "class_type": "theory",
                 "class_count": 11,
-                "avg_duration": 71.81060606060606
-            },
-            {
-                "course_code": "ITM102",
-                "class_type": "theory",
-                "class_count": 11,
-                "avg_duration": 79.14393939393939
+                "avg_duration": 2.5
             },
             {
                 "course_code": "SE224",
@@ -839,22 +689,10 @@
                 "avg_duration": 62.27272727272727
             },
             {
-                "course_code": "SE231",
+                "course_code": "SE322",
                 "class_type": "theory",
                 "class_count": 11,
-                "avg_duration": 71.53484848484848
-            },
-            {
-                "course_code": "TCSE413",
-                "class_type": "theory",
-                "class_count": 11,
-                "avg_duration": 64.9530303030303
-            },
-            {
-                "course_code": "0613-216",
-                "class_type": "theory",
-                "class_count": 10,
-                "avg_duration": 73.3
+                "avg_duration": 64.73666666666666
             },
             {
                 "course_code": "CIS131",
@@ -863,76 +701,52 @@
                 "avg_duration": 59.575
             },
             {
-                "course_code": "CSE231",
+                "course_code": "CSE422",
                 "class_type": "theory",
                 "class_count": 10,
-                "avg_duration": 76.795
+                "avg_duration": NaN
             },
             {
-                "course_code": "ENG102",
+                "course_code": "SE113",
                 "class_type": "theory",
                 "class_count": 10,
-                "avg_duration": 53.1
+                "avg_duration": 70.1
             },
             {
-                "course_code": "GE215",
+                "course_code": "SE231",
                 "class_type": "theory",
                 "class_count": 10,
-                "avg_duration": 73.08
+                "avg_duration": 67.5425925925926
             },
             {
-                "course_code": "ITM103",
-                "class_type": "theory",
-                "class_count": 10,
-                "avg_duration": 69.31166666666667
-            },
-            {
-                "course_code": "SE132",
-                "class_type": "theory",
-                "class_count": 10,
-                "avg_duration": 71.1
-            },
-            {
-                "course_code": "STA 101",
-                "class_type": "theory",
-                "class_count": 10,
-                "avg_duration": 64.87833333333333
-            },
-            {
-                "course_code": "TCSE326",
-                "class_type": "theory",
-                "class_count": 10,
-                "avg_duration": 57.0
-            },
-            {
-                "course_code": "SE233",
+                "course_code": "0613-216",
                 "class_type": "theory",
                 "class_count": 9,
-                "avg_duration": 67.88888888888889
+                "avg_duration": 73.44444444444444
             },
             {
-                "course_code": "AOL-101",
+                "course_code": "SE214",
                 "class_type": "theory",
-                "class_count": 8,
-                "avg_duration": 90.8
+                "class_count": 9,
+                "avg_duration": 65.55833333333334
             },
             {
-                "course_code": "CIS115L",
+                "course_code": "CSE333",
                 "class_type": "theory",
                 "class_count": 8,
-                "avg_duration": 77.0
+                "avg_duration": 38.75
             },
             {
-                "course_code": "CIS235",
+                "course_code": "CSE421",
                 "class_type": "theory",
                 "class_count": 8,
-                "avg_duration": 82.24375
+                "avg_duration": 61.42857142857143
             },
             {
-                "course_code": "SE133",
+                "course_code": "ITM102",
                 "class_type": "theory",
                 "class_count": 8,
-                "avg_duration": 113.60625
+                "avg_duration": 71.21904761904761
             },
             {
                 "course_code": "SE223",
@@ -941,34 +755,58 @@
                 "avg_duration": 40.5
             },
             {
-                "course_code": "CIS123",
+                "course_code": "SE233",
+                "class_type": "theory",
+                "class_count": 8,
+                "avg_duration": 65.375
+            },
+            {
+                "course_code": "STA 101",
+                "class_type": "theory",
+                "class_count": 8,
+                "avg_duration": 54.06875
+            },
+            {
+                "course_code": "TCSE234",
+                "class_type": "theory",
+                "class_count": 8,
+                "avg_duration": 49.25
+            },
+            {
+                "course_code": "TCSE326",
+                "class_type": "theory",
+                "class_count": 8,
+                "avg_duration": 49.875
+            },
+            {
+                "course_code": "CSE231",
                 "class_type": "theory",
                 "class_count": 7,
-                "avg_duration": 62.0
+                "avg_duration": 74.16666666666667
             },
             {
                 "course_code": "CSE415",
                 "class_type": "theory",
                 "class_count": 7,
-                "avg_duration": 128.6547619047619
+                "avg_duration": 78.0
             },
             {
-                "course_code": "SE221",
+                "course_code": "ITM103",
                 "class_type": "theory",
                 "class_count": 7,
-                "avg_duration": 70.69761904761904
+                "avg_duration": 65.01666666666667
             },
             {
-                "course_code": "SE311",
+                "course_code": "SE132",
                 "class_type": "theory",
                 "class_count": 7,
-                "avg_duration": 65.14285714285714
+                "avg_duration": 66.57142857142857
             },
             {
-                "course_code": "SE321",
+                "course_code": "CIS115L",
                 "class_type": "theory",
-                "class_count": 7,
-                "avg_duration": 57.68095238095238
+                "class_count": 6,
+                "avg_duration": 69.4
             },
             {
                 "course_code": "CIS312",
@@ -977,16 +815,28 @@
                 "avg_duration": 53.26666666666667
             },
             {
-                "course_code": "CSE134",
+                "course_code": "SE221",
                 "class_type": "theory",
                 "class_count": 6,
-                "avg_duration": 76.63055555555555
+                "avg_duration": 63.62777777777777
+            },
+            {
+                "course_code": "SE321",
+                "class_type": "theory",
+                "class_count": 6,
+                "avg_duration": 52.12777777777777
             },
             {
                 "course_code": "CIS122L",
                 "class_type": "theory",
                 "class_count": 5,
                 "avg_duration": 70.0
+            },
+            {
+                "course_code": "CIS123",
+                "class_type": "theory",
+                "class_count": 5,
+                "avg_duration": 51.8
             },
             {
                 "course_code": "CSE-101",
@@ -1001,28 +851,46 @@
                 "avg_duration": -0.2566666666666667
             },
             {
+                "course_code": "CSE134",
+                "class_type": "theory",
+                "class_count": 5,
+                "avg_duration": 68.02083333333333
+            },
+            {
+                "course_code": "ENG102",
+                "class_type": "theory",
+                "class_count": 5,
+                "avg_duration": 41.4
+            },
+            {
                 "course_code": "GE-235",
                 "class_type": "theory",
                 "class_count": 5,
-                "avg_duration": 75.11
+                "avg_duration": 73.1375
             },
             {
-                "course_code": "CIS122",
+                "course_code": "ITM307",
                 "class_type": "theory",
-                "class_count": 4,
-                "avg_duration": 51.25
+                "class_count": 5,
+                "avg_duration": 72.5
             },
             {
-                "course_code": "CIS323L",
+                "course_code": "SE133",
                 "class_type": "theory",
-                "class_count": 4,
-                "avg_duration": 65.0
+                "class_count": 5,
+                "avg_duration": NaN
             },
             {
-                "course_code": "CIS324",
+                "course_code": "SE311",
                 "class_type": "theory",
-                "class_count": 4,
-                "avg_duration": 73.0
+                "class_count": 5,
+                "avg_duration": 54.5
+            },
+            {
+                "course_code": "TCSE413",
+                "class_type": "theory",
+                "class_count": 5,
+                "avg_duration": 39.0
             },
             {
                 "course_code": "CIS431",
@@ -1031,16 +899,10 @@
                 "avg_duration": 38.075
             },
             {
-                "course_code": "CSE135",
+                "course_code": "GE215",
                 "class_type": "theory",
                 "class_count": 4,
-                "avg_duration": 83.5
-            },
-            {
-                "course_code": "MCT337",
-                "class_type": "theory",
-                "class_count": 4,
-                "avg_duration": 101.2375
+                "avg_duration": 73.42916666666667
             },
             {
                 "course_code": "SE232",
@@ -1055,100 +917,52 @@
                 "avg_duration": 61.75
             },
             {
-                "course_code": "0213-224",
-                "class_type": "theory",
-                "class_count": 3,
-                "avg_duration": 142.66666666666666
-            },
-            {
                 "course_code": "0613-215",
                 "class_type": "theory",
                 "class_count": 3,
-                "avg_duration": 147.66666666666666
+                "avg_duration": NaN
+            },
+            {
+                "course_code": "CIS122",
+                "class_type": "theory",
+                "class_count": 3,
+                "avg_duration": 41.666666666666664
             },
             {
                 "course_code": "CIS216",
                 "class_type": "theory",
                 "class_count": 3,
-                "avg_duration": 75.66666666666667
+                "avg_duration": 69.0
             },
             {
-                "course_code": "CIS216L",
+                "course_code": "CIS235",
                 "class_type": "theory",
                 "class_count": 3,
-                "avg_duration": 87.66666666666667
-            },
-            {
-                "course_code": "CIS222L",
-                "class_type": "theory",
-                "class_count": 3,
-                "avg_duration": 72.33333333333333
-            },
-            {
-                "course_code": "CIS323",
-                "class_type": "theory",
-                "class_count": 3,
-                "avg_duration": 82.66666666666667
-            },
-            {
-                "course_code": "CIS324L",
-                "class_type": "theory",
-                "class_count": 3,
-                "avg_duration": 72.33333333333333
+                "avg_duration": 69.0
             },
             {
                 "course_code": "CSE237",
                 "class_type": "theory",
                 "class_count": 3,
-                "avg_duration": 78.66666666666667
-            },
-            {
-                "course_code": "CSE321",
-                "class_type": "theory",
-                "class_count": 3,
-                "avg_duration": 81.33333333333333
+                "avg_duration": 74.5
             },
             {
                 "course_code": "MCT311",
                 "class_type": "theory",
                 "class_count": 3,
-                "avg_duration": 52.666666666666664
+                "avg_duration": 17.5
             },
             {
-                "course_code": "MCT316",
+                "course_code": "MCT433",
                 "class_type": "theory",
                 "class_count": 3,
-                "avg_duration": 62.0
+                "avg_duration": 53.8
             },
             {
-                "course_code": "SE112",
-                "class_type": "theory",
-                "class_count": 3,
-                "avg_duration": 81.66666666666667
-            },
-            {
-                "course_code": "TCSE222",
-                "class_type": "theory",
-                "class_count": 3,
-                "avg_duration": 74.0
-            },
-            {
-                "course_code": "TCSE234(62_C2)",
-                "class_type": "theory",
-                "class_count": 3,
-                "avg_duration": 74.66666666666667
-            },
-            {
-                "course_code": "0212-121",
+                "course_code": "0213-224",
                 "class_type": "theory",
                 "class_count": 2,
-                "avg_duration": 72.0
-            },
-            {
-                "course_code": "0222-111",
-                "class_type": "theory",
-                "class_count": 2,
-                "avg_duration": 86.0
+                "avg_duration": NaN
             },
             {
                 "course_code": "0613-122",
@@ -1157,10 +971,40 @@
                 "avg_duration": 76.5
             },
             {
-                "course_code": "CS211",
+                "course_code": "AOL-101",
                 "class_type": "theory",
                 "class_count": 2,
-                "avg_duration": 89.5
+                "avg_duration": 73.0
+            },
+            {
+                "course_code": "CIS216L",
+                "class_type": "theory",
+                "class_count": 2,
+                "avg_duration": 68.0
+            },
+            {
+                "course_code": "CIS222L",
+                "class_type": "theory",
+                "class_count": 2,
+                "avg_duration": 65.0
+            },
+            {
+                "course_code": "CIS323",
+                "class_type": "theory",
+                "class_count": 2,
+                "avg_duration": 71.0
+            },
+            {
+                "course_code": "CIS324",
+                "class_type": "theory",
+                "class_count": 2,
+                "avg_duration": 49.0
+            },
+            {
+                "course_code": "CIS324L",
+                "class_type": "theory",
+                "class_count": 2,
+                "avg_duration": 68.5
             },
             {
                 "course_code": "CSE115(67_B)",
@@ -1175,28 +1019,10 @@
                 "avg_duration": 63.5
             },
             {
-                "course_code": "CSE124(66_K1)",
-                "class_type": "theory",
-                "class_count": 2,
-                "avg_duration": 78.0
-            },
-            {
-                "course_code": "CSE214(65_O1)",
-                "class_type": "theory",
-                "class_count": 2,
-                "avg_duration": 96.5
-            },
-            {
                 "course_code": "CSE221(64_C)",
                 "class_type": "theory",
                 "class_count": 2,
                 "avg_duration": 67.0
-            },
-            {
-                "course_code": "CSE222(63_J1)",
-                "class_type": "theory",
-                "class_count": 2,
-                "avg_duration": 75.0
             },
             {
                 "course_code": "CSE225(64_B)",
@@ -1211,16 +1037,10 @@
                 "avg_duration": 37.5
             },
             {
-                "course_code": "CSE314(63_L2)",
+                "course_code": "CSE321",
                 "class_type": "theory",
                 "class_count": 2,
-                "avg_duration": 87.0
-            },
-            {
-                "course_code": "CSE324(61_F1)",
-                "class_type": "theory",
-                "class_count": 2,
-                "avg_duration": 87.5
+                "avg_duration": 73.5
             },
             {
                 "course_code": "MAT101(67_O)",
@@ -1232,19 +1052,7 @@
                 "course_code": "MCT335",
                 "class_type": "theory",
                 "class_count": 2,
-                "avg_duration": 80.5
-            },
-            {
-                "course_code": "MCT433",
-                "class_type": "theory",
-                "class_count": 2,
-                "avg_duration": 95.5
-            },
-            {
-                "course_code": "SE131",
-                "class_type": "theory",
-                "class_count": 2,
-                "avg_duration": 69.5
+                "avg_duration": 52.0
             },
             {
                 "course_code": "TCSE422",
@@ -1262,25 +1070,13 @@
                 "course_code": "0213-113",
                 "class_type": "theory",
                 "class_count": 1,
-                "avg_duration": 137.0
+                "avg_duration": NaN
             },
             {
-                "course_code": "0613-314",
+                "course_code": "0222-111",
                 "class_type": "theory",
                 "class_count": 1,
-                "avg_duration": 88.0
-            },
-            {
-                "course_code": "AOL-101(65_P)",
-                "class_type": "theory",
-                "class_count": 1,
-                "avg_duration": 93.0
-            },
-            {
-                "course_code": "CIS115",
-                "class_type": "theory",
-                "class_count": 1,
-                "avg_duration": 83.0
+                "avg_duration": 74.0
             },
             {
                 "course_code": "CIS221",
@@ -1295,10 +1091,22 @@
                 "avg_duration": 71.0
             },
             {
+                "course_code": "CIS323L",
+                "class_type": "theory",
+                "class_count": 1,
+                "avg_duration": 76.0
+            },
+            {
                 "course_code": "CIS336",
                 "class_type": "theory",
                 "class_count": 1,
                 "avg_duration": 65.0
+            },
+            {
+                "course_code": "CS211",
+                "class_type": "theory",
+                "class_count": 1,
+                "avg_duration": NaN
             },
             {
                 "course_code": "CSE 313",
@@ -1325,18 +1133,6 @@
                 "avg_duration": 6.816666666666666
             },
             {
-                "course_code": "CSE-223",
-                "class_type": "theory",
-                "class_count": 1,
-                "avg_duration": 97.48333333333333
-            },
-            {
-                "course_code": "CSE-313",
-                "class_type": "theory",
-                "class_count": 1,
-                "avg_duration": 101.31666666666666
-            },
-            {
                 "course_code": "CSE113(67_K)",
                 "class_type": "theory",
                 "class_count": 1,
@@ -1355,16 +1151,22 @@
                 "avg_duration": 68.0
             },
             {
-                "course_code": "CSE222(63_H2)",
+                "course_code": "CSE124(66_K1)",
                 "class_type": "theory",
                 "class_count": 1,
-                "avg_duration": 94.0
+                "avg_duration": 66.0
             },
             {
-                "course_code": "CSE223(64_N)",
+                "course_code": "CSE135",
                 "class_type": "theory",
                 "class_count": 1,
-                "avg_duration": 99.0
+                "avg_duration": 75.0
+            },
+            {
+                "course_code": "CSE222(63_J1)",
+                "class_type": "theory",
+                "class_count": 1,
+                "avg_duration": 65.0
             },
             {
                 "course_code": "CSE224(64_M1)",
@@ -1373,10 +1175,10 @@
                 "avg_duration": 50.0
             },
             {
-                "course_code": "CSE314(61_K1)",
+                "course_code": "CSE314(63_L2)",
                 "class_type": "theory",
                 "class_count": 1,
-                "avg_duration": 31.0
+                "avg_duration": 76.0
             },
             {
                 "course_code": "CSE315(63_G)",
@@ -1385,10 +1187,10 @@
                 "avg_duration": 63.0
             },
             {
-                "course_code": "CSE315(63_N)",
+                "course_code": "CSE324(61_F1)",
                 "class_type": "theory",
                 "class_count": 1,
-                "avg_duration": 64.0
+                "avg_duration": 77.0
             },
             {
                 "course_code": "CSE336",
@@ -1409,16 +1211,22 @@
                 "avg_duration": 50.0
             },
             {
-                "course_code": "ENG 101",
-                "class_type": "theory",
-                "class_count": 1,
-                "avg_duration": 103.0
-            },
-            {
                 "course_code": "ENG102(66_O)",
                 "class_type": "theory",
                 "class_count": 1,
                 "avg_duration": 66.0
+            },
+            {
+                "course_code": "MCT316",
+                "class_type": "theory",
+                "class_count": 1,
+                "avg_duration": 5.0
+            },
+            {
+                "course_code": "MCT337",
+                "class_type": "theory",
+                "class_count": 1,
+                "avg_duration": NaN
             },
             {
                 "course_code": "PHY 102",
@@ -1439,16 +1247,16 @@
                 "avg_duration": 62.0
             },
             {
-                "course_code": "PHY103(66_G2)",
+                "course_code": "SE112",
                 "class_type": "theory",
                 "class_count": 1,
-                "avg_duration": 93.0
+                "avg_duration": 67.0
             },
             {
-                "course_code": "SE323",
+                "course_code": "SE131",
                 "class_type": "theory",
                 "class_count": 1,
-                "avg_duration": 96.0
+                "avg_duration": 59.0
             },
             {
                 "course_code": "SE333",
@@ -1466,7 +1274,7 @@
                 "course_code": "SE342",
                 "class_type": "theory",
                 "class_count": 1,
-                "avg_duration": 81.0
+                "avg_duration": NaN
             },
             {
                 "course_code": "SE447",
@@ -1481,10 +1289,16 @@
                 "avg_duration": 65.0
             },
             {
-                "course_code": "TCSE232",
+                "course_code": "TCSE222",
                 "class_type": "theory",
                 "class_count": 1,
-                "avg_duration": 25.0
+                "avg_duration": 69.0
+            },
+            {
+                "course_code": "TCSE234(62_C2)",
+                "class_type": "theory",
+                "class_count": 1,
+                "avg_duration": 63.0
             },
             {
                 "course_code": "TCSE415",
@@ -1500,8 +1314,8 @@
             }
         ],
         "average_durations": {
-            "lab": 146.38734866828088,
-            "theory": 77.072174270448
+            "lab": 96.7604961832061,
+            "theory": 62.289341152121416
         }
     },
     "missed_classes": {
@@ -1538,15 +1352,15 @@
                 "missed_count": 8
             },
             {
-                "employee_id": "710002645",
-                "first_name": "Sharun Akter",
-                "last_name": "Khushbu ",
+                "employee_id": "710001967",
+                "first_name": "Md. Abbas Ali ",
+                "last_name": "Khan ",
                 "missed_count": 7
             },
             {
-                "employee_id": "710003362",
-                "first_name": "Md. Mazbaur",
-                "last_name": "Rashid",
+                "employee_id": "710002645",
+                "first_name": "Sharun Akter",
+                "last_name": "Khushbu ",
                 "missed_count": 7
             },
             {
@@ -1556,87 +1370,27 @@
                 "missed_count": 7
             },
             {
-                "employee_id": "721100153",
-                "first_name": "Sampa",
-                "last_name": "Saha",
-                "missed_count": 7
-            },
-            {
                 "employee_id": "710003562",
                 "first_name": "Rimi",
                 "last_name": "Akter",
                 "missed_count": 7
             },
             {
-                "employee_id": "710001967",
-                "first_name": "Md. Abbas Ali ",
-                "last_name": "Khan ",
+                "employee_id": "721100153",
+                "first_name": "Sampa",
+                "last_name": "Saha",
                 "missed_count": 7
             },
             {
-                "employee_id": "710003431",
-                "first_name": "Shahrin",
-                "last_name": "Khan",
-                "missed_count": 6
-            },
-            {
-                "employee_id": "710003253",
-                "first_name": "Shahariar",
-                "last_name": "parvez",
-                "missed_count": 6
-            },
-            {
-                "employee_id": "710002349",
-                "first_name": "Sharmin ",
-                "last_name": "Akter",
-                "missed_count": 6
-            },
-            {
-                "employee_id": "710003219",
-                "first_name": "Hasnur",
-                "last_name": "Jahan",
-                "missed_count": 6
-            },
-            {
-                "employee_id": "710003415",
-                "first_name": "Nasimul",
-                "last_name": "Kader",
-                "missed_count": 6
-            },
-            {
-                "employee_id": "710002090",
-                "first_name": "Md. Aynul Hasan",
-                "last_name": "Nahid",
-                "missed_count": 6
-            },
-            {
-                "employee_id": "710003054",
-                "first_name": "Tanvirul",
-                "last_name": "Islam",
-                "missed_count": 6
-            },
-            {
-                "employee_id": "710002795",
-                "first_name": "Zahura",
-                "last_name": "Zaman",
-                "missed_count": 6
-            },
-            {
-                "employee_id": "710003553",
-                "first_name": "Shadman ",
-                "last_name": "Rabby",
-                "missed_count": 6
+                "employee_id": "710003362",
+                "first_name": "Md. Mazbaur",
+                "last_name": "Rashid",
+                "missed_count": 7
             },
             {
                 "employee_id": "710003557",
                 "first_name": "Rowzatul ",
                 "last_name": "Zannat",
-                "missed_count": 6
-            },
-            {
-                "employee_id": "710003558",
-                "first_name": "Md. Mezbaul Islam",
-                "last_name": "Zion",
                 "missed_count": 6
             },
             {
@@ -1652,27 +1406,117 @@
                 "missed_count": 6
             },
             {
-                "employee_id": "710003432",
-                "first_name": "Mir Safwan ",
-                "last_name": "Marzouq",
-                "missed_count": 5
+                "employee_id": "710003558",
+                "first_name": "Md. Mezbaul Islam",
+                "last_name": "Zion",
+                "missed_count": 6
             },
             {
-                "employee_id": "721500509",
-                "first_name": "Most.Sanjida",
-                "last_name": "Afrin",
-                "missed_count": 5
+                "employee_id": "710003253",
+                "first_name": "Shahariar",
+                "last_name": "parvez",
+                "missed_count": 6
             },
             {
-                "employee_id": "710002796",
-                "first_name": "Nasima Islam",
-                "last_name": "Bithi",
+                "employee_id": "710003415",
+                "first_name": "Nasimul",
+                "last_name": "Kader",
+                "missed_count": 6
+            },
+            {
+                "employee_id": "710003431",
+                "first_name": "Shahrin",
+                "last_name": "Khan",
+                "missed_count": 6
+            },
+            {
+                "employee_id": "710002090",
+                "first_name": "Md. Aynul Hasan",
+                "last_name": "Nahid",
+                "missed_count": 6
+            },
+            {
+                "employee_id": "710002349",
+                "first_name": "Sharmin ",
+                "last_name": "Akter",
+                "missed_count": 6
+            },
+            {
+                "employee_id": "710003219",
+                "first_name": "Hasnur",
+                "last_name": "Jahan",
+                "missed_count": 6
+            },
+            {
+                "employee_id": "710003054",
+                "first_name": "Tanvirul",
+                "last_name": "Islam",
+                "missed_count": 6
+            },
+            {
+                "employee_id": "710002795",
+                "first_name": "Zahura",
+                "last_name": "Zaman",
+                "missed_count": 6
+            },
+            {
+                "employee_id": "710003553",
+                "first_name": "Shadman ",
+                "last_name": "Rabby",
+                "missed_count": 6
+            },
+            {
+                "employee_id": "710003377",
+                "first_name": "Md Shohidul Islam",
+                "last_name": "Polash",
                 "missed_count": 5
             },
             {
                 "employee_id": "724000054",
                 "first_name": "Kallol",
                 "last_name": "Bain",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710003236",
+                "first_name": "Afsana Jerin ",
+                "last_name": "Shayery",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710003445",
+                "first_name": "Abdullah",
+                "last_name": "Al-Amin",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710003432",
+                "first_name": "Mir Safwan ",
+                "last_name": "Marzouq",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710003414",
+                "first_name": "Mahbubul",
+                "last_name": "Alam",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710003364",
+                "first_name": "Shalah Uddin Perbhez ",
+                "last_name": "Shakil",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710002794",
+                "first_name": "Golam",
+                "last_name": "Rabbany",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710002796",
+                "first_name": "Nasima Islam",
+                "last_name": "Bithi",
                 "missed_count": 5
             },
             {
@@ -1688,87 +1532,15 @@
                 "missed_count": 5
             },
             {
-                "employee_id": "723500157",
-                "first_name": "Maidul",
-                "last_name": "Islam",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710003346",
-                "first_name": "Suprove Chandra",
-                "last_name": "Sarkar",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "721500463",
-                "first_name": "Sheikh",
-                "last_name": "Tonmoy",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710003364",
-                "first_name": "Shalah Uddin Perbhez ",
-                "last_name": "Shakil",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710003445",
-                "first_name": "Abdullah",
-                "last_name": "Al-Amin",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710003575",
-                "first_name": "Taslima",
-                "last_name": "Akhter",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710003571",
-                "first_name": "Md Rasedul",
-                "last_name": "Islam ",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710003377",
-                "first_name": "Md Shohidul Islam",
-                "last_name": "Polash",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710003567",
-                "first_name": "Monthasir",
-                "last_name": "Afnan",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710003414",
-                "first_name": "Mahbubul",
-                "last_name": "Alam",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710002794",
-                "first_name": "Golam",
-                "last_name": "Rabbany",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710003429",
-                "first_name": "Md.",
-                "last_name": "Al-Mamun ",
-                "missed_count": 5
-            },
-            {
-                "employee_id": "710003236",
-                "first_name": "Afsana Jerin ",
-                "last_name": "Shayery",
-                "missed_count": 5
-            },
-            {
                 "employee_id": "710002641",
                 "first_name": "Amir",
                 "last_name": "Sohel",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710002632",
+                "first_name": "Syada Tasmia",
+                "last_name": "Alvi",
                 "missed_count": 5
             },
             {
@@ -1784,45 +1556,99 @@
                 "missed_count": 5
             },
             {
-                "employee_id": "710002632",
-                "first_name": "Syada Tasmia",
-                "last_name": "Alvi",
+                "employee_id": "721500463",
+                "first_name": "Sheikh",
+                "last_name": "Tonmoy",
                 "missed_count": 5
             },
             {
-                "employee_id": "710003565",
-                "first_name": "Tamanna",
-                "last_name": "Sultana",
+                "employee_id": "721500509",
+                "first_name": "Most.Sanjida",
+                "last_name": "Afrin",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710003571",
+                "first_name": "Md Rasedul",
+                "last_name": "Islam ",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "723500157",
+                "first_name": "Maidul",
+                "last_name": "Islam",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710003567",
+                "first_name": "Monthasir",
+                "last_name": "Afnan",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710003575",
+                "first_name": "Taslima",
+                "last_name": "Akhter",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710003429",
+                "first_name": "Md.",
+                "last_name": "Al-Mamun ",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "710003346",
+                "first_name": "Suprove Chandra",
+                "last_name": "Sarkar",
+                "missed_count": 5
+            },
+            {
+                "employee_id": "723500139",
+                "first_name": "Md.Ali",
+                "last_name": "Akber",
                 "missed_count": 4
             },
             {
-                "employee_id": "710001538",
-                "first_name": "Naznin",
-                "last_name": "Sultana",
+                "employee_id": "723500147",
+                "first_name": "Shahinur",
+                "last_name": "Akter",
                 "missed_count": 4
             },
             {
-                "employee_id": "710003229",
-                "first_name": "S. M. Monowar",
-                "last_name": "Kayser",
+                "employee_id": "723500137",
+                "first_name": "Rifa",
+                "last_name": "Tasfia",
                 "missed_count": 4
             },
             {
-                "employee_id": "710003564",
-                "first_name": "Nokimul Hasan",
-                "last_name": "Arif",
-                "missed_count": 4
-            },
-            {
-                "employee_id": "710003563",
-                "first_name": "Nafiz Ahmed ",
-                "last_name": "Emon",
+                "employee_id": "721500536",
+                "first_name": "Mansura Manzil",
+                "last_name": "Choity",
                 "missed_count": 4
             },
             {
                 "employee_id": "710003561",
                 "first_name": "Md Hefzul Hossain",
                 "last_name": "Papon",
+                "missed_count": 4
+            },
+            {
+                "employee_id": "710001040",
+                "first_name": "Shirin ",
+                "last_name": "Sultana ",
+                "missed_count": 4
+            },
+            {
+                "employee_id": "710000634",
+                "first_name": "Sakia Shabnam ",
+                "last_name": "Kader",
+                "missed_count": 4
+            },
+            {
+                "employee_id": "710003444",
+                "first_name": "Chayti",
+                "last_name": "Saha",
                 "missed_count": 4
             },
             {
@@ -1838,63 +1664,9 @@
                 "missed_count": 4
             },
             {
-                "employee_id": "721500461",
-                "first_name": "Abdullah Al",
-                "last_name": "Mahmud",
-                "missed_count": 4
-            },
-            {
-                "employee_id": "710003444",
-                "first_name": "Chayti",
-                "last_name": "Saha",
-                "missed_count": 4
-            },
-            {
-                "employee_id": "710002478",
-                "first_name": "Tanzina",
-                "last_name": "Afroz",
-                "missed_count": 4
-            },
-            {
-                "employee_id": "710001971",
-                "first_name": "Tasfia Anika ",
-                "last_name": "Bushra",
-                "missed_count": 4
-            },
-            {
-                "employee_id": "710001287",
-                "first_name": "Raja Tariqul Hasan ",
-                "last_name": "Tusher ",
-                "missed_count": 4
-            },
-            {
-                "employee_id": "710002346",
-                "first_name": "Israt ",
-                "last_name": "Jahan",
-                "missed_count": 4
-            },
-            {
-                "employee_id": "721500536",
-                "first_name": "Mansura Manzil",
-                "last_name": "Choity",
-                "missed_count": 4
-            },
-            {
-                "employee_id": "710002783",
-                "first_name": "Partha",
-                "last_name": "Dip",
-                "missed_count": 4
-            },
-            {
                 "employee_id": "710002791",
                 "first_name": "Mahimul Islam",
                 "last_name": "Nadim",
-                "missed_count": 4
-            },
-            {
-                "employee_id": "710002790",
-                "first_name": "Faria Nishat",
-                "last_name": "Khan",
                 "missed_count": 4
             },
             {
@@ -1910,9 +1682,9 @@
                 "missed_count": 4
             },
             {
-                "employee_id": "710000634",
-                "first_name": "Sakia Shabnam ",
-                "last_name": "Kader",
+                "employee_id": "710003229",
+                "first_name": "S. M. Monowar",
+                "last_name": "Kayser",
                 "missed_count": 4
             },
             {
@@ -1922,27 +1694,45 @@
                 "missed_count": 4
             },
             {
-                "employee_id": "710001040",
-                "first_name": "Shirin ",
-                "last_name": "Sultana ",
+                "employee_id": "710002790",
+                "first_name": "Faria Nishat",
+                "last_name": "Khan",
                 "missed_count": 4
             },
             {
-                "employee_id": "723500147",
-                "first_name": "Shahinur",
-                "last_name": "Akter",
+                "employee_id": "710002783",
+                "first_name": "Partha",
+                "last_name": "Dip",
                 "missed_count": 4
             },
             {
-                "employee_id": "723500140",
-                "first_name": "Arnob",
-                "last_name": "Deb",
+                "employee_id": "710001287",
+                "first_name": "Raja Tariqul Hasan ",
+                "last_name": "Tusher ",
                 "missed_count": 4
             },
             {
-                "employee_id": "723500139",
-                "first_name": "Md.Ali",
-                "last_name": "Akber",
+                "employee_id": "710002478",
+                "first_name": "Tanzina",
+                "last_name": "Afroz",
+                "missed_count": 4
+            },
+            {
+                "employee_id": "710002346",
+                "first_name": "Israt ",
+                "last_name": "Jahan",
+                "missed_count": 4
+            },
+            {
+                "employee_id": "710001971",
+                "first_name": "Tasfia Anika ",
+                "last_name": "Bushra",
+                "missed_count": 4
+            },
+            {
+                "employee_id": "710001538",
+                "first_name": "Naznin",
+                "last_name": "Sultana",
                 "missed_count": 4
             },
             {
@@ -1952,15 +1742,39 @@
                 "missed_count": 4
             },
             {
-                "employee_id": "723500137",
-                "first_name": "Rifa",
-                "last_name": "Tasfia",
+                "employee_id": "723500140",
+                "first_name": "Arnob",
+                "last_name": "Deb",
                 "missed_count": 4
             },
             {
-                "employee_id": "710001783",
-                "first_name": "Taslima Ferdaus ",
-                "last_name": "Shuva",
+                "employee_id": "710003564",
+                "first_name": "Nokimul Hasan",
+                "last_name": "Arif",
+                "missed_count": 4
+            },
+            {
+                "employee_id": "710003563",
+                "first_name": "Nafiz Ahmed ",
+                "last_name": "Emon",
+                "missed_count": 4
+            },
+            {
+                "employee_id": "710003565",
+                "first_name": "Tamanna",
+                "last_name": "Sultana",
+                "missed_count": 4
+            },
+            {
+                "employee_id": "721500461",
+                "first_name": "Abdullah Al",
+                "last_name": "Mahmud",
+                "missed_count": 4
+            },
+            {
+                "employee_id": "710000519",
+                "first_name": "Mohammad Monirul ",
+                "last_name": "Islam",
                 "missed_count": 3
             },
             {
@@ -1970,51 +1784,15 @@
                 "missed_count": 3
             },
             {
-                "employee_id": "710003456",
-                "first_name": "Tasfia ",
-                "last_name": "Talukder",
-                "missed_count": 3
-            },
-            {
                 "employee_id": "723500152",
                 "first_name": "Izaz Ahmmed ",
                 "last_name": "Tuhin ",
                 "missed_count": 3
             },
             {
-                "employee_id": "710001668",
-                "first_name": "Amatul Bushra ",
-                "last_name": "Akhi",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "723500138",
-                "first_name": "Samia ",
-                "last_name": "Sayed",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "710003401",
-                "first_name": "Nushrat Jahan",
-                "last_name": "Oyshi",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "710001970",
-                "first_name": "Mohammad Jahangir ",
-                "last_name": "Alam",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "710002103",
-                "first_name": "Lamia",
-                "last_name": "Rukhsara",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "710002339",
-                "first_name": "Tapasy",
-                "last_name": "Rabeya",
+                "employee_id": "710000595",
+                "first_name": "Anuz Kumar",
+                "last_name": "Chakrabarty",
                 "missed_count": 3
             },
             {
@@ -2024,9 +1802,9 @@
                 "missed_count": 3
             },
             {
-                "employee_id": "710000519",
-                "first_name": "Mohammad Monirul ",
-                "last_name": "Islam",
+                "employee_id": "710001668",
+                "first_name": "Amatul Bushra ",
+                "last_name": "Akhi",
                 "missed_count": 3
             },
             {
@@ -2036,9 +1814,81 @@
                 "missed_count": 3
             },
             {
-                "employee_id": "710003038",
-                "first_name": "Dristi",
-                "last_name": "Saha",
+                "employee_id": "710003380",
+                "first_name": "Sadia Jannat",
+                "last_name": "Mitu",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710003401",
+                "first_name": "Nushrat Jahan",
+                "last_name": "Oyshi",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710003376",
+                "first_name": "Md.Jakaria",
+                "last_name": "Zobair",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710003456",
+                "first_name": "Tasfia ",
+                "last_name": "Talukder",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710003360",
+                "first_name": "Kazi Rifat ",
+                "last_name": "Ahmed",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710003385",
+                "first_name": "Noor ",
+                "last_name": "Muhammad ",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "723500138",
+                "first_name": "Samia ",
+                "last_name": "Sayed",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710002339",
+                "first_name": "Tapasy",
+                "last_name": "Rabeya",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710002365",
+                "first_name": "Atia",
+                "last_name": "Sanjida",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710002760",
+                "first_name": "Nafees",
+                "last_name": "Imran",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710002103",
+                "first_name": "Lamia",
+                "last_name": "Rukhsara",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710001970",
+                "first_name": "Mohammad Jahangir ",
+                "last_name": "Alam",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710002693",
+                "first_name": "Fourcan Karim ",
+                "last_name": "Mazumder",
                 "missed_count": 3
             },
             {
@@ -2054,15 +1904,21 @@
                 "missed_count": 3
             },
             {
-                "employee_id": "710003385",
-                "first_name": "Noor ",
-                "last_name": "Muhammad ",
+                "employee_id": "710003053",
+                "first_name": "Zannatul Mawa ",
+                "last_name": "Koli",
                 "missed_count": 3
             },
             {
-                "employee_id": "710000595",
-                "first_name": "Anuz Kumar",
-                "last_name": "Chakrabarty",
+                "employee_id": "710003038",
+                "first_name": "Dristi",
+                "last_name": "Saha",
+                "missed_count": 3
+            },
+            {
+                "employee_id": "710003057",
+                "first_name": "Rahmatul Kabir ",
+                "last_name": "Rasel Sarker ",
                 "missed_count": 3
             },
             {
@@ -2072,105 +1928,21 @@
                 "missed_count": 3
             },
             {
-                "employee_id": "710002693",
-                "first_name": "Fourcan Karim ",
-                "last_name": "Mazumder",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "710003057",
-                "first_name": "Rahmatul Kabir ",
-                "last_name": "Rasel Sarker ",
-                "missed_count": 3
-            },
-            {
                 "employee_id": "710003082",
                 "first_name": "Sonia",
                 "last_name": "Nasrin",
                 "missed_count": 3
             },
             {
-                "employee_id": "710003053",
-                "first_name": "Zannatul Mawa ",
-                "last_name": "Koli",
+                "employee_id": "710001783",
+                "first_name": "Taslima Ferdaus ",
+                "last_name": "Shuva",
                 "missed_count": 3
             },
             {
-                "employee_id": "710003360",
-                "first_name": "Kazi Rifat ",
-                "last_name": "Ahmed",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "710002760",
-                "first_name": "Nafees",
-                "last_name": "Imran",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "710002365",
-                "first_name": "Atia",
-                "last_name": "Sanjida",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "710003380",
-                "first_name": "Sadia Jannat",
-                "last_name": "Mitu",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "710003376",
-                "first_name": "Md.Jakaria",
-                "last_name": "Zobair",
-                "missed_count": 3
-            },
-            {
-                "employee_id": "710001060",
-                "first_name": "Dr. Sheak Rashed Haider ",
-                "last_name": "Noori",
-                "missed_count": 2
-            },
-            {
-                "employee_id": "710001170",
-                "first_name": "Md. Sazzadur",
-                "last_name": "Ahamed",
-                "missed_count": 2
-            },
-            {
-                "employee_id": "710003214",
-                "first_name": "Dr. Syed Akhter",
-                "last_name": "Hossain",
-                "missed_count": 2
-            },
-            {
-                "employee_id": "723500118",
-                "first_name": "Sanjoy",
-                "last_name": "Dev",
-                "missed_count": 2
-            },
-            {
-                "employee_id": "710001306",
-                "first_name": "MD KAMRUL ",
-                "last_name": "HOSSAIN",
-                "missed_count": 2
-            },
-            {
-                "employee_id": "710002755",
-                "first_name": "Md. Hafizul",
-                "last_name": "Imran",
-                "missed_count": 2
-            },
-            {
-                "employee_id": "710002792",
-                "first_name": "Md Umaid",
-                "last_name": "Hasan",
-                "missed_count": 2
-            },
-            {
-                "employee_id": "710003061",
-                "first_name": "Mubtasim",
-                "last_name": "Fuad",
+                "employee_id": "710003552",
+                "first_name": "Dr Md Alamgir ",
+                "last_name": "Kabir",
                 "missed_count": 2
             },
             {
@@ -2180,15 +1952,21 @@
                 "missed_count": 2
             },
             {
-                "employee_id": "710003448",
-                "first_name": "Shamim",
-                "last_name": "Hossain",
+                "employee_id": "710001060",
+                "first_name": "Dr. Sheak Rashed Haider ",
+                "last_name": "Noori",
                 "missed_count": 2
             },
             {
-                "employee_id": "710003361",
-                "first_name": "Maliha",
-                "last_name": "Binte Mukhles ",
+                "employee_id": "710001170",
+                "first_name": "Md. Sazzadur",
+                "last_name": "Ahamed",
+                "missed_count": 2
+            },
+            {
+                "employee_id": "710001306",
+                "first_name": "MD KAMRUL ",
+                "last_name": "HOSSAIN",
                 "missed_count": 2
             },
             {
@@ -2198,9 +1976,27 @@
                 "missed_count": 2
             },
             {
-                "employee_id": "710002002",
-                "first_name": "Nahid",
-                "last_name": "Sultana",
+                "employee_id": "710003361",
+                "first_name": "Maliha",
+                "last_name": "Binte Mukhles ",
+                "missed_count": 2
+            },
+            {
+                "employee_id": "710003448",
+                "first_name": "Shamim",
+                "last_name": "Hossain",
+                "missed_count": 2
+            },
+            {
+                "employee_id": "710002792",
+                "first_name": "Md Umaid",
+                "last_name": "Hasan",
+                "missed_count": 2
+            },
+            {
+                "employee_id": "710002480",
+                "first_name": "Mushfiqur",
+                "last_name": "Rahman",
                 "missed_count": 2
             },
             {
@@ -2210,15 +2006,21 @@
                 "missed_count": 2
             },
             {
-                "employee_id": "710002480",
-                "first_name": "Mushfiqur",
-                "last_name": "Rahman",
+                "employee_id": "710002002",
+                "first_name": "Nahid",
+                "last_name": "Sultana",
                 "missed_count": 2
             },
             {
-                "employee_id": "710003552",
-                "first_name": "Dr Md Alamgir ",
-                "last_name": "Kabir",
+                "employee_id": "710002755",
+                "first_name": "Md. Hafizul",
+                "last_name": "Imran",
+                "missed_count": 2
+            },
+            {
+                "employee_id": "710003214",
+                "first_name": "Dr. Syed Akhter",
+                "last_name": "Hossain",
                 "missed_count": 2
             },
             {
@@ -2228,9 +2030,21 @@
                 "missed_count": 2
             },
             {
-                "employee_id": "710003034",
-                "first_name": "Md Taimur",
-                "last_name": "ahad",
+                "employee_id": "710003061",
+                "first_name": "Mubtasim",
+                "last_name": "Fuad",
+                "missed_count": 2
+            },
+            {
+                "employee_id": "723500118",
+                "first_name": "Sanjoy",
+                "last_name": "Dev",
+                "missed_count": 2
+            },
+            {
+                "employee_id": "710001009",
+                "first_name": "Khalid Been",
+                "last_name": "Md. Badruzzaman Biplob",
                 "missed_count": 1
             },
             {
@@ -2240,27 +2054,15 @@
                 "missed_count": 1
             },
             {
-                "employee_id": "710001009",
-                "first_name": "Khalid Been",
-                "last_name": "Md. Badruzzaman Biplob",
-                "missed_count": 1
-            },
-            {
-                "employee_id": "710003392",
-                "first_name": "Saida Mahamuda",
-                "last_name": "Rahman",
-                "missed_count": 1
-            },
-            {
                 "employee_id": "710003218",
                 "first_name": "Deawan Rakin",
                 "last_name": "Ahamed Remal",
                 "missed_count": 1
             },
             {
-                "employee_id": "710003569",
-                "first_name": "S M Sharif",
-                "last_name": "Hasan",
+                "employee_id": "710003034",
+                "first_name": "Md Taimur",
+                "last_name": "ahad",
                 "missed_count": 1
             },
             {
@@ -2270,27 +2072,9 @@
                 "missed_count": 1
             },
             {
-                "employee_id": "710003221",
-                "first_name": "Abdul ",
-                "last_name": "Muntakim",
-                "missed_count": 1
-            },
-            {
-                "employee_id": "710003256",
-                "first_name": "Munira ",
-                "last_name": "Tabassum",
-                "missed_count": 1
-            },
-            {
                 "employee_id": "710001911",
                 "first_name": "Tapushe Rabaya ",
                 "last_name": "Toma",
-                "missed_count": 1
-            },
-            {
-                "employee_id": "710003454",
-                "first_name": "Rabeya",
-                "last_name": "Khatun",
                 "missed_count": 1
             },
             {
@@ -2300,9 +2084,21 @@
                 "missed_count": 1
             },
             {
-                "employee_id": "710003441",
-                "first_name": "Mahmudul Islam",
-                "last_name": "Rakib",
+                "employee_id": "710003256",
+                "first_name": "Munira ",
+                "last_name": "Tabassum",
+                "missed_count": 1
+            },
+            {
+                "employee_id": "710003230",
+                "first_name": "Dr. Ashikur",
+                "last_name": "Rahman",
+                "missed_count": 1
+            },
+            {
+                "employee_id": "710003221",
+                "first_name": "Abdul ",
+                "last_name": "Muntakim",
                 "missed_count": 1
             },
             {
@@ -2312,854 +2108,701 @@
                 "missed_count": 1
             },
             {
-                "employee_id": "710003230",
-                "first_name": "Dr. Ashikur",
+                "employee_id": "710003454",
+                "first_name": "Rabeya",
+                "last_name": "Khatun",
+                "missed_count": 1
+            },
+            {
+                "employee_id": "710003441",
+                "first_name": "Mahmudul Islam",
+                "last_name": "Rakib",
+                "missed_count": 1
+            },
+            {
+                "employee_id": "710003392",
+                "first_name": "Saida Mahamuda",
                 "last_name": "Rahman",
+                "missed_count": 1
+            },
+            {
+                "employee_id": "710003569",
+                "first_name": "S M Sharif",
+                "last_name": "Hasan",
                 "missed_count": 1
             }
         ]
     },
     "teacher_usage": {
         "total_summary": {
-            "total_teachers": 153
+            "total_teachers": 147
         },
         "all_teachers_metrics": [
             {
-                "employee_id": "710002788",
-                "first_name": "Md. Mahedi",
-                "last_name": "Hassan",
-                "total_classes": 111,
-                "late_classes": 55,
-                "missed_classes": 0.0,
-                "late_percentage": 49.549549549549546
-            },
-            {
-                "employee_id": "721100114",
-                "first_name": "Syeda Maria ",
-                "last_name": "Rahman ",
-                "total_classes": 100,
-                "late_classes": 8,
-                "missed_classes": 0.0,
-                "late_percentage": 8.0
+                "employee_id": "710003385",
+                "first_name": "Noor ",
+                "last_name": "Muhammad ",
+                "total_classes": 85,
+                "late_classes": 16,
+                "missed_classes": 3.0,
+                "late_percentage": 18.823529411764707
             },
             {
                 "employee_id": "710002632",
                 "first_name": "Syada Tasmia",
                 "last_name": "Alvi",
-                "total_classes": 100,
-                "late_classes": 24,
+                "total_classes": 79,
+                "late_classes": 17,
                 "missed_classes": 5.0,
-                "late_percentage": 24.0
-            },
-            {
-                "employee_id": "710003385",
-                "first_name": "Noor ",
-                "last_name": "Muhammad ",
-                "total_classes": 92,
-                "late_classes": 20,
-                "missed_classes": 3.0,
-                "late_percentage": 21.73913043478261
-            },
-            {
-                "employee_id": "710002090",
-                "first_name": "Md. Aynul Hasan",
-                "last_name": "Nahid",
-                "total_classes": 91,
-                "late_classes": 7,
-                "missed_classes": 6.0,
-                "late_percentage": 7.6923076923076925
-            },
-            {
-                "employee_id": "710003575",
-                "first_name": "Taslima",
-                "last_name": "Akhter",
-                "total_classes": 88,
-                "late_classes": 4,
-                "missed_classes": 5.0,
-                "late_percentage": 4.545454545454546
-            },
-            {
-                "employee_id": "710003429",
-                "first_name": "Md.",
-                "last_name": "Al-Mamun ",
-                "total_classes": 86,
-                "late_classes": 33,
-                "missed_classes": 5.0,
-                "late_percentage": 38.372093023255815
-            },
-            {
-                "employee_id": "710003057",
-                "first_name": "Rahmatul Kabir ",
-                "last_name": "Rasel Sarker ",
-                "total_classes": 84,
-                "late_classes": 34,
-                "missed_classes": 3.0,
-                "late_percentage": 40.476190476190474
-            },
-            {
-                "employee_id": "710003444",
-                "first_name": "Chayti",
-                "last_name": "Saha",
-                "total_classes": 80,
-                "late_classes": 29,
-                "missed_classes": 4.0,
-                "late_percentage": 36.25
+                "late_percentage": 21.518987341772153
             },
             {
                 "employee_id": "710003369",
                 "first_name": "Md. Ashaf",
                 "last_name": "Uddaula",
-                "total_classes": 79,
-                "late_classes": 15,
+                "total_classes": 75,
+                "late_classes": 14,
                 "missed_classes": 8.0,
-                "late_percentage": 18.9873417721519
+                "late_percentage": 18.666666666666668
             },
             {
-                "employee_id": "710003565",
-                "first_name": "Tamanna",
-                "last_name": "Sultana",
-                "total_classes": 78,
-                "late_classes": 6,
-                "missed_classes": 4.0,
-                "late_percentage": 7.6923076923076925
-            },
-            {
-                "employee_id": "710003441",
-                "first_name": "Mahmudul Islam",
-                "last_name": "Rakib",
-                "total_classes": 78,
-                "late_classes": 19,
-                "missed_classes": 1.0,
-                "late_percentage": 24.358974358974358
-            },
-            {
-                "employee_id": "710003562",
-                "first_name": "Rimi",
-                "last_name": "Akter",
-                "total_classes": 78,
-                "late_classes": 7,
-                "missed_classes": 7.0,
-                "late_percentage": 8.974358974358974
+                "employee_id": "710003429",
+                "first_name": "Md.",
+                "last_name": "Al-Mamun ",
+                "total_classes": 73,
+                "late_classes": 27,
+                "missed_classes": 5.0,
+                "late_percentage": 36.986301369863014
             },
             {
                 "employee_id": "721100153",
                 "first_name": "Sampa",
                 "last_name": "Saha",
-                "total_classes": 77,
+                "total_classes": 73,
                 "late_classes": 2,
                 "missed_classes": 7.0,
-                "late_percentage": 2.5974025974025974
+                "late_percentage": 2.73972602739726
             },
             {
-                "employee_id": "710003571",
-                "first_name": "Md Rasedul",
-                "last_name": "Islam ",
-                "total_classes": 75,
-                "late_classes": 37,
-                "missed_classes": 5.0,
-                "late_percentage": 49.333333333333336
-            },
-            {
-                "employee_id": "710003221",
-                "first_name": "Abdul ",
-                "last_name": "Muntakim",
-                "total_classes": 75,
-                "late_classes": 32,
-                "missed_classes": 1.0,
-                "late_percentage": 42.66666666666667
-            },
-            {
-                "employee_id": "721500513",
-                "first_name": "Md. Emad Hossain",
-                "last_name": "Likhon",
-                "total_classes": 74,
-                "late_classes": 26,
+                "employee_id": "721100114",
+                "first_name": "Syeda Maria ",
+                "last_name": "Rahman ",
+                "total_classes": 70,
+                "late_classes": 6,
                 "missed_classes": 0.0,
-                "late_percentage": 35.13513513513514
+                "late_percentage": 8.571428571428571
             },
             {
-                "employee_id": "710002339",
-                "first_name": "Tapasy",
-                "last_name": "Rabeya",
+                "employee_id": "710002090",
+                "first_name": "Md. Aynul Hasan",
+                "last_name": "Nahid",
                 "total_classes": 69,
-                "late_classes": 21,
-                "missed_classes": 3.0,
-                "late_percentage": 30.434782608695656
-            },
-            {
-                "employee_id": "710001985",
-                "first_name": "Firoz ",
-                "last_name": "Hasan",
-                "total_classes": 68,
-                "late_classes": 17,
-                "missed_classes": 10.0,
-                "late_percentage": 25.0
-            },
-            {
-                "employee_id": "710003558",
-                "first_name": "Md. Mezbaul Islam",
-                "last_name": "Zion",
-                "total_classes": 68,
-                "late_classes": 38,
+                "late_classes": 3,
                 "missed_classes": 6.0,
-                "late_percentage": 55.88235294117647
+                "late_percentage": 4.3478260869565215
+            },
+            {
+                "employee_id": "710003565",
+                "first_name": "Tamanna",
+                "last_name": "Sultana",
+                "total_classes": 67,
+                "late_classes": 4,
+                "missed_classes": 4.0,
+                "late_percentage": 5.970149253731343
             },
             {
                 "employee_id": "721500534",
                 "first_name": "Md Sagar",
                 "last_name": "Hossen",
-                "total_classes": 66,
-                "late_classes": 10,
+                "total_classes": 64,
+                "late_classes": 8,
                 "missed_classes": 0.0,
-                "late_percentage": 15.151515151515152
-            },
-            {
-                "employee_id": "710002346",
-                "first_name": "Israt ",
-                "last_name": "Jahan",
-                "total_classes": 66,
-                "late_classes": 12,
-                "missed_classes": 4.0,
-                "late_percentage": 18.181818181818183
+                "late_percentage": 12.5
             },
             {
                 "employee_id": "710001040",
                 "first_name": "Shirin ",
                 "last_name": "Sultana ",
-                "total_classes": 65,
-                "late_classes": 7,
-                "missed_classes": 4.0,
-                "late_percentage": 10.76923076923077
-            },
-            {
-                "employee_id": "710003054",
-                "first_name": "Tanvirul",
-                "last_name": "Islam",
-                "total_classes": 65,
-                "late_classes": 28,
-                "missed_classes": 6.0,
-                "late_percentage": 43.07692307692308
-            },
-            {
-                "employee_id": "710002792",
-                "first_name": "Md Umaid",
-                "last_name": "Hasan",
-                "total_classes": 65,
-                "late_classes": 17,
-                "missed_classes": 2.0,
-                "late_percentage": 26.153846153846157
-            },
-            {
-                "employee_id": "710002480",
-                "first_name": "Mushfiqur",
-                "last_name": "Rahman",
-                "total_classes": 64,
-                "late_classes": 13,
-                "missed_classes": 2.0,
-                "late_percentage": 20.3125
-            },
-            {
-                "employee_id": "710002795",
-                "first_name": "Zahura",
-                "last_name": "Zaman",
-                "total_classes": 64,
-                "late_classes": 38,
-                "missed_classes": 6.0,
-                "late_percentage": 59.375
-            },
-            {
-                "employee_id": "710003063",
-                "first_name": "Md Mizanur ",
-                "last_name": "Rahman",
-                "total_classes": 64,
-                "late_classes": 20,
-                "missed_classes": 4.0,
-                "late_percentage": 31.25
-            },
-            {
-                "employee_id": "710001538",
-                "first_name": "Naznin",
-                "last_name": "Sultana",
-                "total_classes": 64,
-                "late_classes": 23,
-                "missed_classes": 4.0,
-                "late_percentage": 35.9375
-            },
-            {
-                "employee_id": "710001783",
-                "first_name": "Taslima Ferdaus ",
-                "last_name": "Shuva",
-                "total_classes": 64,
+                "total_classes": 61,
                 "late_classes": 5,
-                "missed_classes": 3.0,
-                "late_percentage": 7.8125
+                "missed_classes": 4.0,
+                "late_percentage": 8.19672131147541
             },
             {
-                "employee_id": "710002831",
-                "first_name": "Md. Ashraful Islam",
-                "last_name": "Talukder",
-                "total_classes": 63,
-                "late_classes": 6,
+                "employee_id": "710002788",
+                "first_name": "Md. Mahedi",
+                "last_name": "Hassan",
+                "total_classes": 60,
+                "late_classes": 17,
                 "missed_classes": 0.0,
-                "late_percentage": 9.523809523809524
+                "late_percentage": 28.333333333333332
             },
             {
                 "employee_id": "721500532",
                 "first_name": "Shumaiya Akter",
                 "last_name": "Shammi",
-                "total_classes": 63,
+                "total_classes": 60,
                 "late_classes": 8,
                 "missed_classes": 0.0,
-                "late_percentage": 12.698412698412698
+                "late_percentage": 13.333333333333334
             },
             {
-                "employee_id": "710003576",
-                "first_name": "Mohammed Sami",
-                "last_name": "Khan",
-                "total_classes": 63,
-                "late_classes": 12,
-                "missed_classes": 0.0,
-                "late_percentage": 19.047619047619047
+                "employee_id": "710003562",
+                "first_name": "Rimi",
+                "last_name": "Akter",
+                "total_classes": 60,
+                "late_classes": 5,
+                "missed_classes": 7.0,
+                "late_percentage": 8.333333333333332
             },
             {
-                "employee_id": "710003449",
-                "first_name": "Masum",
-                "last_name": "Bakaul",
-                "total_classes": 63,
-                "late_classes": 28,
-                "missed_classes": 0.0,
-                "late_percentage": 44.44444444444444
+                "employee_id": "710001783",
+                "first_name": "Taslima Ferdaus ",
+                "last_name": "Shuva",
+                "total_classes": 59,
+                "late_classes": 4,
+                "missed_classes": 3.0,
+                "late_percentage": 6.779661016949152
             },
             {
-                "employee_id": "710003595",
-                "first_name": "Abdullah Ar",
-                "last_name": "Rafi",
-                "total_classes": 62,
-                "late_classes": 7,
+                "employee_id": "710002831",
+                "first_name": "Md. Ashraful Islam",
+                "last_name": "Talukder",
+                "total_classes": 59,
+                "late_classes": 5,
                 "missed_classes": 0.0,
-                "late_percentage": 11.29032258064516
+                "late_percentage": 8.47457627118644
+            },
+            {
+                "employee_id": "710003057",
+                "first_name": "Rahmatul Kabir ",
+                "last_name": "Rasel Sarker ",
+                "total_classes": 54,
+                "late_classes": 19,
+                "missed_classes": 3.0,
+                "late_percentage": 35.18518518518518
             },
             {
                 "employee_id": "710002642",
                 "first_name": "Md",
                 "last_name": "Assaduzzaman",
-                "total_classes": 62,
+                "total_classes": 52,
                 "late_classes": 12,
                 "missed_classes": 0.0,
-                "late_percentage": 19.35483870967742
+                "late_percentage": 23.076923076923077
             },
             {
-                "employee_id": "721500523",
-                "first_name": "Md. Moshiur ",
-                "last_name": "Rahman",
-                "total_classes": 61,
-                "late_classes": 6,
-                "missed_classes": 0.0,
-                "late_percentage": 9.836065573770492
-            },
-            {
-                "employee_id": "710003412",
-                "first_name": "Anup Kumar",
-                "last_name": "Modak",
-                "total_classes": 61,
-                "late_classes": 5,
-                "missed_classes": 3.0,
-                "late_percentage": 8.19672131147541
-            },
-            {
-                "employee_id": "710003413",
-                "first_name": "Md. Roni",
-                "last_name": "Islam",
-                "total_classes": 60,
+                "employee_id": "710001985",
+                "first_name": "Firoz ",
+                "last_name": "Hasan",
+                "total_classes": 51,
                 "late_classes": 10,
-                "missed_classes": 0.0,
-                "late_percentage": 16.666666666666664
+                "missed_classes": 10.0,
+                "late_percentage": 19.607843137254903
             },
             {
-                "employee_id": "710003218",
-                "first_name": "Deawan Rakin",
-                "last_name": "Ahamed Remal",
-                "total_classes": 60,
-                "late_classes": 9,
-                "missed_classes": 1.0,
-                "late_percentage": 15.0
-            },
-            {
-                "employee_id": "710003064",
-                "first_name": "umme",
-                "last_name": "Ayman",
-                "total_classes": 56,
-                "late_classes": 24,
-                "missed_classes": 5.0,
-                "late_percentage": 42.857142857142854
-            },
-            {
-                "employee_id": "710003370",
-                "first_name": "Md. Shahriar",
-                "last_name": "Shakil",
-                "total_classes": 56,
-                "late_classes": 5,
-                "missed_classes": 0.0,
-                "late_percentage": 8.928571428571429
-            },
-            {
-                "employee_id": "723500152",
-                "first_name": "Izaz Ahmmed ",
-                "last_name": "Tuhin ",
-                "total_classes": 55,
-                "late_classes": 15,
-                "missed_classes": 3.0,
-                "late_percentage": 27.27272727272727
-            },
-            {
-                "employee_id": "721500531",
-                "first_name": "Pinto Kumar",
-                "last_name": "Paul",
-                "total_classes": 54,
+                "employee_id": "721500513",
+                "first_name": "Md. Emad Hossain",
+                "last_name": "Likhon",
+                "total_classes": 48,
                 "late_classes": 14,
                 "missed_classes": 0.0,
-                "late_percentage": 25.925925925925924
+                "late_percentage": 29.166666666666668
             },
             {
-                "employee_id": "721500505",
-                "first_name": "Fahim",
-                "last_name": "Faisal",
-                "total_classes": 53,
-                "late_classes": 31,
+                "employee_id": "710003595",
+                "first_name": "Abdullah Ar",
+                "last_name": "Rafi",
+                "total_classes": 47,
+                "late_classes": 5,
                 "missed_classes": 0.0,
-                "late_percentage": 58.490566037735846
-            },
-            {
-                "employee_id": "710002304",
-                "first_name": "Mst. Sharmin",
-                "last_name": "Akter",
-                "total_classes": 53,
-                "late_classes": 24,
-                "missed_classes": 0.0,
-                "late_percentage": 45.28301886792453
+                "late_percentage": 10.638297872340425
             },
             {
                 "employee_id": "721500538",
                 "first_name": "Z N M ZARIF",
                 "last_name": "MAHMUD",
-                "total_classes": 50,
+                "total_classes": 47,
                 "late_classes": 1,
                 "missed_classes": 0.0,
-                "late_percentage": 2.0
+                "late_percentage": 2.127659574468085
             },
             {
-                "employee_id": "710002641",
-                "first_name": "Amir",
-                "last_name": "Sohel",
-                "total_classes": 50,
-                "late_classes": 6,
-                "missed_classes": 5.0,
-                "late_percentage": 12.0
-            },
-            {
-                "employee_id": "710002103",
-                "first_name": "Lamia",
-                "last_name": "Rukhsara",
-                "total_classes": 49,
-                "late_classes": 8,
-                "missed_classes": 3.0,
-                "late_percentage": 16.3265306122449
-            },
-            {
-                "employee_id": "723500161",
-                "first_name": "MD. SELIM",
-                "last_name": "REZA",
-                "total_classes": 49,
-                "late_classes": 13,
-                "missed_classes": 6.0,
-                "late_percentage": 26.53061224489796
-            },
-            {
-                "employee_id": "710002760",
-                "first_name": "Nafees",
-                "last_name": "Imran",
-                "total_classes": 48,
-                "late_classes": 20,
-                "missed_classes": 3.0,
-                "late_percentage": 41.66666666666667
-            },
-            {
-                "employee_id": "710001668",
-                "first_name": "Amatul Bushra ",
-                "last_name": "Akhi",
-                "total_classes": 48,
-                "late_classes": 13,
-                "missed_classes": 3.0,
-                "late_percentage": 27.083333333333332
-            },
-            {
-                "employee_id": "721500537",
-                "first_name": "Md Shakil ",
-                "last_name": "Ahmed (MSA)",
+                "employee_id": "710001538",
+                "first_name": "Naznin",
+                "last_name": "Sultana",
                 "total_classes": 46,
-                "late_classes": 10,
+                "late_classes": 18,
+                "missed_classes": 4.0,
+                "late_percentage": 39.130434782608695
+            },
+            {
+                "employee_id": "710003441",
+                "first_name": "Mahmudul Islam",
+                "last_name": "Rakib",
+                "total_classes": 46,
+                "late_classes": 11,
+                "missed_classes": 1.0,
+                "late_percentage": 23.91304347826087
+            },
+            {
+                "employee_id": "721500523",
+                "first_name": "Md. Moshiur ",
+                "last_name": "Rahman",
+                "total_classes": 46,
+                "late_classes": 5,
                 "missed_classes": 0.0,
-                "late_percentage": 21.73913043478261
+                "late_percentage": 10.869565217391305
             },
             {
                 "employee_id": "723500163",
                 "first_name": "Md. Ashikur",
                 "last_name": "Rahman",
-                "total_classes": 46,
-                "late_classes": 6,
+                "total_classes": 44,
+                "late_classes": 5,
                 "missed_classes": 0.0,
-                "late_percentage": 13.043478260869565
+                "late_percentage": 11.363636363636363
             },
             {
-                "employee_id": "710003405",
-                "first_name": "Abdullah",
-                "last_name": "Al Sakib",
-                "total_classes": 45,
-                "late_classes": 6,
-                "missed_classes": 0.0,
-                "late_percentage": 13.333333333333334
+                "employee_id": "710003412",
+                "first_name": "Anup Kumar",
+                "last_name": "Modak",
+                "total_classes": 43,
+                "late_classes": 4,
+                "missed_classes": 3.0,
+                "late_percentage": 9.30232558139535
             },
             {
-                "employee_id": "710002783",
-                "first_name": "Partha",
-                "last_name": "Dip",
-                "total_classes": 45,
-                "late_classes": 24,
+                "employee_id": "710002795",
+                "first_name": "Zahura",
+                "last_name": "Zaman",
+                "total_classes": 43,
+                "late_classes": 23,
+                "missed_classes": 6.0,
+                "late_percentage": 53.48837209302325
+            },
+            {
+                "employee_id": "710002792",
+                "first_name": "Md Umaid",
+                "last_name": "Hasan",
+                "total_classes": 41,
+                "late_classes": 9,
+                "missed_classes": 2.0,
+                "late_percentage": 21.951219512195124
+            },
+            {
+                "employee_id": "710003218",
+                "first_name": "Deawan Rakin",
+                "last_name": "Ahamed Remal",
+                "total_classes": 41,
+                "late_classes": 6,
+                "missed_classes": 1.0,
+                "late_percentage": 14.634146341463413
+            },
+            {
+                "employee_id": "710002304",
+                "first_name": "Mst. Sharmin",
+                "last_name": "Akter",
+                "total_classes": 41,
+                "late_classes": 20,
+                "missed_classes": 0.0,
+                "late_percentage": 48.78048780487805
+            },
+            {
+                "employee_id": "710001668",
+                "first_name": "Amatul Bushra ",
+                "last_name": "Akhi",
+                "total_classes": 41,
+                "late_classes": 11,
+                "missed_classes": 3.0,
+                "late_percentage": 26.82926829268293
+            },
+            {
+                "employee_id": "710003063",
+                "first_name": "Md Mizanur ",
+                "last_name": "Rahman",
+                "total_classes": 40,
+                "late_classes": 12,
                 "missed_classes": 4.0,
-                "late_percentage": 53.333333333333336
+                "late_percentage": 30.0
+            },
+            {
+                "employee_id": "723500152",
+                "first_name": "Izaz Ahmmed ",
+                "last_name": "Tuhin ",
+                "total_classes": 40,
+                "late_classes": 11,
+                "missed_classes": 3.0,
+                "late_percentage": 27.500000000000004
             },
             {
                 "employee_id": "710001170",
                 "first_name": "Md. Sazzadur",
                 "last_name": "Ahamed",
-                "total_classes": 44,
-                "late_classes": 4,
-                "missed_classes": 2.0,
-                "late_percentage": 9.090909090909092
-            },
-            {
-                "employee_id": "710002793",
-                "first_name": "Mayen Uddin",
-                "last_name": "Mojumdar",
-                "total_classes": 43,
-                "late_classes": 9,
-                "missed_classes": 2.0,
-                "late_percentage": 20.930232558139537
-            },
-            {
-                "employee_id": "721500522",
-                "first_name": "Md. Shamim",
-                "last_name": "Hossain",
-                "total_classes": 42,
-                "late_classes": 2,
-                "missed_classes": 0.0,
-                "late_percentage": 4.761904761904762
-            },
-            {
-                "employee_id": "710001675",
-                "first_name": "Arif",
-                "last_name": "Mahmud",
-                "total_classes": 42,
-                "late_classes": 3,
-                "missed_classes": 0.0,
-                "late_percentage": 7.142857142857142
-            },
-            {
-                "employee_id": "710003053",
-                "first_name": "Zannatul Mawa ",
-                "last_name": "Koli",
-                "total_classes": 41,
-                "late_classes": 17,
-                "missed_classes": 3.0,
-                "late_percentage": 41.46341463414634
-            },
-            {
-                "employee_id": "710003376",
-                "first_name": "Md.Jakaria",
-                "last_name": "Zobair",
-                "total_classes": 41,
-                "late_classes": 12,
-                "missed_classes": 3.0,
-                "late_percentage": 29.268292682926827
-            },
-            {
-                "employee_id": "721500536",
-                "first_name": "Mansura Manzil",
-                "last_name": "Choity",
-                "total_classes": 40,
-                "late_classes": 20,
-                "missed_classes": 4.0,
-                "late_percentage": 50.0
-            },
-            {
-                "employee_id": "721500516",
-                "first_name": "Durjoy",
-                "last_name": "Bhowmik",
-                "total_classes": 39,
-                "late_classes": 16,
-                "missed_classes": 0.0,
-                "late_percentage": 41.02564102564102
-            },
-            {
-                "employee_id": "710003037",
-                "first_name": "Shahadat",
-                "last_name": "Hossain",
-                "total_classes": 39,
-                "late_classes": 17,
-                "missed_classes": 4.0,
-                "late_percentage": 43.58974358974359
-            },
-            {
-                "employee_id": "721500419",
-                "first_name": "Md. Hasanuzzaman ",
-                "last_name": "Dipu",
                 "total_classes": 39,
                 "late_classes": 3,
-                "missed_classes": 0.0,
+                "missed_classes": 2.0,
                 "late_percentage": 7.6923076923076925
             },
             {
-                "employee_id": "721500484",
-                "first_name": "Md. Asif Mahmud",
-                "last_name": "Ridoy",
+                "employee_id": "723500161",
+                "first_name": "MD. SELIM",
+                "last_name": "REZA",
                 "total_classes": 39,
-                "late_classes": 15,
-                "missed_classes": 0.0,
-                "late_percentage": 38.46153846153847
+                "late_classes": 9,
+                "missed_classes": 6.0,
+                "late_percentage": 23.076923076923077
             },
             {
-                "employee_id": "721500507",
-                "first_name": "Mahbubur",
-                "last_name": "Rahman",
-                "total_classes": 39,
-                "late_classes": 12,
-                "missed_classes": 0.0,
-                "late_percentage": 30.76923076923077
-            },
-            {
-                "employee_id": "710003038",
-                "first_name": "Dristi",
-                "last_name": "Saha",
-                "total_classes": 38,
-                "late_classes": 8,
-                "missed_classes": 3.0,
-                "late_percentage": 21.052631578947366
-            },
-            {
-                "employee_id": "710002477",
-                "first_name": "Zakia ",
-                "last_name": "Sultana",
-                "total_classes": 38,
-                "late_classes": 20,
-                "missed_classes": 5.0,
-                "late_percentage": 52.63157894736842
-            },
-            {
-                "employee_id": "710003214",
-                "first_name": "Dr. Syed Akhter",
-                "last_name": "Hossain",
-                "total_classes": 37,
-                "late_classes": 13,
-                "missed_classes": 2.0,
-                "late_percentage": 35.13513513513514
-            },
-            {
-                "employee_id": "710002693",
-                "first_name": "Fourcan Karim ",
-                "last_name": "Mazumder",
-                "total_classes": 36,
-                "late_classes": 3,
-                "missed_classes": 3.0,
-                "late_percentage": 8.333333333333332
-            },
-            {
-                "employee_id": "710000367",
-                "first_name": "Md. Fokhray",
-                "last_name": "Hossain",
+                "employee_id": "721500537",
+                "first_name": "Md Shakil ",
+                "last_name": "Ahmed (MSA)",
                 "total_classes": 36,
                 "late_classes": 4,
                 "missed_classes": 0.0,
                 "late_percentage": 11.11111111111111
             },
             {
-                "employee_id": "710003454",
-                "first_name": "Rabeya",
-                "last_name": "Khatun",
-                "total_classes": 35,
-                "late_classes": 24,
-                "missed_classes": 1.0,
-                "late_percentage": 68.57142857142857
-            },
-            {
-                "employee_id": "710002507",
-                "first_name": "Fizar",
-                "last_name": "Ahmed",
-                "total_classes": 34,
-                "late_classes": 17,
-                "missed_classes": 0.0,
-                "late_percentage": 50.0
-            },
-            {
-                "employee_id": "710001966",
-                "first_name": "Fatema Tuj",
-                "last_name": "Johora",
-                "total_classes": 34,
-                "late_classes": 5,
-                "missed_classes": 5.0,
-                "late_percentage": 14.705882352941178
-            },
-            {
-                "employee_id": "710003431",
-                "first_name": "Shahrin",
+                "employee_id": "710003576",
+                "first_name": "Mohammed Sami",
                 "last_name": "Khan",
-                "total_classes": 33,
-                "late_classes": 15,
+                "total_classes": 35,
+                "late_classes": 5,
+                "missed_classes": 0.0,
+                "late_percentage": 14.285714285714285
+            },
+            {
+                "employee_id": "710003444",
+                "first_name": "Chayti",
+                "last_name": "Saha",
+                "total_classes": 35,
+                "late_classes": 13,
+                "missed_classes": 4.0,
+                "late_percentage": 37.142857142857146
+            },
+            {
+                "employee_id": "710003449",
+                "first_name": "Masum",
+                "last_name": "Bakaul",
+                "total_classes": 35,
+                "late_classes": 20,
+                "missed_classes": 0.0,
+                "late_percentage": 57.14285714285714
+            },
+            {
+                "employee_id": "710003054",
+                "first_name": "Tanvirul",
+                "last_name": "Islam",
+                "total_classes": 34,
+                "late_classes": 13,
                 "missed_classes": 6.0,
-                "late_percentage": 45.45454545454545
+                "late_percentage": 38.23529411764706
+            },
+            {
+                "employee_id": "721500531",
+                "first_name": "Pinto Kumar",
+                "last_name": "Paul",
+                "total_classes": 34,
+                "late_classes": 8,
+                "missed_classes": 0.0,
+                "late_percentage": 23.52941176470588
+            },
+            {
+                "employee_id": "710002339",
+                "first_name": "Tapasy",
+                "last_name": "Rabeya",
+                "total_classes": 34,
+                "late_classes": 6,
+                "missed_classes": 3.0,
+                "late_percentage": 17.647058823529413
+            },
+            {
+                "employee_id": "710003370",
+                "first_name": "Md. Shahriar",
+                "last_name": "Shakil",
+                "total_classes": 33,
+                "late_classes": 3,
+                "missed_classes": 0.0,
+                "late_percentage": 9.090909090909092
+            },
+            {
+                "employee_id": "710003575",
+                "first_name": "Taslima",
+                "last_name": "Akhter",
+                "total_classes": 33,
+                "late_classes": 0,
+                "missed_classes": 5.0,
+                "late_percentage": 0.0
+            },
+            {
+                "employee_id": "721500522",
+                "first_name": "Md. Shamim",
+                "last_name": "Hossain",
+                "total_classes": 32,
+                "late_classes": 1,
+                "missed_classes": 0.0,
+                "late_percentage": 3.125
+            },
+            {
+                "employee_id": "721500507",
+                "first_name": "Mahbubur",
+                "last_name": "Rahman",
+                "total_classes": 31,
+                "late_classes": 8,
+                "missed_classes": 0.0,
+                "late_percentage": 25.806451612903224
+            },
+            {
+                "employee_id": "710002480",
+                "first_name": "Mushfiqur",
+                "last_name": "Rahman",
+                "total_classes": 31,
+                "late_classes": 6,
+                "missed_classes": 2.0,
+                "late_percentage": 19.35483870967742
+            },
+            {
+                "employee_id": "710002641",
+                "first_name": "Amir",
+                "last_name": "Sohel",
+                "total_classes": 31,
+                "late_classes": 2,
+                "missed_classes": 5.0,
+                "late_percentage": 6.451612903225806
+            },
+            {
+                "employee_id": "710000367",
+                "first_name": "Md. Fokhray",
+                "last_name": "Hossain",
+                "total_classes": 30,
+                "late_classes": 2,
+                "missed_classes": 0.0,
+                "late_percentage": 6.666666666666667
+            },
+            {
+                "employee_id": "721500484",
+                "first_name": "Md. Asif Mahmud",
+                "last_name": "Ridoy",
+                "total_classes": 30,
+                "late_classes": 9,
+                "missed_classes": 0.0,
+                "late_percentage": 30.0
+            },
+            {
+                "employee_id": "710002346",
+                "first_name": "Israt ",
+                "last_name": "Jahan",
+                "total_classes": 30,
+                "late_classes": 3,
+                "missed_classes": 4.0,
+                "late_percentage": 10.0
+            },
+            {
+                "employee_id": "710003571",
+                "first_name": "Md Rasedul",
+                "last_name": "Islam ",
+                "total_classes": 29,
+                "late_classes": 11,
+                "missed_classes": 5.0,
+                "late_percentage": 37.93103448275862
+            },
+            {
+                "employee_id": "710003214",
+                "first_name": "Dr. Syed Akhter",
+                "last_name": "Hossain",
+                "total_classes": 29,
+                "late_classes": 11,
+                "missed_classes": 2.0,
+                "late_percentage": 37.93103448275862
+            },
+            {
+                "employee_id": "710003064",
+                "first_name": "umme",
+                "last_name": "Ayman",
+                "total_classes": 29,
+                "late_classes": 11,
+                "missed_classes": 5.0,
+                "late_percentage": 37.93103448275862
+            },
+            {
+                "employee_id": "710003221",
+                "first_name": "Abdul ",
+                "last_name": "Muntakim",
+                "total_classes": 28,
+                "late_classes": 7,
+                "missed_classes": 1.0,
+                "late_percentage": 25.0
+            },
+            {
+                "employee_id": "721500516",
+                "first_name": "Durjoy",
+                "last_name": "Bhowmik",
+                "total_classes": 28,
+                "late_classes": 10,
+                "missed_classes": 0.0,
+                "late_percentage": 35.714285714285715
             },
             {
                 "employee_id": "710001060",
                 "first_name": "Dr. Sheak Rashed Haider ",
                 "last_name": "Noori",
-                "total_classes": 32,
-                "late_classes": 4,
+                "total_classes": 27,
+                "late_classes": 3,
                 "missed_classes": 2.0,
-                "late_percentage": 12.5
+                "late_percentage": 11.11111111111111
             },
             {
-                "employee_id": "710003082",
-                "first_name": "Sonia",
-                "last_name": "Nasrin",
-                "total_classes": 29,
-                "late_classes": 15,
+                "employee_id": "710003454",
+                "first_name": "Rabeya",
+                "last_name": "Khatun",
+                "total_classes": 27,
+                "late_classes": 18,
+                "missed_classes": 1.0,
+                "late_percentage": 66.66666666666666
+            },
+            {
+                "employee_id": "710002103",
+                "first_name": "Lamia",
+                "last_name": "Rukhsara",
+                "total_classes": 27,
+                "late_classes": 4,
                 "missed_classes": 3.0,
-                "late_percentage": 51.724137931034484
+                "late_percentage": 14.814814814814813
+            },
+            {
+                "employee_id": "710002793",
+                "first_name": "Mayen Uddin",
+                "last_name": "Mojumdar",
+                "total_classes": 26,
+                "late_classes": 6,
+                "missed_classes": 2.0,
+                "late_percentage": 23.076923076923077
             },
             {
                 "employee_id": "710003380",
                 "first_name": "Sadia Jannat",
                 "last_name": "Mitu",
-                "total_classes": 29,
+                "total_classes": 25,
                 "late_classes": 2,
                 "missed_classes": 3.0,
-                "late_percentage": 6.896551724137931
-            },
-            {
-                "employee_id": "710002116",
-                "first_name": "Shayla",
-                "last_name": "Sharmin",
-                "total_classes": 28,
-                "late_classes": 18,
-                "missed_classes": 0.0,
-                "late_percentage": 64.28571428571429
-            },
-            {
-                "employee_id": "721500440",
-                "first_name": "Abu Shahed Shah",
-                "last_name": "Md. Nazmul Arefin",
-                "total_classes": 28,
-                "late_classes": 3,
-                "missed_classes": 0.0,
-                "late_percentage": 10.714285714285714
-            },
-            {
-                "employee_id": "710003552",
-                "first_name": "Dr Md Alamgir ",
-                "last_name": "Kabir",
-                "total_classes": 27,
-                "late_classes": 9,
-                "missed_classes": 2.0,
-                "late_percentage": 33.33333333333333
-            },
-            {
-                "employee_id": "721500463",
-                "first_name": "Sheikh",
-                "last_name": "Tonmoy",
-                "total_classes": 27,
-                "late_classes": 2,
-                "missed_classes": 5.0,
-                "late_percentage": 7.4074074074074066
-            },
-            {
-                "employee_id": "710002096",
-                "first_name": "Abdus",
-                "last_name": "Sattar",
-                "total_classes": 27,
-                "late_classes": 18,
-                "missed_classes": 0.0,
-                "late_percentage": 66.66666666666666
+                "late_percentage": 8.0
             },
             {
                 "employee_id": "723500138",
                 "first_name": "Samia ",
                 "last_name": "Sayed",
-                "total_classes": 26,
+                "total_classes": 25,
                 "late_classes": 4,
                 "missed_classes": 3.0,
-                "late_percentage": 15.384615384615385
+                "late_percentage": 16.0
             },
             {
-                "employee_id": "710001896",
-                "first_name": "Dewan Mamun",
-                "last_name": "Raza",
-                "total_classes": 26,
-                "late_classes": 5,
-                "missed_classes": 0.0,
-                "late_percentage": 19.230769230769234
-            },
-            {
-                "employee_id": "721500499",
-                "first_name": "Prof Dr Ajit Kumar",
-                "last_name": "Majumder",
-                "total_classes": 26,
+                "employee_id": "710003413",
+                "first_name": "Md. Roni",
+                "last_name": "Islam",
+                "total_classes": 25,
                 "late_classes": 4,
                 "missed_classes": 0.0,
-                "late_percentage": 15.384615384615385
+                "late_percentage": 16.0
             },
             {
-                "employee_id": "710003561",
-                "first_name": "Md Hefzul Hossain",
-                "last_name": "Papon",
-                "total_classes": 25,
-                "late_classes": 6,
-                "missed_classes": 4.0,
-                "late_percentage": 24.0
-            },
-            {
-                "employee_id": "721500533",
-                "first_name": "Toaha",
-                "last_name": "Siddique",
+                "employee_id": "710002760",
+                "first_name": "Nafees",
+                "last_name": "Imran",
                 "total_classes": 24,
-                "late_classes": 2,
+                "late_classes": 7,
+                "missed_classes": 3.0,
+                "late_percentage": 29.166666666666668
+            },
+            {
+                "employee_id": "710003038",
+                "first_name": "Dristi",
+                "last_name": "Saha",
+                "total_classes": 24,
+                "late_classes": 5,
+                "missed_classes": 3.0,
+                "late_percentage": 20.833333333333336
+            },
+            {
+                "employee_id": "710003053",
+                "first_name": "Zannatul Mawa ",
+                "last_name": "Koli",
+                "total_classes": 23,
+                "late_classes": 8,
+                "missed_classes": 3.0,
+                "late_percentage": 34.78260869565217
+            },
+            {
+                "employee_id": "710001675",
+                "first_name": "Arif",
+                "last_name": "Mahmud",
+                "total_classes": 23,
+                "late_classes": 1,
                 "missed_classes": 0.0,
-                "late_percentage": 8.333333333333332
+                "late_percentage": 4.3478260869565215
+            },
+            {
+                "employee_id": "710002477",
+                "first_name": "Zakia ",
+                "last_name": "Sultana",
+                "total_classes": 23,
+                "late_classes": 9,
+                "missed_classes": 5.0,
+                "late_percentage": 39.130434782608695
+            },
+            {
+                "employee_id": "710002507",
+                "first_name": "Fizar",
+                "last_name": "Ahmed",
+                "total_classes": 22,
+                "late_classes": 11,
+                "missed_classes": 0.0,
+                "late_percentage": 50.0
+            },
+            {
+                "employee_id": "710003037",
+                "first_name": "Shahadat",
+                "last_name": "Hossain",
+                "total_classes": 22,
+                "late_classes": 8,
+                "missed_classes": 4.0,
+                "late_percentage": 36.36363636363637
             },
             {
                 "employee_id": "710001622",
                 "first_name": "Dr Md Zahid",
                 "last_name": "Hasan",
-                "total_classes": 24,
-                "late_classes": 11,
+                "total_classes": 21,
+                "late_classes": 9,
                 "missed_classes": 0.0,
-                "late_percentage": 45.83333333333333
+                "late_percentage": 42.857142857142854
             },
             {
-                "employee_id": "710003229",
-                "first_name": "S. M. Monowar",
-                "last_name": "Kayser",
-                "total_classes": 24,
-                "late_classes": 18,
-                "missed_classes": 4.0,
-                "late_percentage": 75.0
+                "employee_id": "721500463",
+                "first_name": "Sheikh",
+                "last_name": "Tonmoy",
+                "total_classes": 21,
+                "late_classes": 2,
+                "missed_classes": 5.0,
+                "late_percentage": 9.523809523809524
             },
             {
-                "employee_id": "710003373",
-                "first_name": "Md.",
-                "last_name": "Abdullah-Al-Kafi",
-                "total_classes": 22,
-                "late_classes": 7,
-                "missed_classes": 8.0,
-                "late_percentage": 31.818181818181817
+                "employee_id": "710001896",
+                "first_name": "Dewan Mamun",
+                "last_name": "Raza",
+                "total_classes": 21,
+                "late_classes": 4,
+                "missed_classes": 0.0,
+                "late_percentage": 19.047619047619047
+            },
+            {
+                "employee_id": "710003376",
+                "first_name": "Md.Jakaria",
+                "last_name": "Zobair",
+                "total_classes": 21,
+                "late_classes": 5,
+                "missed_classes": 3.0,
+                "late_percentage": 23.809523809523807
             },
             {
                 "employee_id": "710003084",
@@ -3171,283 +2814,310 @@
                 "late_percentage": 61.904761904761905
             },
             {
-                "employee_id": "710000595",
-                "first_name": "Anuz Kumar",
-                "last_name": "Chakrabarty",
-                "total_classes": 21,
-                "late_classes": 11,
-                "missed_classes": 3.0,
-                "late_percentage": 52.38095238095239
+                "employee_id": "721500536",
+                "first_name": "Mansura Manzil",
+                "last_name": "Choity",
+                "total_classes": 20,
+                "late_classes": 9,
+                "missed_classes": 4.0,
+                "late_percentage": 45.0
             },
             {
-                "employee_id": "710003219",
-                "first_name": "Hasnur",
-                "last_name": "Jahan",
-                "total_classes": 20,
+                "employee_id": "721500440",
+                "first_name": "Abu Shahed Shah",
+                "last_name": "Md. Nazmul Arefin",
+                "total_classes": 19,
+                "late_classes": 1,
+                "missed_classes": 0.0,
+                "late_percentage": 5.263157894736842
+            },
+            {
+                "employee_id": "721500499",
+                "first_name": "Prof Dr Ajit Kumar",
+                "last_name": "Majumder",
+                "total_classes": 19,
+                "late_classes": 3,
+                "missed_classes": 0.0,
+                "late_percentage": 15.789473684210526
+            },
+            {
+                "employee_id": "721500505",
+                "first_name": "Fahim",
+                "last_name": "Faisal",
+                "total_classes": 19,
+                "late_classes": 9,
+                "missed_classes": 0.0,
+                "late_percentage": 47.368421052631575
+            },
+            {
+                "employee_id": "710002096",
+                "first_name": "Abdus",
+                "last_name": "Sattar",
+                "total_classes": 19,
+                "late_classes": 11,
+                "missed_classes": 0.0,
+                "late_percentage": 57.89473684210527
+            },
+            {
+                "employee_id": "710003082",
+                "first_name": "Sonia",
+                "last_name": "Nasrin",
+                "total_classes": 18,
                 "late_classes": 8,
-                "missed_classes": 6.0,
-                "late_percentage": 40.0
+                "missed_classes": 3.0,
+                "late_percentage": 44.44444444444444
             },
             {
                 "employee_id": "710003360",
                 "first_name": "Kazi Rifat ",
                 "last_name": "Ahmed",
-                "total_classes": 19,
-                "late_classes": 6,
+                "total_classes": 17,
+                "late_classes": 4,
                 "missed_classes": 3.0,
-                "late_percentage": 31.57894736842105
+                "late_percentage": 23.52941176470588
             },
             {
-                "employee_id": "710002791",
-                "first_name": "Mahimul Islam",
-                "last_name": "Nadim",
-                "total_classes": 19,
-                "late_classes": 5,
+                "employee_id": "710003552",
+                "first_name": "Dr Md Alamgir ",
+                "last_name": "Kabir",
+                "total_classes": 17,
+                "late_classes": 6,
+                "missed_classes": 2.0,
+                "late_percentage": 35.294117647058826
+            },
+            {
+                "employee_id": "710002116",
+                "first_name": "Shayla",
+                "last_name": "Sharmin",
+                "total_classes": 16,
+                "late_classes": 10,
+                "missed_classes": 0.0,
+                "late_percentage": 62.5
+            },
+            {
+                "employee_id": "710003558",
+                "first_name": "Md. Mezbaul Islam",
+                "last_name": "Zion",
+                "total_classes": 16,
+                "late_classes": 6,
+                "missed_classes": 6.0,
+                "late_percentage": 37.5
+            },
+            {
+                "employee_id": "710000595",
+                "first_name": "Anuz Kumar",
+                "last_name": "Chakrabarty",
+                "total_classes": 15,
+                "late_classes": 7,
+                "missed_classes": 3.0,
+                "late_percentage": 46.666666666666664
+            },
+            {
+                "employee_id": "721500533",
+                "first_name": "Toaha",
+                "last_name": "Siddique",
+                "total_classes": 15,
+                "late_classes": 0,
+                "missed_classes": 0.0,
+                "late_percentage": 0.0
+            },
+            {
+                "employee_id": "710003229",
+                "first_name": "S. M. Monowar",
+                "last_name": "Kayser",
+                "total_classes": 14,
+                "late_classes": 9,
                 "missed_classes": 4.0,
-                "late_percentage": 26.31578947368421
-            },
-            {
-                "employee_id": "710003401",
-                "first_name": "Nushrat Jahan",
-                "last_name": "Oyshi",
-                "total_classes": 19,
-                "late_classes": 3,
-                "missed_classes": 3.0,
-                "late_percentage": 15.789473684210526
-            },
-            {
-                "employee_id": "710003591",
-                "first_name": "Monju Akter",
-                "last_name": "Mou",
-                "total_classes": 18,
-                "late_classes": 6,
-                "missed_classes": 0.0,
-                "late_percentage": 33.33333333333333
-            },
-            {
-                "employee_id": "710002633",
-                "first_name": "Md. Ferdouse Ahmed",
-                "last_name": "Foysal",
-                "total_classes": 18,
-                "late_classes": 5,
-                "missed_classes": 0.0,
-                "late_percentage": 27.77777777777778
-            },
-            {
-                "employee_id": "710000878",
-                "first_name": "Nazmun Nessa",
-                "last_name": "Moon",
-                "total_classes": 18,
-                "late_classes": 12,
-                "missed_classes": 0.0,
-                "late_percentage": 66.66666666666666
+                "late_percentage": 64.28571428571429
             },
             {
                 "employee_id": "710001971",
                 "first_name": "Tasfia Anika ",
                 "last_name": "Bushra",
-                "total_classes": 17,
-                "late_classes": 13,
-                "missed_classes": 4.0,
-                "late_percentage": 76.47058823529412
-            },
-            {
-                "employee_id": "710003346",
-                "first_name": "Suprove Chandra",
-                "last_name": "Sarkar",
-                "total_classes": 17,
-                "late_classes": 8,
-                "missed_classes": 5.0,
-                "late_percentage": 47.05882352941176
-            },
-            {
-                "employee_id": "710002758",
-                "first_name": "Abdullah",
-                "last_name": "Al Mamun",
-                "total_classes": 17,
-                "late_classes": 9,
-                "missed_classes": 0.0,
-                "late_percentage": 52.94117647058824
-            },
-            {
-                "employee_id": "710001543",
-                "first_name": "Dr. Md Samaun",
-                "last_name": "Hasan",
-                "total_classes": 15,
-                "late_classes": 7,
-                "missed_classes": 0.0,
-                "late_percentage": 46.666666666666664
-            },
-            {
-                "employee_id": "710003362",
-                "first_name": "Md. Mazbaur",
-                "last_name": "Rashid",
-                "total_classes": 15,
-                "late_classes": 1,
-                "missed_classes": 7.0,
-                "late_percentage": 6.666666666666667
-            },
-            {
-                "employee_id": "710002365",
-                "first_name": "Atia",
-                "last_name": "Sanjida",
-                "total_classes": 15,
-                "late_classes": 3,
-                "missed_classes": 3.0,
-                "late_percentage": 20.0
-            },
-            {
-                "employee_id": "710003236",
-                "first_name": "Afsana Jerin ",
-                "last_name": "Shayery",
-                "total_classes": 15,
-                "late_classes": 11,
-                "missed_classes": 5.0,
-                "late_percentage": 73.33333333333333
-            },
-            {
-                "employee_id": "723500157",
-                "first_name": "Maidul",
-                "last_name": "Islam",
-                "total_classes": 15,
-                "late_classes": 3,
-                "missed_classes": 5.0,
-                "late_percentage": 20.0
-            },
-            {
-                "employee_id": "721500503",
-                "first_name": "Tasmim",
-                "last_name": "Sultana",
-                "total_classes": 15,
-                "late_classes": 4,
-                "missed_classes": 0.0,
-                "late_percentage": 26.666666666666668
-            },
-            {
-                "employee_id": "710003415",
-                "first_name": "Nasimul",
-                "last_name": "Kader",
                 "total_classes": 14,
-                "late_classes": 4,
+                "late_classes": 10,
+                "missed_classes": 4.0,
+                "late_percentage": 71.42857142857143
+            },
+            {
+                "employee_id": "710003431",
+                "first_name": "Shahrin",
+                "last_name": "Khan",
+                "total_classes": 14,
+                "late_classes": 9,
                 "missed_classes": 6.0,
-                "late_percentage": 28.57142857142857
+                "late_percentage": 64.28571428571429
             },
             {
                 "employee_id": "710001327",
                 "first_name": "Rafi",
                 "last_name": "Mahmud",
-                "total_classes": 14,
+                "total_classes": 13,
+                "late_classes": 1,
+                "missed_classes": 0.0,
+                "late_percentage": 7.6923076923076925
+            },
+            {
+                "employee_id": "710002783",
+                "first_name": "Partha",
+                "last_name": "Dip",
+                "total_classes": 13,
+                "late_classes": 6,
+                "missed_classes": 4.0,
+                "late_percentage": 46.15384615384615
+            },
+            {
+                "employee_id": "710003405",
+                "first_name": "Abdullah",
+                "last_name": "Al Sakib",
+                "total_classes": 12,
                 "late_classes": 2,
                 "missed_classes": 0.0,
-                "late_percentage": 14.285714285714285
+                "late_percentage": 16.666666666666664
+            },
+            {
+                "employee_id": "710003373",
+                "first_name": "Md.",
+                "last_name": "Abdullah-Al-Kafi",
+                "total_classes": 12,
+                "late_classes": 5,
+                "missed_classes": 8.0,
+                "late_percentage": 41.66666666666667
+            },
+            {
+                "employee_id": "710002791",
+                "first_name": "Mahimul Islam",
+                "last_name": "Nadim",
+                "total_classes": 12,
+                "late_classes": 5,
+                "missed_classes": 4.0,
+                "late_percentage": 41.66666666666667
+            },
+            {
+                "employee_id": "710002693",
+                "first_name": "Fourcan Karim ",
+                "last_name": "Mazumder",
+                "total_classes": 12,
+                "late_classes": 3,
+                "missed_classes": 3.0,
+                "late_percentage": 25.0
+            },
+            {
+                "employee_id": "721500419",
+                "first_name": "Md. Hasanuzzaman ",
+                "last_name": "Dipu",
+                "total_classes": 12,
+                "late_classes": 0,
+                "missed_classes": 0.0,
+                "late_percentage": 0.0
+            },
+            {
+                "employee_id": "710003401",
+                "first_name": "Nushrat Jahan",
+                "last_name": "Oyshi",
+                "total_classes": 12,
+                "late_classes": 1,
+                "missed_classes": 3.0,
+                "late_percentage": 8.333333333333332
+            },
+            {
+                "employee_id": "710003362",
+                "first_name": "Md. Mazbaur",
+                "last_name": "Rashid",
+                "total_classes": 12,
+                "late_classes": 0,
+                "missed_classes": 7.0,
+                "late_percentage": 0.0
             },
             {
                 "employee_id": "710002802",
                 "first_name": "Md. Mehedi",
                 "last_name": "Hassan",
-                "total_classes": 13,
-                "late_classes": 11,
-                "missed_classes": 0.0,
-                "late_percentage": 84.61538461538461
-            },
-            {
-                "employee_id": "710002790",
-                "first_name": "Faria Nishat",
-                "last_name": "Khan",
-                "total_classes": 13,
-                "late_classes": 4,
-                "missed_classes": 4.0,
-                "late_percentage": 30.76923076923077
-            },
-            {
-                "employee_id": "721500411",
-                "first_name": "Md. Hasan Imam",
-                "last_name": "Bijoy",
-                "total_classes": 13,
-                "late_classes": 2,
-                "missed_classes": 0.0,
-                "late_percentage": 15.384615384615385
-            },
-            {
-                "employee_id": "710003432",
-                "first_name": "Mir Safwan ",
-                "last_name": "Marzouq",
-                "total_classes": 12,
-                "late_classes": 5,
-                "missed_classes": 5.0,
-                "late_percentage": 41.66666666666667
-            },
-            {
-                "employee_id": "710001306",
-                "first_name": "MD KAMRUL ",
-                "last_name": "HOSSAIN",
-                "total_classes": 12,
-                "late_classes": 11,
-                "missed_classes": 2.0,
-                "late_percentage": 91.66666666666666
-            },
-            {
-                "employee_id": "710003256",
-                "first_name": "Munira ",
-                "last_name": "Tabassum",
                 "total_classes": 11,
-                "late_classes": 2,
-                "missed_classes": 1.0,
-                "late_percentage": 18.181818181818183
+                "late_classes": 9,
+                "missed_classes": 0.0,
+                "late_percentage": 81.81818181818183
             },
             {
-                "employee_id": "710003569",
-                "first_name": "S M Sharif",
+                "employee_id": "710003591",
+                "first_name": "Monju Akter",
+                "last_name": "Mou",
+                "total_classes": 11,
+                "late_classes": 4,
+                "missed_classes": 0.0,
+                "late_percentage": 36.36363636363637
+            },
+            {
+                "employee_id": "710003346",
+                "first_name": "Suprove Chandra",
+                "last_name": "Sarkar",
+                "total_classes": 11,
+                "late_classes": 4,
+                "missed_classes": 5.0,
+                "late_percentage": 36.36363636363637
+            },
+            {
+                "employee_id": "710002365",
+                "first_name": "Atia",
+                "last_name": "Sanjida",
+                "total_classes": 11,
+                "late_classes": 3,
+                "missed_classes": 3.0,
+                "late_percentage": 27.27272727272727
+            },
+            {
+                "employee_id": "710001966",
+                "first_name": "Fatema Tuj",
+                "last_name": "Johora",
+                "total_classes": 10,
+                "late_classes": 1,
+                "missed_classes": 5.0,
+                "late_percentage": 10.0
+            },
+            {
+                "employee_id": "710001543",
+                "first_name": "Dr. Md Samaun",
                 "last_name": "Hasan",
                 "total_classes": 9,
                 "late_classes": 5,
-                "missed_classes": 1.0,
+                "missed_classes": 0.0,
                 "late_percentage": 55.55555555555556
+            },
+            {
+                "employee_id": "710003561",
+                "first_name": "Md Hefzul Hossain",
+                "last_name": "Papon",
+                "total_classes": 9,
+                "late_classes": 2,
+                "missed_classes": 4.0,
+                "late_percentage": 22.22222222222222
+            },
+            {
+                "employee_id": "710003415",
+                "first_name": "Nasimul",
+                "last_name": "Kader",
+                "total_classes": 9,
+                "late_classes": 1,
+                "missed_classes": 6.0,
+                "late_percentage": 11.11111111111111
+            },
+            {
+                "employee_id": "723500157",
+                "first_name": "Maidul",
+                "last_name": "Islam",
+                "total_classes": 8,
+                "late_classes": 0,
+                "missed_classes": 5.0,
+                "late_percentage": 0.0
             },
             {
                 "employee_id": "721500526",
                 "first_name": "Mahmudur",
                 "last_name": "Rahman",
-                "total_classes": 9,
-                "late_classes": 1,
-                "missed_classes": 0.0,
-                "late_percentage": 11.11111111111111
-            },
-            {
-                "employee_id": "721500535",
-                "first_name": "Fatama",
-                "last_name": "Jannat",
-                "total_classes": 9,
-                "late_classes": 3,
-                "missed_classes": 0.0,
-                "late_percentage": 33.33333333333333
-            },
-            {
-                "employee_id": "710003392",
-                "first_name": "Saida Mahamuda",
-                "last_name": "Rahman",
-                "total_classes": 9,
-                "late_classes": 2,
-                "missed_classes": 1.0,
-                "late_percentage": 22.22222222222222
-            },
-            {
-                "employee_id": "710003242",
-                "first_name": "Md. jahidul",
-                "last_name": "Alam",
                 "total_classes": 8,
-                "late_classes": 4,
-                "missed_classes": 3.0,
-                "late_percentage": 50.0
-            },
-            {
-                "employee_id": "710001967",
-                "first_name": "Md. Abbas Ali ",
-                "last_name": "Khan ",
-                "total_classes": 8,
-                "late_classes": 5,
-                "missed_classes": 7.0,
-                "late_percentage": 62.5
+                "late_classes": 0,
+                "missed_classes": 0.0,
+                "late_percentage": 0.0
             },
             {
                 "employee_id": "710002796",
@@ -3459,112 +3129,139 @@
                 "late_percentage": 25.0
             },
             {
-                "employee_id": "710003375",
-                "first_name": "Sakib Mahmood",
-                "last_name": "Chowdhury ",
+                "employee_id": "721500411",
+                "first_name": "Md. Hasan Imam",
+                "last_name": "Bijoy",
                 "total_classes": 8,
                 "late_classes": 2,
+                "missed_classes": 0.0,
+                "late_percentage": 25.0
+            },
+            {
+                "employee_id": "710000878",
+                "first_name": "Nazmun Nessa",
+                "last_name": "Moon",
+                "total_classes": 8,
+                "late_classes": 4,
+                "missed_classes": 0.0,
+                "late_percentage": 50.0
+            },
+            {
+                "employee_id": "710003392",
+                "first_name": "Saida Mahamuda",
+                "last_name": "Rahman",
+                "total_classes": 7,
+                "late_classes": 1,
                 "missed_classes": 1.0,
+                "late_percentage": 14.285714285714285
+            },
+            {
+                "employee_id": "710001306",
+                "first_name": "MD KAMRUL ",
+                "last_name": "HOSSAIN",
+                "total_classes": 7,
+                "late_classes": 6,
+                "missed_classes": 2.0,
+                "late_percentage": 85.71428571428571
+            },
+            {
+                "employee_id": "721500503",
+                "first_name": "Tasmim",
+                "last_name": "Sultana",
+                "total_classes": 6,
+                "late_classes": 2,
+                "missed_classes": 0.0,
+                "late_percentage": 33.33333333333333
+            },
+            {
+                "employee_id": "710002758",
+                "first_name": "Abdullah",
+                "last_name": "Al Mamun",
+                "total_classes": 6,
+                "late_classes": 2,
+                "missed_classes": 0.0,
+                "late_percentage": 33.33333333333333
+            },
+            {
+                "employee_id": "710003569",
+                "first_name": "S M Sharif",
+                "last_name": "Hasan",
+                "total_classes": 6,
+                "late_classes": 3,
+                "missed_classes": 1.0,
+                "late_percentage": 50.0
+            },
+            {
+                "employee_id": "710003432",
+                "first_name": "Mir Safwan ",
+                "last_name": "Marzouq",
+                "total_classes": 6,
+                "late_classes": 3,
+                "missed_classes": 5.0,
+                "late_percentage": 50.0
+            },
+            {
+                "employee_id": "710002633",
+                "first_name": "Md. Ferdouse Ahmed",
+                "last_name": "Foysal",
+                "total_classes": 6,
+                "late_classes": 4,
+                "missed_classes": 0.0,
+                "late_percentage": 66.66666666666666
+            },
+            {
+                "employee_id": "710003236",
+                "first_name": "Afsana Jerin ",
+                "last_name": "Shayery",
+                "total_classes": 5,
+                "late_classes": 4,
+                "missed_classes": 5.0,
+                "late_percentage": 80.0
+            },
+            {
+                "employee_id": "710002790",
+                "first_name": "Faria Nishat",
+                "last_name": "Khan",
+                "total_classes": 5,
+                "late_classes": 4,
+                "missed_classes": 4.0,
+                "late_percentage": 80.0
+            },
+            {
+                "employee_id": "710000634",
+                "first_name": "Sakia Shabnam ",
+                "last_name": "Kader",
+                "total_classes": 4,
+                "late_classes": 1,
+                "missed_classes": 4.0,
                 "late_percentage": 25.0
             },
             {
                 "employee_id": "710002478",
                 "first_name": "Tanzina",
                 "last_name": "Afroz",
-                "total_classes": 7,
-                "late_classes": 7,
+                "total_classes": 4,
+                "late_classes": 4,
                 "missed_classes": 4.0,
                 "late_percentage": 100.0
             },
             {
-                "employee_id": "710003553",
-                "first_name": "Shadman ",
-                "last_name": "Rabby",
-                "total_classes": 7,
+                "employee_id": "710003256",
+                "first_name": "Munira ",
+                "last_name": "Tabassum",
+                "total_classes": 4,
                 "late_classes": 1,
-                "missed_classes": 6.0,
-                "late_percentage": 14.285714285714285
+                "missed_classes": 1.0,
+                "late_percentage": 25.0
             },
             {
-                "employee_id": "710000634",
-                "first_name": "Sakia Shabnam ",
-                "last_name": "Kader",
-                "total_classes": 5,
-                "late_classes": 2,
-                "missed_classes": 4.0,
-                "late_percentage": 40.0
-            },
-            {
-                "employee_id": "710003445",
-                "first_name": "Abdullah",
-                "last_name": "Al-Amin",
-                "total_classes": 5,
+                "employee_id": "710003375",
+                "first_name": "Sakib Mahmood",
+                "last_name": "Chowdhury ",
+                "total_classes": 4,
                 "late_classes": 1,
-                "missed_classes": 5.0,
-                "late_percentage": 20.0
-            },
-            {
-                "employee_id": "710003596",
-                "first_name": "Mizanur",
-                "last_name": "Rahman",
-                "total_classes": 5,
-                "late_classes": 2,
-                "missed_classes": 0.0,
-                "late_percentage": 40.0
-            },
-            {
-                "employee_id": "710003557",
-                "first_name": "Rowzatul ",
-                "last_name": "Zannat",
-                "total_classes": 5,
-                "late_classes": 4,
-                "missed_classes": 6.0,
-                "late_percentage": 80.0
-            },
-            {
-                "employee_id": "710003377",
-                "first_name": "Md Shohidul Islam",
-                "last_name": "Polash",
-                "total_classes": 5,
-                "late_classes": 2,
-                "missed_classes": 5.0,
-                "late_percentage": 40.0
-            },
-            {
-                "employee_id": "710002002",
-                "first_name": "Nahid",
-                "last_name": "Sultana",
-                "total_classes": 4,
-                "late_classes": 0,
-                "missed_classes": 2.0,
-                "late_percentage": 0.0
-            },
-            {
-                "employee_id": "723500140",
-                "first_name": "Arnob",
-                "last_name": "Deb",
-                "total_classes": 4,
-                "late_classes": 2,
-                "missed_classes": 4.0,
-                "late_percentage": 50.0
-            },
-            {
-                "employee_id": "710002794",
-                "first_name": "Golam",
-                "last_name": "Rabbany",
-                "total_classes": 4,
-                "late_classes": 2,
-                "missed_classes": 5.0,
-                "late_percentage": 50.0
-            },
-            {
-                "employee_id": "710002762",
-                "first_name": "Kazi Jahid ",
-                "last_name": "Hasan",
-                "total_classes": 4,
-                "late_classes": 3,
-                "missed_classes": 3.0,
-                "late_percentage": 75.0
+                "missed_classes": 1.0,
+                "late_percentage": 25.0
             },
             {
                 "employee_id": "710003456",
@@ -3576,31 +3273,22 @@
                 "late_percentage": 25.0
             },
             {
-                "employee_id": "710003414",
-                "first_name": "Mahbubul",
-                "last_name": "Alam",
+                "employee_id": "723500140",
+                "first_name": "Arnob",
+                "last_name": "Deb",
                 "total_classes": 4,
-                "late_classes": 1,
-                "missed_classes": 5.0,
-                "late_percentage": 25.0
-            },
-            {
-                "employee_id": "721500461",
-                "first_name": "Abdullah Al",
-                "last_name": "Mahmud",
-                "total_classes": 3,
-                "late_classes": 1,
-                "missed_classes": 4.0,
-                "late_percentage": 33.33333333333333
-            },
-            {
-                "employee_id": "710003367",
-                "first_name": "Md. Abdul Hye",
-                "last_name": "Zebon",
-                "total_classes": 3,
                 "late_classes": 2,
-                "missed_classes": 0.0,
-                "late_percentage": 66.66666666666666
+                "missed_classes": 4.0,
+                "late_percentage": 50.0
+            },
+            {
+                "employee_id": "710003219",
+                "first_name": "Hasnur",
+                "last_name": "Jahan",
+                "total_classes": 4,
+                "late_classes": 0,
+                "missed_classes": 6.0,
+                "late_percentage": 0.0
             },
             {
                 "employee_id": "710001287",
@@ -3612,21 +3300,39 @@
                 "late_percentage": 0.0
             },
             {
-                "employee_id": "710001970",
-                "first_name": "Mohammad Jahangir ",
+                "employee_id": "710003414",
+                "first_name": "Mahbubul",
                 "last_name": "Alam",
-                "total_classes": 2,
+                "total_classes": 3,
                 "late_classes": 1,
-                "missed_classes": 3.0,
-                "late_percentage": 50.0
+                "missed_classes": 5.0,
+                "late_percentage": 33.33333333333333
             },
             {
-                "employee_id": "710003083",
-                "first_name": "Md. Faruk",
-                "last_name": "Hosen",
+                "employee_id": "710003596",
+                "first_name": "Mizanur",
+                "last_name": "Rahman",
+                "total_classes": 3,
+                "late_classes": 2,
+                "missed_classes": 0.0,
+                "late_percentage": 66.66666666666666
+            },
+            {
+                "employee_id": "710001967",
+                "first_name": "Md. Abbas Ali ",
+                "last_name": "Khan ",
+                "total_classes": 2,
+                "late_classes": 2,
+                "missed_classes": 7.0,
+                "late_percentage": 100.0
+            },
+            {
+                "employee_id": "710002794",
+                "first_name": "Golam",
+                "last_name": "Rabbany",
                 "total_classes": 2,
                 "late_classes": 1,
-                "missed_classes": 0.0,
+                "missed_classes": 5.0,
                 "late_percentage": 50.0
             },
             {
@@ -3639,6 +3345,24 @@
                 "late_percentage": 50.0
             },
             {
+                "employee_id": "710003242",
+                "first_name": "Md. jahidul",
+                "last_name": "Alam",
+                "total_classes": 2,
+                "late_classes": 1,
+                "missed_classes": 3.0,
+                "late_percentage": 50.0
+            },
+            {
+                "employee_id": "710003553",
+                "first_name": "Shadman ",
+                "last_name": "Rabby",
+                "total_classes": 2,
+                "late_classes": 0,
+                "missed_classes": 6.0,
+                "late_percentage": 0.0
+            },
+            {
                 "employee_id": "710002501",
                 "first_name": "Dr. Marzia",
                 "last_name": "Ahmed",
@@ -3648,21 +3372,57 @@
                 "late_percentage": 100.0
             },
             {
-                "employee_id": "710003034",
-                "first_name": "Md Taimur",
-                "last_name": "ahad",
+                "employee_id": "710002762",
+                "first_name": "Kazi Jahid ",
+                "last_name": "Hasan",
                 "total_classes": 1,
-                "late_classes": 0,
-                "missed_classes": 1.0,
-                "late_percentage": 0.0
+                "late_classes": 1,
+                "missed_classes": 3.0,
+                "late_percentage": 100.0
             },
             {
-                "employee_id": "723500118",
-                "first_name": "Sanjoy",
-                "last_name": "Dev",
+                "employee_id": "710002002",
+                "first_name": "Nahid",
+                "last_name": "Sultana",
                 "total_classes": 1,
                 "late_classes": 0,
                 "missed_classes": 2.0,
+                "late_percentage": 0.0
+            },
+            {
+                "employee_id": "710003557",
+                "first_name": "Rowzatul ",
+                "last_name": "Zannat",
+                "total_classes": 1,
+                "late_classes": 1,
+                "missed_classes": 6.0,
+                "late_percentage": 100.0
+            },
+            {
+                "employee_id": "710003445",
+                "first_name": "Abdullah",
+                "last_name": "Al-Amin",
+                "total_classes": 1,
+                "late_classes": 0,
+                "missed_classes": 5.0,
+                "late_percentage": 0.0
+            },
+            {
+                "employee_id": "710003448",
+                "first_name": "Shamim",
+                "last_name": "Hossain",
+                "total_classes": 1,
+                "late_classes": 0,
+                "missed_classes": 2.0,
+                "late_percentage": 0.0
+            },
+            {
+                "employee_id": "721500461",
+                "first_name": "Abdullah Al",
+                "last_name": "Mahmud",
+                "total_classes": 1,
+                "late_classes": 0,
+                "missed_classes": 4.0,
                 "late_percentage": 0.0
             },
             {
@@ -3675,13 +3435,22 @@
                 "late_percentage": 0.0
             },
             {
-                "employee_id": "710000519",
-                "first_name": "Mohammad Monirul ",
-                "last_name": "Islam",
+                "employee_id": "723500118",
+                "first_name": "Sanjoy",
+                "last_name": "Dev",
                 "total_classes": 1,
-                "late_classes": 1,
-                "missed_classes": 3.0,
-                "late_percentage": 100.0
+                "late_classes": 0,
+                "missed_classes": 2.0,
+                "late_percentage": 0.0
+            },
+            {
+                "employee_id": "721500535",
+                "first_name": "Fatama",
+                "last_name": "Jannat",
+                "total_classes": 1,
+                "late_classes": 0,
+                "missed_classes": 0.0,
+                "late_percentage": 0.0
             },
             {
                 "employee_id": "723500147",
@@ -3690,15 +3459,6 @@
                 "total_classes": 1,
                 "late_classes": 0,
                 "missed_classes": 4.0,
-                "late_percentage": 0.0
-            },
-            {
-                "employee_id": "710003448",
-                "first_name": "Shamim",
-                "last_name": "Hossain",
-                "total_classes": 1,
-                "late_classes": 0,
-                "missed_classes": 2.0,
                 "late_percentage": 0.0
             }
         ]
